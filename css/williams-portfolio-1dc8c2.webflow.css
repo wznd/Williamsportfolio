@@ -2039,7 +2039,7 @@ p {
     background-color: transparent;
   }
   .textdescription._2 {
-    margin-top: 20px;
+    margin-top: 35px;
     margin-bottom: 20px;
     margin-left: 20px;
     padding-right: 20px;
@@ -2399,7 +2399,7 @@ p {
     background-size: cover;
   }
   .project-link.project-1.ui {
-    background-position: 200% 50%;
+    background-position: 220% 50%;
     background-size: contain;
   }
   .main-heading.project {
