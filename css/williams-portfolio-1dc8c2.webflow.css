@@ -756,6 +756,13 @@ p {
   background-image: linear-gradient(180deg, #e6e6e6, #e6e6e6);
 }
 
+.header.bebe-voyage._3._2._5 {
+  margin-bottom: 250px;
+  background-color: #437963;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#437963), to(#437963)), -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent)), -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent));
+  background-image: linear-gradient(180deg, #437963, #437963), linear-gradient(180deg, transparent, transparent), linear-gradient(180deg, transparent, transparent);
+}
+
 .header.bebe-voyage._3._1 {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#80a6e6), to(#80a6e6));
   background-image: linear-gradient(180deg, #80a6e6, #80a6e6);
@@ -1882,6 +1889,17 @@ p {
 
 .heading-12 {
   font-family: Montserrat, sans-serif;
+  font-weight: 500;
+}
+
+.paragraph-3 {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.paragraph-4 {
+  font-size: 15px;
+  font-weight: 300;
 }
 
 @media screen and (max-width: 991px) {
@@ -2021,7 +2039,7 @@ p {
     background-color: transparent;
   }
   .textdescription._2 {
-    margin-top: 35px;
+    margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 20px;
     padding-right: 20px;
@@ -2381,7 +2399,8 @@ p {
     background-size: cover;
   }
   .project-link.project-1.ui {
-    background-position: 230% 50%;
+    background-position: 200% 50%;
+    background-size: contain;
   }
   .main-heading.project {
     left: auto;
@@ -2524,6 +2543,8 @@ p {
     font-size: 24px;
   }
   .name {
+    position: relative;
+    left: 10%;
     margin-left: 0px;
     font-size: 36px;
   }
@@ -2630,6 +2651,11 @@ p {
   }
   .image-26 {
     margin-top: 40px;
+  }
+  .div-block-16 {
+    margin-left: -45px;
+    padding-right: 50px;
+    padding-left: 50px;
   }
   .rich-text-block {
     padding-right: 0px;
