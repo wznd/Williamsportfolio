@@ -1911,11 +1911,15 @@ p {
 .paragraph-3 {
   font-size: 16px;
   font-weight: 300;
+  color: #4d4d4d;
+  line-height: 27px;
 }
 
 .paragraph-4 {
   font-size: 15px;
   font-weight: 300;
+  color: #4d4d4d;
+  line-height: 27px;
 }
 
 @media screen and (max-width: 991px) {
