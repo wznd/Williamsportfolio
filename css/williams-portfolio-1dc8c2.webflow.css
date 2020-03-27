@@ -1901,7 +1901,9 @@ p {
 
 .heading-12 {
   font-family: Montserrat, sans-serif;
-  font-weight: 500;
+  color: #000;
+  font-size: 32px;
+  font-weight: 700;
 }
 
 .div-block-19._1 {
