@@ -1596,7 +1596,7 @@ textarea.w-select {
   position: relative;
   float: right;
 }
-.w--nav-menu-open {
+[data-nav-menu-open] {
   display: block !important;
   position: absolute;
   top: 100%;
@@ -1620,10 +1620,10 @@ textarea.w-select {
   right: 0;
   width: 100%;
 }
-.w-nav-overlay .w--nav-menu-open {
+.w-nav-overlay [data-nav-menu-open] {
   top: 0;
 }
-.w-nav[data-animation="over-left"] [data-nav-menu-open] {
+.w-nav[data-animation="over-left"] .w-nav-overlay {
   width: auto;
 }
 .w-nav[data-animation="over-left"] .w-nav-overlay,
