@@ -2584,6 +2584,9 @@ p {
     display: none;
   }
 }
+    .button-2 {
+    display: none;
+  }	
 
 @media screen and (max-width: 479px) {
   h2 {
