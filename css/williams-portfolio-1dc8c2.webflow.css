@@ -2063,9 +2063,9 @@ p {
   color: #fff;
   font-size: 10px;
   font-weight: 500;
-}		}
-.paragraph-4._5 {		.nav-link-7 {
-  margin-bottom: 59px;		  z-index: 2000;
+}		
+.nav-link-7 {
+  z-index: 2000;
   margin-right: 0px;
   margin-left: 0px;
   font-family: Montserrat, sans-serif;
@@ -2864,10 +2864,10 @@ p {
     padding-right: 0px;
     padding-left: 0px;
   }
-}
-  .button-2 {
+    .button-2 {
     display: none;
-  }		  
+  }		 
+} 
 
 #w-node-ba189580bf43-5441a73d {
   -ms-grid-column-span: 1;
