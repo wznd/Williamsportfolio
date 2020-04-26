@@ -111,6 +111,7 @@ p {
   box-shadow: 3px 3px 0 0 #437963;
   color: #437963;
   font-weight: 400;
+  transform: translate(5px, 5px);
 }
 
 .button.hollow:active {
@@ -121,7 +122,6 @@ p {
   box-shadow: 3px 3px 12px 0 #fff;
   -webkit-transform: translate(5px, 5px);
   -ms-transform: translate(5px, 5px);
-  transform: translate(5px, 5px);
   color: #fff;
   text-shadow: none;
 }
