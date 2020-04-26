@@ -118,7 +118,7 @@ p {
   border-width: 1px;
   border-color: #fff;
   background-color: rgba(0, 0, 0, 0.08);
-  box-shadow: 3px 3px 12px 0 #fff;
+  box-shadow: inset 1px 1px 1px 0 #fff, 3px 3px 12px 0 #fff;
   -webkit-transform: translate(5px, 5px);
   -ms-transform: translate(5px, 5px);
   color: #fff;
