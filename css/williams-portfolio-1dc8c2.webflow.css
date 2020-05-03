@@ -313,9 +313,8 @@ p {
 
 .project-link.project-1.ui {
   background-color: #998fc6;
-  background-image: url('../images/Screen-Shot-2020-02-14-at-8.18.18-PM.png');
-  background-position: 50% 66%;
-  background-size: 260px;
+  background-image: url('../images/Screen-Shot-2020-05-02-at-8.52.14-PM.png');
+  background-position: 50% 50%;
 }
 
 .third-width {
@@ -2325,6 +2324,9 @@ p {
     width: 100%;
     background-position: 50% 50%;
   }
+  .project-link.project-1.ui {
+    background-position: 50% 50%;
+  }
   .main-heading {
     position: relative;
     left: 135px;
@@ -2567,7 +2569,7 @@ p {
     background-size: auto 100%;
   }
   .project-link.project-1.ui {
-    background-position: 110% 30%;
+    background-position: 20% 80%;
   }
   .third-width {
     width: 100%;
@@ -2809,8 +2811,9 @@ p {
     background-size: cover;
   }
   .project-link.project-1.ui {
-    background-position: 220% 90%;
-    background-size: 80vw;
+    background-position: 30% 50%;
+    background-size: 890px;
+
   }
   .main-heading.project {
     left: auto;
