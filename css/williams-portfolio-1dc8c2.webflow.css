@@ -1163,6 +1163,7 @@ p {
   line-height: 27px;
   font-weight: 600;
   text-align: left;
+  border-radius: 8px;
 }
 
 .list-3 {
