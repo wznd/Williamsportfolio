@@ -484,7 +484,7 @@ p {
   overflow: hidden;
   margin-top: 80px;
   margin-bottom: -40px;
-  border-top: 3px solid #272832;
+  border-top: 2px solid #272832;
 }
 
 .no-padd-section.border._1 {
@@ -495,7 +495,7 @@ p {
   padding-top: 80px;
   padding-right: 40px;
   padding-bottom: 80px;
-  border-right: 3px solid #272832;
+  border-right: 2px solid #272832;
   text-align: right;
 }
 
