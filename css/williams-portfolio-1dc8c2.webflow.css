@@ -506,11 +506,13 @@ p {
 }
 
 .previous-column:hover {
-  background-color: #363636;
+  background-color: #e6e6e6;
+    color: #404040;
 }
 
 .next-column:hover {
-  background-color: #363636;
+  background-color: #e6e6e6;
+    color: #404040;
 }
 
 .next-prev-link {
@@ -613,7 +615,7 @@ p {
   padding: 40px;
   border-radius: 20px;
   background-color: #f8f8f8;
-  box-shadow: 5px 5px 0 0 #000;
+  box-shadow: 5px 5px 0 0 #e6e6e6;
   -webkit-transform: rotate(0deg);
   -ms-transform: rotate(0deg);
   transform: rotate(0deg);
@@ -679,7 +681,7 @@ p {
 .textcontainer.about {
   overflow: visible;
   background-color: #f8f8f8;
-  box-shadow: 5px 5px 0 0 #000;
+  box-shadow: 5px 5px 0 0 #e6e6e6;
 }
 
 .textcontainer.fi {
