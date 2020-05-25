@@ -1063,7 +1063,7 @@ p {
 }
 
 .quote.two {
-  z-index: 0;
+  z-index: 30;
   margin-top: 0px;
   margin-bottom: 80px;
   background-color: #437964;
@@ -1611,6 +1611,8 @@ p {
 
 .html-embed {
   z-index: 10;
+  -webkit-transform: translateZ(0);
+  overflow: hidden;
   position: relative;
   max-width: 100%;
   margin-top: -95px;
