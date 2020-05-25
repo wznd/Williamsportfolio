@@ -1074,7 +1074,7 @@ p {
   font-size: 24px;
   font-weight: 600;
   text-shadow: 1px 1px 15px #e6a1bb;
-  radius: 20px;
+  border-radius: 20px;
 }
 
 .quote.two.nypl {
