@@ -1614,7 +1614,7 @@ p {
   -webkit-transform: translateZ(0);
   overflow: hidden;
   position: relative;
-  max-width: 50%;
+  max-width: 100%;
   margin-top: -95px;
   margin-bottom: 60px;
   border: 2px #4d4d4d;
