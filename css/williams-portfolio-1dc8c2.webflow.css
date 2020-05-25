@@ -1062,7 +1062,7 @@ p {
 }
 
 .quote.two {
-  z-index: 30;
+  z-index: 0;
   margin-top: 0px;
   margin-bottom: 80px;
   background-color: #437964;
@@ -1074,6 +1074,7 @@ p {
   font-size: 24px;
   font-weight: 600;
   text-shadow: 1px 1px 15px #e6a1bb;
+  radius: 20px;
 }
 
 .quote.two.nypl {
