@@ -1614,6 +1614,7 @@ p {
   max-width: 100%;
   margin-top: -95px;
   margin-bottom: 110px;
+  radius: 10px;
 }
 
 .html-embed.new {
