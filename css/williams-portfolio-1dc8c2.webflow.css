@@ -481,6 +481,7 @@ p {
 }
 
 .no-padd-section.border {
+  position: relative;
   overflow: hidden;
   z-index:2000;
   margin-top: 80px;
