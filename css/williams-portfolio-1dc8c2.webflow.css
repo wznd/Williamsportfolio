@@ -482,8 +482,9 @@ p {
 
 .no-padd-section.border {
   overflow: hidden;
+  z-index:2000;
   margin-top: 80px;
-  margin-bottom: -40px;
+  margin-bottom: -60px;
   border-top: 1.8px solid #272832;
 }
 
