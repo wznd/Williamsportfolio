@@ -507,20 +507,6 @@ p {
   padding-left: 40px;
 }
 
-.next-prev-link {
-  -webkit-transition: color 300ms ease;
-  transition: color 300ms ease;
-  font-family: 'Nunito Sans', sans-serif;
-  color: #272832;
-  font-size: 24px;
-  font-weight: 400;
-  text-decoration: none;
-}
-
-.next-prev-link:hover {
-  color: #404040;
-}
-
 .contentcontainer {
   position: relative;
   z-index: 7;
@@ -775,6 +761,11 @@ p {
 }
 
 .hvr-icon-back {
+  font-family: 'Nunito Sans', sans-serif;
+  color: #272832;
+  font-size: 24px;
+  font-weight: 400;
+  text-decoration: none;
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -799,6 +790,11 @@ p {
 }
 
 .hvr-icon-forward {
+  font-family: 'Nunito Sans', sans-serif;
+  color: #272832;
+  font-size: 24px;
+  font-weight: 400;
+  text-decoration: none;
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
