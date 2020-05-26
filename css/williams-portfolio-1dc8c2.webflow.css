@@ -507,16 +507,6 @@ p {
   padding-left: 40px;
 }
 
-.previous-column:hover {
-  background-color: #e6e6e6;
-    color: #404040;
-}
-
-.next-column:hover {
-  background-color: #e6e6e6;
-    color: #404040;
-}
-
 .next-prev-link {
   -webkit-transition: color 300ms ease;
   transition: color 300ms ease;
