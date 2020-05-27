@@ -768,7 +768,6 @@ p {
   text-decoration: none;
   display: inline-block;
   vertical-align: middle;
-  margin-left: 10px;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
@@ -776,6 +775,7 @@ p {
   transition-duration: 0.1s;
 }
 .hvr-icon-back .hvr-icon {
+  margin-right: 10px;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   -webkit-transition-duration: 0.1s;
@@ -798,7 +798,6 @@ p {
   text-decoration: none;
   display: inline-block;
   vertical-align: middle;
-  margin-right: 10px;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
@@ -806,6 +805,7 @@ p {
   transition-duration: 0.1s;
 }
 .hvr-icon-forward .hvr-icon {
+  margin-left: 10px;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   -webkit-transition-duration: 0.1s;
