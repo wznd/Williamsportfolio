@@ -2292,6 +2292,7 @@ p {
   transform: perspective(2000px);
   color: #fff;
   text-align: center;
+  transition: all 300ms ease;
 }
 
 .text-wrap {
