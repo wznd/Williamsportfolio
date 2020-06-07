@@ -3151,7 +3151,7 @@ p {
   .inner {
     width: 550vw;
     height: 220vh;
-    min-width: 2800px;
+    min-width: auto;
     margin-right: auto;
     margin-left: auto;
     padding: 12vw;
