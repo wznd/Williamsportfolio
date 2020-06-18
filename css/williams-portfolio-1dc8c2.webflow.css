@@ -98,7 +98,7 @@ p {
   clear: right;
   border-color: #4d4d4d;
   border-radius: 20px;
-  background-color: rgba(0, 0, 0, 0.09);
+  background-color: rgba(255, 255, 255, 0.09);
   -webkit-transition: color 300ms cubic-bezier(.95, .05, .795, .035), text-shadow 200ms cubic-bezier(.95, .05, .795, .035), box-shadow 300ms ease, background-color 350ms linear, color 250ms ease, border-color 250ms ease;
   transition: color 300ms cubic-bezier(.95, .05, .795, .035), text-shadow 200ms cubic-bezier(.95, .05, .795, .035), box-shadow 300ms ease, background-color 350ms linear, color 250ms ease, border-color 250ms ease;
   font-family: 'Nunito Sans', sans-serif;
