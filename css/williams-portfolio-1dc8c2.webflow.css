@@ -2698,7 +2698,7 @@ p {
     margin-bottom: 40px;
   }
   .name {
-    margin-left: 95px;
+    margin-left: 0px;
   }
   .heading-3 {
     left: auto;
@@ -2801,6 +2801,7 @@ p {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+    justify-items: center;
     grid-auto-columns: 1fr;
     grid-column-gap: 16px;
     grid-row-gap: 16px;
