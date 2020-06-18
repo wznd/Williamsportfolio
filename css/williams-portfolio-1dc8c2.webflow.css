@@ -102,7 +102,7 @@ p {
   -webkit-transition: color 300ms cubic-bezier(.95, .05, .795, .035), text-shadow 200ms cubic-bezier(.95, .05, .795, .035), box-shadow 300ms ease, background-color 350ms linear, color 250ms ease, border-color 250ms ease;
   transition: color 300ms cubic-bezier(.95, .05, .795, .035), text-shadow 200ms cubic-bezier(.95, .05, .795, .035), box-shadow 300ms ease, background-color 350ms linear, color 250ms ease, border-color 250ms ease;
   font-family: 'Nunito Sans', sans-serif;
-  color: #4d4d4d;
+  color: #fff;
 }
 
 .button.hollow:hover {
