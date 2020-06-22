@@ -654,12 +654,12 @@ p {
 
 .textcontainer.open {
   margin: 70px 10px 40px 0px;
-  background-color: #f8f8f8;
+  background-color: #fbfbfb;
 }
 
 .textcontainer.about {
   overflow: visible;
-  background-color: #f8f8f8;
+  background-color: #fbfbfb;
   box-shadow: 5px 5px 0 0 #f4f5f5;
 }
 
