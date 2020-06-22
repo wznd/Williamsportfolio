@@ -592,7 +592,7 @@ p {
   margin: 40px 10px 60px 0px;
   padding: 40px;
   border-radius: 20px;
-  background-color: #fbfbfb;
+  background-color: #fdfdfd;
   box-shadow: 5px 5px 0 0 #f4f5f5;
   -webkit-transform: rotate(0deg);
   -ms-transform: rotate(0deg);
@@ -649,23 +649,23 @@ p {
   z-index: 2;
   margin: 0px 10px 40px 0px;
   padding-bottom: 40px;
-  background-color: #f8f8f8;
+  background-color: #fdfdfd;
 }
 
 .textcontainer.open {
   margin: 70px 10px 40px 0px;
-  background-color: #fbfbfb;
+  background-color: #fdfdfd;
 }
 
 .textcontainer.about {
   overflow: visible;
-  background-color: #fbfbfb;
+  background-color: #fdfdfd;
   box-shadow: 5px 5px 0 0 #f4f5f5;
 }
 
 .textcontainer.fi {
   margin-left: 0px;
-  background-color: #f8f8f8;
+  background-color: #fdfdfd;
 }
 
 .header {
