@@ -2069,6 +2069,13 @@ p {
   font-weight: 500;
 }
 
+.nav-link-2:hover {
+  background-color: #5c5c5c;
+  -webkit-filter: brightness(43%);
+  filter: brightness(43%);
+  border-radius: 0px;
+}
+
 .nav-menu-2 {
   z-index: 2000;
   display: -webkit-box;
@@ -2100,6 +2107,13 @@ p {
   font-weight: 500;
 }
 
+.nav-link-3:hover {
+  background-color: #5c5c5c;
+  -webkit-filter: brightness(43%);
+  filter: brightness(43%);
+  border-radius: 0px;
+}
+
 .nav-link-4 {
   z-index: 2000;
   margin-right: 0px;
@@ -2108,6 +2122,13 @@ p {
   color: #fff;
   font-size: 10px;
   font-weight: 500;
+}
+
+.nav-link-4:hover {
+  background-color: #5c5c5c;
+  -webkit-filter: brightness(43%);
+  filter: brightness(43%);
+  border-radius: 0px;
 }
 
 .nav-link-5 {
@@ -2120,6 +2141,13 @@ p {
   font-weight: 500;
 }
 
+.nav-link-5:hover {
+  background-color: #5c5c5c;
+  -webkit-filter: brightness(43%);
+  filter: brightness(43%);
+  border-radius: 0px;
+}
+
 .nav-link-6 {
   z-index: 2000;
   margin-right: 0px;
@@ -2128,6 +2156,13 @@ p {
   color: #fff;
   font-size: 10px;
   font-weight: 500;
+}
+
+.nav-link-6:hover {
+  background-color: #5c5c5c;
+  -webkit-filter: brightness(43%);
+  filter: brightness(43%);
+  border-radius: 0px;
 }
 
 .nav-link-7 {
@@ -2140,6 +2175,13 @@ p {
   font-weight: 500;
 }
 
+.nav-link-7:hover {
+  background-color: #5c5c5c;
+  -webkit-filter: brightness(43%);
+  filter: brightness(43%);
+  border-radius: 0px;
+}
+
 .nav-link-8 {
   z-index: 2000;
   margin-right: 0px;
@@ -2148,6 +2190,13 @@ p {
   color: #fff;
   font-size: 10px;
   font-weight: 500;
+}
+
+.nav-link-8:hover {
+  background-color: #5c5c5c;
+  -webkit-filter: brightness(43%);
+  filter: brightness(43%);
+  border-radius: 0px;
 }
 
 .progress-bar {
