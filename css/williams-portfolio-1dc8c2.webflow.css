@@ -1023,7 +1023,6 @@ p {
   bottom: auto;
   display: -webkit-box;
   display: -webkit-flex;
-  background-color: #f8f8f8;
   display: -ms-flexbox;
   display: flex;
   overflow: visible;
@@ -1045,7 +1044,7 @@ p {
   -webkit-align-items: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
-  background-color: transparent;
+  background-color: #f8f8f8;
   font-family: 'Nunito Sans', sans-serif;
   color: #010101;
   font-size: 18px;
