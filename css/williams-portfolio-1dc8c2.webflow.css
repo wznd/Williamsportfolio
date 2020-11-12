@@ -3082,10 +3082,10 @@ p {
   }
   .heading-3 {
     width: 100%;
-    margin-top: 130px;
+    margin-top: 0px;
     margin-right: 65px;
     margin-left: 0px;
-    padding: 12px 17px 105px 89px;
+    padding: 110px 17px 105px 89px;
     font-size: 14px;
     background-color: #f8f8f8;
   }
