@@ -1023,6 +1023,7 @@ p {
   bottom: auto;
   display: -webkit-box;
   display: -webkit-flex;
+  background-color: #f8f8f8;
   display: -ms-flexbox;
   display: flex;
   overflow: visible;
