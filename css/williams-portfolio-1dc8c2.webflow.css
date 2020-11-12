@@ -2536,9 +2536,9 @@ p {
   }
   .heading-3 {
     padding-right: 10px;
-    padding-bottom: 60px;
+    margin-right: -20px;
     padding-left: 25px;
-    background-color: transparent;
+    background-color: #f8f8f8;
   }
   .textdescription._2 {
     margin-top: 20px;
