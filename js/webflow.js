@@ -1207,14 +1207,14 @@ Webflow.require('ix2').init(
                 "selectedAxis": "X_AXIS",
                 "basedOn": "ELEMENT",
                 "reverse": false,
-                "smoothing": 97,
+                "smoothing": 98,
                 "restingState": 58
             }, {
                 "continuousParameterGroupId": "a-40-p-2",
                 "selectedAxis": "Y_AXIS",
                 "basedOn": "ELEMENT",
                 "reverse": false,
-                "smoothing": 97,
+                "smoothing": 98,
                 "restingState": 20
             }],
             "createdOn": 1583695071808
