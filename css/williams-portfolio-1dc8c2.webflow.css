@@ -2662,6 +2662,9 @@ p {
     margin-left: 0px;
     padding: 10px 15px;
   }
+  .button.hollow.email {
+  margin: 5px 0px 0px;
+}
   .navbar {
     margin-bottom: -20px;
     padding-left: 10px;
