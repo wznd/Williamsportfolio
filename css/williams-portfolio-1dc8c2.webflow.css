@@ -2758,9 +2758,12 @@ p {
     bottom: 0%;
     width: 100%;
     margin-left: 62px;
-    padding-top: 165px;
-    padding-right: 20px;
-    padding-left: 20px;
+    margin-top: 121px;
+    margin-right: 56px;
+    padding-top: 11px;
+    padding-down: 101px;
+    padding-right: 6px;
+    padding-left: 80px;
     background-color: #f8f8f8;
     font-size: 16px;
   }
