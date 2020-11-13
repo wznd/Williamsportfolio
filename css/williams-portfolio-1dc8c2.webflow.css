@@ -92,6 +92,7 @@ p {
   top: 35%;
   right: auto;
   bottom: 0%;
+  width: 159px;
   margin: 25px 0px 0px;
   padding: 10px 20px;
   float: none;
@@ -124,6 +125,25 @@ p {
   transform: translate(5px, 5px);
   color: #fff;
   text-shadow: none;
+}
+
+.button.hollow.email {
+  position: static;
+  left: 0%;
+  top: 35%;
+  right: auto;
+  bottom: 0%;
+  margin: 25px 0px 0px;
+  padding: 10px 20px;
+  float: none;
+  clear: right;
+  border-color: #4d4d4d;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.09);
+  -webkit-transition: color 300ms cubic-bezier(.95, .05, .795, .035), text-shadow 200ms cubic-bezier(.95, .05, .795, .035), box-shadow 300ms ease, background-color 350ms linear, color 250ms ease, border-color 250ms ease;
+  transition: color 300ms cubic-bezier(.95, .05, .795, .035), text-shadow 200ms cubic-bezier(.95, .05, .795, .035), box-shadow 300ms ease, background-color 350ms linear, color 250ms ease, border-color 250ms ease;
+  font-family: 'Nunito Sans', sans-serif;
+  color: #4d4d4d;
 }
 
 .navbar {
