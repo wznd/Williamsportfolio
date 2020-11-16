@@ -1077,10 +1077,10 @@ p {
 .heading-4 {
   margin-bottom: 15px;
   padding-left: 0px;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #010101;
   font-size: 30px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .heading-4._2 {
@@ -2434,6 +2434,9 @@ p {
   }
   .navbar {
     z-index: 6;
+  }
+    .heading-4 {
+    font-size: 24px;
   }
   .maincontentsection.projects {
     margin-right: 0px;
