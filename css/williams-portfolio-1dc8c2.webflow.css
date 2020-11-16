@@ -1014,6 +1014,9 @@ p {
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-text-fill-color: #fff; 
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #fff;
   -webkit-justify-content: space-around;
   -ms-flex-pack: distribute;
   justify-content: space-around;
