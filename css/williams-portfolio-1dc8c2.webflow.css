@@ -1239,6 +1239,10 @@ p {
   background-color: #fff;
 }
 
+.projectimagediv._2 {
+  margin-top: 0px;
+}
+
 .list-item {
   padding: 20px 15px;
   font-family: 'Nunito Sans', sans-serif;
