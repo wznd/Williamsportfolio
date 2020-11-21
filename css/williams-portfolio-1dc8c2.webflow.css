@@ -858,7 +858,7 @@ p {
   text-align: left;
 }
 
-.paragraph.2 {
+.paragraph._2 {
   letter-spacing: 0px;
   font-family: Montserrat, sans-serif;
   font-size: 14px;
@@ -1336,7 +1336,7 @@ p {
   font-weight: 700;
 }
 
-.section-header.2 {
+.section-header._2 {
   font-family: Montserrat, sans-serif;
   color: #000;
   font-size: 18px;
