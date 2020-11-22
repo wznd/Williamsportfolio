@@ -1194,7 +1194,7 @@ p {
   right: 0%;
   bottom: 0%;
   z-index: 3;
-  margin-top: -100px;
+  margin-top: -140px;
   padding-left: 0px;
   border-style: none none none solid;
   border-width: 1px 1px 1px 4px;
@@ -1204,10 +1204,6 @@ p {
   -webkit-transform: rotate(0deg);
   -ms-transform: rotate(0deg);
   transform: rotate(0deg);
-}
-
-.image-9.n {
-  margin-top: -140px;
 }
 
 .image-9.bw {
