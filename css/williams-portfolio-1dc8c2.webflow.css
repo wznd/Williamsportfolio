@@ -2924,6 +2924,9 @@ p {
   .hero {
     padding: 40px 20px;
   }
+    .textcontainer.gr {
+    margin-top: 40px;
+  }
   .flex-container {
     display: -ms-grid;
     display: grid;
@@ -3142,7 +3145,7 @@ p {
     padding-left: 20px;
   }
   .textcontainer.gr {
-    margin-top: 40px;
+    margin-top: 80px;
   }
   .header {
     min-height: auto;
