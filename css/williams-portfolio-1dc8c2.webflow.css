@@ -1940,7 +1940,7 @@ p {
   top: 0%;
   right: 0%;
   bottom: 0%;
-  padding-right: 240px;
+  padding-right: 225px;
 }
 
 .image-26 {
@@ -2952,6 +2952,9 @@ p {
     -ms-flex-order: -1;
     order: -1;
   }
+    .div-block-14 {
+   padding-bottom: 60px;
+  }
   .rich-text-block {
     margin-top: -190px;
   }
@@ -3315,7 +3318,8 @@ margin-left: 60px;
     margin-top: 40px;
   }
   .div-block-14 {
-   padding-bottom: 80px;
+   padding-right: 240px;
+   bottom: 0%;
 }
   .div-block-16 {
     margin-left: -45px;
