@@ -1244,7 +1244,7 @@ p {
 }
 
 .projectimagediv._2 {
-  margin-top: -20px;
+  margin-top: -40px;
 }
 
 .list-item {
@@ -3033,6 +3033,7 @@ p {
     margin-bottom: 8px;
     text-align: center;
   }
+  
   .footer-social-link {
     margin-right: 7px;
     margin-left: 7px;
@@ -3093,6 +3094,9 @@ p {
     padding-right: 40px;
     padding-left: 40px;
   }
+  .projectimagediv._2 {
+  margin-top: -20px;
+}
   .textcontainer.title.bebevoyage {
     margin-bottom: 47px;
     padding-right: 20px;
