@@ -1206,6 +1206,10 @@ p {
   transform: rotate(0deg);
 }
 
+ .image-9.ny {
+  margin-top: -160px;
+  }
+
 .image-9.bw {
   -webkit-filter: brightness(114%) grayscale(100%);
   filter: brightness(114%) grayscale(100%);
