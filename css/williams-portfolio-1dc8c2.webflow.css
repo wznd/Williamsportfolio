@@ -853,7 +853,7 @@ p {
   letter-spacing: -0.3px;
   color: #141414;
   font-size: 16px;
-  line-height: 27px;
+  line-height: 26px;
   font-weight: 300;
   text-align: left;
 }
@@ -869,7 +869,7 @@ p {
 
 .paragraph._3 {
   display: block;
-  line-height: 27px;
+  line-height: 26px;
   text-align: left;
 }
 
@@ -2069,7 +2069,7 @@ p {
 .paragraph-3 {
   color: #4d4d4d;
   font-size: 16px;
-  line-height: 27px;
+  line-height: 26px;
   font-weight: 300;
 }
 
