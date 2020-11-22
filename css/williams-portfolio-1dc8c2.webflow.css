@@ -2627,6 +2627,9 @@ p {
     margin-top: 20px;
     margin-bottom: 20px;
   }
+  .div-block-14 {
+   bottom: 0%;
+  }
   .image-14 {
     -webkit-transition-property: none;
     transition-property: none;
@@ -2951,9 +2954,6 @@ p {
     -webkit-order: -1;
     -ms-flex-order: -1;
     order: -1;
-  }
-    .div-block-14 {
-   padding-bottom: 60px;
   }
   .rich-text-block {
     margin-top: -190px;
