@@ -1940,7 +1940,7 @@ p {
   top: 0%;
   right: 0%;
   bottom: 0%;
-  padding-right: 225px;
+  padding-right: 265px;
 }
 
 .image-26 {
@@ -3314,6 +3314,9 @@ margin-left: 60px;
   .image-26 {
     margin-top: 40px;
   }
+  .div-block-14 {
+   padding-bottom: 80px;
+}
   .div-block-16 {
     margin-left: -45px;
     padding-right: 50px;
