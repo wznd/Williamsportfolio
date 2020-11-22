@@ -3032,6 +3032,14 @@ p {
   .footer-social-link {
     margin-right: 7px;
     margin-left: 7px;
+  }  
+  .paragraph._2._3 {
+    margin-left: 45px;
+    color: #f8f8f8; 
+  }
+   .section-header._2._3 {
+    margin-left: 50px;
+    color: #f8f8f8; 
   }
   .social-footer-wrap {
     text-align: center;
