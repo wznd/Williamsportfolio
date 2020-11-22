@@ -3141,6 +3141,9 @@ p {
     padding-right: 20px;
     padding-left: 20px;
   }
+  .textcontainer.gr {
+    margin-top: 40px;
+  }
   .header {
     min-height: auto;
     background-image: url('../images/5dd49ce09fa9b166dc6a6dc1_20180709_201639-2.jpg');
