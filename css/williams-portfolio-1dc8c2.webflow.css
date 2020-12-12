@@ -785,7 +785,7 @@ p {
   -ms-grid-rows: auto auto;
   grid-template-rows: auto auto;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#e6a1bb), to(#e6a1bb));
-  background-image: linear-gradient(180deg, #e6d1d9, #e6d1d9);
+  background-image: linear-gradient(180deg, #e6a1bb, #e6a1bb);
 }
 
 .header.bebe-voyage._3._2 {
