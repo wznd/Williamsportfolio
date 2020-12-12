@@ -2578,6 +2578,14 @@ p {
     margin-top: 0px;
     background-color: #e6d1d9;
   }
+    .no-padd-section.border._2 {
+    margin-top: 0px;
+    background-color: #80a6e6;
+  }
+    .no-padd-section.border._3 {
+    margin-top: 0px;
+    background-color: #61a88b;
+  }
   .next-prev-link {
     color: #505050;
   }
