@@ -195,7 +195,6 @@ p {
   margin: 0px 81px;
   padding-top: 0px;
   padding-bottom: 0px;
-  border-top: 1px solid #ededed;
   border-radius: 20px;
   background-color: #fff;
   color: #4d4d4d;
@@ -213,6 +212,11 @@ p {
   grid-template-columns: 1fr;
   -ms-grid-rows: auto auto;
   grid-template-rows: auto auto;
+  border-top: 1px solid #ededed;
+  border-radius: 20px;
+  background-color: #fff;
+  color: #4d4d4d;
+
 }
 
 .menu-button {
