@@ -289,11 +289,11 @@ p {
 }
 
 .nav-link.w--current {
-  color: #437964;
+  color: #61a88b;
 }
 
 .nav-link.w--current:hover {
-  color: #437964;
+  color: #61a88b;
   text-shadow: none;
 }
 
