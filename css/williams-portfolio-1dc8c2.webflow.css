@@ -180,7 +180,7 @@ p {
 
 .maincontentsection.footer {
   position: static;
-  top: 414px;
+  top: 0px;
   overflow: visible;
   margin: 0px;
   padding: 100px 20px 35px;
@@ -190,7 +190,7 @@ p {
 
 .maincontentsection.footer._1 {
   position: static;
-  top: 414px;
+  top: 0px;
   overflow: visible;
   margin: 0px;
   padding: 100px 20px 35px;
@@ -200,7 +200,7 @@ p {
 
 .maincontentsection.footer._2 {
   position: static;
-  top: 414px;
+  top: 0px;
   overflow: visible;
   margin: 0px;
   padding: 100px 20px 35px;
