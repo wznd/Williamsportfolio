@@ -2172,7 +2172,7 @@ p {
   padding: 21px;
   border-radius: 50%;
   background-color: #e6a1bb;
-  background-image: url('../images/noun_bullet-list_894140.svg'), repeating-linear-gradient(180deg, #e6a1bb, #e6d1d9 44%, #f6dde7 100%, #fff);
+  background-image: url('../images/noun_bullet-list_894140.svg'), repeating-linear-gradient(180deg, #db799e, #e6a1bb 44%, #e6d1d9 100%, #fff);
   background-position: 50% 50%, 0px 0px;
   background-size: 50%, auto;
   background-repeat: no-repeat, repeat;
