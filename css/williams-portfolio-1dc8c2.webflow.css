@@ -1163,7 +1163,7 @@ p {
   margin-bottom: 80px;
   background-color: #437964;
   padding: 30px 20px;
-  background-image: repeating-linear-gradient(180deg, #db799e, #e6a1bb 44%, #e6d1d9 100%, #fff);
+  background-image: repeating-linear-gradient(180deg, #db799e, #e08dad 44%, #e6a1bb 100%, #fff);
   box-shadow: inset -1px 1px 6px 0 #5c5c5c;
   font-family: Montserrat, sans-serif;
   color: #fff;
@@ -1174,7 +1174,7 @@ p {
 }
 
 .quote.two.nypl {
-  background-image: repeating-linear-gradient(180deg, #80a6e6, #9ebbec 44%, #c2d4f3 100%, #fff);
+  background-image: repeating-linear-gradient(180deg, #80a6e6, #9ebbec 44%, #abc4ee 100%, #fff);
   font-size: 24px;
   text-shadow: 1px 1px 15px #80a6e6;
 }
