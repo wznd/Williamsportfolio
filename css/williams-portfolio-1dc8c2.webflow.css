@@ -2189,6 +2189,14 @@ p {
   box-shadow: inset 1px 1px 1px 0 #fff, 1px 1px 0 0 hsla(0, 0%, 76%, 0.4);
 }
 
+.button-2._1:active {
+  box-shadow: inset 1px 1px 1px 0 #fff, 1px 1px 0 0 hsla(0, 0%, 96%, 0.4);
+}
+
+.button-2._2:active {
+  box-shadow: inset 1px 1px 1px 0 #fff, 1px 1px 0 0 hsla(0, 0%, 56%, 0.4);
+}
+
 .navbar-2 {
   position: fixed;
   left: auto;
