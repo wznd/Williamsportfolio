@@ -2137,6 +2137,50 @@ p {
   transition: all 200ms ease;
 }
 
+.button-2._1 {
+  position: fixed;
+  left: 0%;
+  top: auto;
+  right: auto;
+  bottom: 0%;
+  z-index: 2000;
+  margin-right: 0px;
+  margin-bottom: 20px;
+  margin-left: 22px;
+  padding: 21px;
+  border-radius: 50%;
+  background-color: #80a6e6;
+  background-image: url('../images/noun_bullet-list_894140.svg'), repeating-linear-gradient(180deg, #80a6e6, #9ebbec 44%, #c2d4f3 100%, #fff);
+  background-position: 50% 50%, 0px 0px;
+  background-size: 50%, auto;
+  background-repeat: no-repeat, repeat;
+  box-shadow: inset 1px 0 1px -1px #fff, 1px 1px 3px 0 hsla(0, 0%, 76%, 0.28);
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+.button-2._2 {
+  position: fixed;
+  left: 0%;
+  top: auto;
+  right: auto;
+  bottom: 0%;
+  z-index: 2000;
+  margin-right: 0px;
+  margin-bottom: 20px;
+  margin-left: 22px;
+  padding: 21px;
+  border-radius: 50%;
+  background-color: #80a6e6;
+  background-image: url('../images/noun_bullet-list_894140.svg'), repeating-linear-gradient(180deg, #80a6e6, #9ebbec 44%, #c2d4f3 100%, #fff);
+  background-position: 50% 50%, 0px 0px;
+  background-size: 50%, auto;
+  background-repeat: no-repeat, repeat;
+  box-shadow: inset 1px 0 1px -1px #fff, 1px 1px 3px 0 hsla(0, 0%, 76%, 0.28);
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
 .button-2:hover {
   margin-bottom: 22px;
 }
