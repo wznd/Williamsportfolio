@@ -2190,11 +2190,11 @@ p {
 }
 
 .button-2._1:active {
-  box-shadow: inset 1px 1px 1px 0 #fff, 1px 1px 0 0 hsla(0, 0%, 96%, 0.4);
+  box-shadow: inset 1px 1px 1px 0 #fff, 1px 1px 0 0 hsla(0, 0%, 96%, 0.7);
 }
 
 .button-2._2:active {
-  box-shadow: inset 1px 1px 1px 0 #fff, 1px 1px 0 0 hsla(0, 0%, 56%, 0.4);
+  box-shadow: inset 1px 1px 1px 0 #fff, 1px 1px 0 0 hsla(0, 0%, 56%, 0.2);
 }
 
 .navbar-2 {
