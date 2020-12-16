@@ -1583,7 +1583,7 @@ p {
 .grid-4 {
   overflow: hidden;
   margin-top: -123px;
-  margin-left: 0px;
+  margin-left: -300px;
   padding-top: 325px;
   padding-bottom: 115px;
   padding-left: 0px;
