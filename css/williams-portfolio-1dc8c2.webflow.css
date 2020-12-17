@@ -2845,6 +2845,7 @@ p {
   }
   .project-link.project-1 {
     background-color: #fff;
+    object-fit: contain;
     background-position: 16% 50%;
     background-size: auto 100%;
   }
