@@ -946,9 +946,10 @@ p {
   float: right;
   border-style: solid;
   border-width: 2px;
+  color: #4c4c4c;
   border-color: #4c4c4c;
   border-radius: 5px;
-  background-color: #e6d1d9;
+  background-color: #4c4c4c;
   text-align: left;
 }
 
