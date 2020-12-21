@@ -2223,7 +2223,7 @@ Webflow.require('ix2').init(
                     "config": {
                         "delay": 0,
                         "easing": "easeInOut",
-                        "duration": 1000,
+                        "duration": 600,
                         "target": {
                             "useEventTarget": "CHILDREN",
                             "selector": ".div-block",
