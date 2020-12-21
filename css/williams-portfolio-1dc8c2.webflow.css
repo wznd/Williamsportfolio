@@ -1005,14 +1005,17 @@ p {
   transition: -webkit-transform 200ms ease;
   transition: transform 200ms ease;
   transition: transform 200ms ease, -webkit-transform 200ms ease;
+  opacity: 0.3;
 }
 
 .image-5._3 {
   margin-left: 546px;
+  opacity: 0.3;
 }
 
 .image-5._3.new {
   margin-left: 315px;
+  opacity: 0.3;
 }
 
 .image-6 {
