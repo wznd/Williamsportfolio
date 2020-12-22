@@ -1022,7 +1022,7 @@ p {
   position: -webkit-sticky;
   position: sticky;
   left: 0%;
-  top: -5%;
+  top: -165%;
   right: 0%;
   bottom: 0%;
   z-index: -1;
