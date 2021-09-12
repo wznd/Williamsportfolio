@@ -796,9 +796,9 @@ p {
 
 .header.bebe-voyage._3._2._5 {
   margin-bottom: 250px;
-  background-color: #437963;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#437963), to(#437963)), -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent)), -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent));
-  background-image: linear-gradient(180deg, #437963, #437963), linear-gradient(180deg, transparent, transparent), linear-gradient(180deg, transparent, transparent);
+  background-color: #89CA88;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#89CA88), to(#89CA88)), -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent)), -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent));
+  background-image: linear-gradient(180deg, #89CA88, #89CA88), linear-gradient(180deg, transparent, transparent), linear-gradient(180deg, transparent, transparent);
 }
 
 .header.bebe-voyage._3._1 {
