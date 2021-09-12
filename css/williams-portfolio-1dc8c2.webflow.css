@@ -1170,27 +1170,21 @@ p {
   z-index: 0;
   margin-top: 0px;
   margin-bottom: 80px;
-  background-color: #437964;
+  background-color: #fff;
   padding: 30px 20px;
-  background-image: repeating-linear-gradient(180deg, #d6658f, #db799e 44%, #e6a1bb 100%, #fff);
-  box-shadow: inset -1px 1px 6px 0 #5c5c5c;
-  font-family: Montserrat, sans-serif;
-  color: #fff;
+  box-shadow: 0 0 2px 0 #000;
   font-size: 24px;
   font-weight: 600;
-  text-shadow: 1px 1px 15px #e6a1bb;
   border-radius: 4px;
+  border: 3px solid #e6a1bb;
 }
 
 .quote.two.nypl {
-  background-image: repeating-linear-gradient(180deg, #80a6e6, #9ebbec 44%, #abc4ee 100%, #fff);
-  font-size: 24px;
-  text-shadow: 1px 1px 15px #80a6e6;
+  border: 3px solid #80a6e6;
 }
 
 .quote.two.green {
-  background-image: repeating-linear-gradient(180deg, #559a7f, #61a88b 44%, #82bab1 100%, #fff);
-  text-shadow: 1px 1px 15px #437964;
+  border: 3px solid #0b4c32;
 }
 
 .quote.two.description {
