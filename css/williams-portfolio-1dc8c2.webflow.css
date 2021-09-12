@@ -1151,19 +1151,15 @@ p {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #437964;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#559a7f), to(#437964));
-  background-image: linear-gradient(180deg, #559a7f, #437964);
   box-shadow: inset -1px 1px 6px 0 #5c5c5c;
   direction: ltr;
   font-family: Montserrat, sans-serif;
-  color: #fff;
+  color: #000;
   font-size: 32px;
   font-style: italic;
   font-weight: 600;
   text-align: center;
   text-transform: none;
-  text-shadow: 1px 1px 15px #49634f;
 }
 
 .quote.two {
