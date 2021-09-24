@@ -92,7 +92,7 @@ p {
   top: 35%;
   right: auto;
   bottom: 0%;
-  width: 159px;
+  min-width: 159px;
   margin: 25px 0px 0px;
   padding: 10px 20px;
   float: none;
