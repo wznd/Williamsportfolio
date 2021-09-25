@@ -2562,6 +2562,7 @@ p {
     margin-bottom: 0px;
     margin-left: 0px;
     padding: 15px 100px;
+    white-space: nowrap;
   }
   .navbar {
     z-index: 6;
