@@ -2561,6 +2561,7 @@ p {
     margin-top: 15px;
     margin-bottom: 0px;
     margin-left: 0px;
+    padding: 15px 100px;
   }
   .navbar {
     z-index: 6;
@@ -2808,7 +2809,7 @@ p {
     margin-top: -80px;
     margin-bottom: 45px;
     margin-left: 0px;
-    padding: 15px 100px;
+    padding: 14px 100px;
   }
   .button.hollow.email {
   margin: 5px 0px 0px;
