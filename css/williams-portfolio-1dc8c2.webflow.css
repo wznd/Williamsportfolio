@@ -2557,8 +2557,8 @@ p {
     margin-top: 15px;
     margin-bottom: 0px;
     margin-left: 0px;
-    min-witdh: 350px;
-    padding: 15px 220px;
+    min-witdh: 300px;
+    padding: 15px 20px;
   }
   .button.hollow.email {
   margin: 120px 0px 0px;
@@ -2570,8 +2570,8 @@ p {
     font-size: 24px;
   }
     .div-block-16 {
-    margin-left: -100px;
-    padding-top: 10px;
+    margin-left: 200px;
+    margin-top: -50px;
   }
   .maincontentsection.projects {
     margin-right: 0px;
