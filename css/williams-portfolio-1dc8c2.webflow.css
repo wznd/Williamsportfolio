@@ -3126,8 +3126,8 @@ p {
   .button-group {
     display: inline-block;
     margin-top: 40px;
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-right: 30px;
+    padding-left: 30px;
   }
   .tag {
     margin-bottom: -10px;
