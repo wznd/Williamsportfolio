@@ -2562,7 +2562,7 @@ p {
     margin-bottom: 0px;
     margin-left: 0px;
     min-witdh: 500px;
-    padding: 12px 50px;
+    padding: 13px 50px;
 
   }
   .navbar {
@@ -2811,7 +2811,8 @@ p {
     margin-top: -80px;
     margin-bottom: 45px;
     margin-left: 0px;
-    padding: 12px 50px;
+    min-width: 500px;
+    padding: 13px 50px;
   }
   .button.hollow.email {
   margin: 5px 0px 0px;
