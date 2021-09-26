@@ -2562,6 +2562,8 @@ p {
     margin-bottom: 0px;
     margin-left: 0px;
     min-witdh: 500px;
+    padding: 12px 50px;
+
   }
   .navbar {
     z-index: 6;
