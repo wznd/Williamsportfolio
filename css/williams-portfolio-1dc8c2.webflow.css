@@ -439,6 +439,10 @@ p {
   text-transform: none;
 }
 
+.maincontentsection.projects._1._new {
+margin-top:0px;
+}
+  
 .button-group {
   position: static;
   left: 0%;
