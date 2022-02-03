@@ -641,6 +641,10 @@ p {
   transform: rotate(0deg);
 }
 
+.spacing_block {
+  margin-top: 40px;
+}
+
 .textcontainer.title {
   position: relative;
   overflow: hidden;
