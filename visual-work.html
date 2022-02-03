@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Mon Apr 27 2020 15:12:27 GMT+0000 (Coordinated Universal Time)  -->
-<html data-wf-page="5ea5e3ee49d1a797c2164747" data-wf-site="5de839bcf0b2af80abb5e5e7">
+<!--  Last Published: Sat Apr 25 2020 16:58:22 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="5ea3172e0f9a01664bdcc4c3" data-wf-site="5de839bcf0b2af80abb5e5e7">
 <head>
   <meta charset="utf-8">
   <title>Visual Design</title>
@@ -26,18 +26,19 @@
   -webkit-text-stroke: 1px #4d4d4d;
 }
 @media screen and (max-width: 767px) {
-  #interactive {
-    display: none;
+  #mobile {
+    padding:63.25% 0 0 0; position:relative;
   }
-    }
+    }	  
 @media screen and (min-width: 767px) {
-  #feature-section {
-    display: none;
+  #mobile {
+    padding:46.25% 0 0 0; position:relative;
   }
-    }    
+    }	  
 </style>
 </head>
-<body class="body _2">
+<body class="body">
+  <div class="progress-bar"></div>
   <div data-collapse="all" data-animation="default" data-duration="400" class="navbar w-nav">
     <div class="w-container"><a href="home.html" class="w-nav-brand"><img src="images/iconselected.png" width="68" srcset="images/iconselected-p-500.png 500w, images/iconselected-p-800.png 800w, images/iconselected.png 1076w" sizes="100vw" alt="" class="image-17"><img src="images/icon.png" width="68" srcset="images/icon-p-500.png 500w, images/icon-p-800.png 800w, images/icon.png 1076w" sizes="68px" alt="" class="image-14"></a>
       <nav role="navigation" class="nav-menu w-nav-menu"><a href="visual-work.html" class="nav-link w-nav-link">Visual Design</a><a href="bebe-voyage.html" class="nav-link w-nav-link">Case Study 1 - Bebe Voyage</a><a href="nypl-advance.html" class="nav-link w-nav-link">Case Study 2 - NYPL Advance</a><a href="green-space.html" class="nav-link w-nav-link">Case Study 3 - Green Space</a></nav>
@@ -46,210 +47,171 @@
       </div>
     </div>
   </div>
-  <div class="header bebe-voyage _3 _2 _8">
+  <div class="header bebe-voyage _3 _2 new">
     <div class="textcontainer title bebevoyage w-container">
       <h1 class="heading title portfolio">Design Concepts</h1>
       <h4 class="heading-11">Sample of my solo visual design work</h4>
     </div>
   </div>
-  <section id="feature-section" class="feature-section">
-    <div class="flex-container w-container">
-      <div class="feature-image-mask"><img src="images/Screen-Shot-2020-02-14-at-8.18.18-PM.png" width="600" srcset="images/Screen-Shot-2020-02-14-at-8.18.18-PM-p-500.png 500w, images/Screen-Shot-2020-02-14-at-8.18.18-PM-p-800.png 800w, images/Screen-Shot-2020-02-14-at-8.18.18-PM-p-1080.png 1080w, images/Screen-Shot-2020-02-14-at-8.18.18-PM.png 1308w" sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 728px, 497.0625px" alt="" class="feature-image"></div>
-      <div>
-        <h2 class="heading-12">Boarding Pass App</h2>
-        <p class="paragraph-3">This page represents an E-Ticket which passengers scan to board their plane. <br><br>The placement of info on this screen was based on hierarchy of what flyers focus most on before boarding their flight.  </p>
-      </div>
-    </div>
-    <div class="flex-container w-container">
-      <div class="feature-image-mask"><img src="images/Screen-Shot-2020-02-14-at-8.18.47-PM.png" srcset="images/Screen-Shot-2020-02-14-at-8.18.47-PM-p-500.png 500w, images/Screen-Shot-2020-02-14-at-8.18.47-PM-p-800.png 800w, images/Screen-Shot-2020-02-14-at-8.18.47-PM-p-1080.png 1080w, images/Screen-Shot-2020-02-14-at-8.18.47-PM.png 1550w" sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 728px, 643.078125px" alt="" class="feature-image"></div>
-      <div class="div-block-19">
-        <h2 class="heading-12">Physical Boarding Pass</h2>
-        <p class="paragraph-4">Created to to accompany the above screen.</p>
-      </div>
-    </div>
-    <div class="flex-container _2 _1 w-container">
-      <div class="feature-image-mask"><img src="images/12.9″-iPad-Pro.png" width="1863.5" srcset="images/12.9″-iPad-Pro.png 500w, images/12.9″-iPad-Pro.png 800w, images/12.9″-iPad-Pro.png 1080w, images/12.9″-iPad-Pro.png 1600w, images/12.9″-iPad-Pro.png 2000w, images/12.9″-iPad-Pro.png 2600w, images/12.9″-iPad-Pro.png 3200w, images/12.9″-iPad-Pro.png 3727w" sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 728px, 940px" alt="" class="feature-image"></div>
-      <div class="div-block-19 _1">
-        <h2 class="heading-12">Home Monitoring Dashboard</h2>
-        <p class="paragraph-4">A tablet based screen of a home monitoring dashboard app, featuring smart home control modules and IOT collected data reporting. Compatible with most smart home technologies including smart speakers, security cameras, doorbells, and smart lights. <br/><br/>Also included were elements of a social media platform inclusive to all members of the household. This would allow for more efficient allocations of responsibilities and may also include smart home personalization based on the members habits and schedule. <br><br>Aesthetically, it draws influence from both skeuomorphic and flat design. I decided to include elements of skeuomorphism on the interactive portions of the dashboard such as the thermostat dial or the toggle buttons. This was to draw attention to the users on what could be interacted with as well as to create a sense of familiarity with real life devices. </p>
-      </div>
-    </div>
-    <div class="flex-container _2 _1 _3 w-container">
-      <div class="feature-image-mask"><img src="images/Desktop.jpg" width="1826" srcset="images/Desktop.jpg 800w, images/Desktop.jpg 1080w, images/Desktop.jpg 1600w, images/Desktop.jpg 2000w, images/Desktop.jpg 2600w, images/Desktop.jpg 3200w, images/Desktop.jpg 3652w" sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 728px, 940px" alt="" class="feature-image"></div>
-      <div class="div-block-19 _1">
-        <h2 class="heading-12">House2Home Desktop Site</h2>
-        <p class="paragraph-4">House2Home was an online design challenge I worked on for Bitesize UX. Here I created a concept of a website that specialized in interior design, specifically one that made starter kits to instantly decorate new apartments. <br><br>Through user interviews, House2Home discovered that their user base typically were budget conscious, lived in smaller sized apartments, wanted to quickly see how the items in the starter kits look like in their home, and utilized moodboards to advise their stylistic direction. <br><br>My solution was to mimic our users preferred process systematically. We start off with an experience reminiscent to a mood board. Here they choose a mood that fits the &quot;look&quot; they want for their space. </p>
-      </div>
-      <div class="feature-image-mask _2"><img src="images/house2home2.png" width="1826" srcset="images/house2home2.png 500w, images/house2home2.png 800w, images/house2home2.png 1080w, images/house2home2.png 1600w, images/house2home2.png 2000w, images/house2home2.png 2600w, images/house2home2.png 3200w, images/house2home2.png 3652w" sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 728px, 940px" alt="" class="feature-image"></div>
-      <div class="div-block-19 _1">
-        <p class="paragraph-4">Once drawn in, the users are given more in depth info on the specific items in the room set. <br></p>
-      </div>
-      <div class="feature-image-mask _2"><img src="images/house2home3.png" width="1826" srcset="images/house2home3.png 500w, images/house2home3.png 800w, images/house2home3.png 1080w, images/house2home3.png 1600w, images/house2home3.png 2000w, images/house2home3.png 2600w, images/house2home3.png 3200w, images/house2home3.png 3652w" sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 728px, 940px" alt="" class="feature-image"></div>
-      <div class="div-block-19 _1">
-        <p class="paragraph-4">The users can then upload their room to see what the items would look like in their home. <br></p>
-      </div>
-      <div class="feature-image-mask _2"><img src="images/house2home4.png" width="1863.5" srcset="images/house2home4.png 500w, images/house2home4.png 800w, images/house2home4.png 1080w, images/house2home4.png 1600w, images/house2home4.png 2000w, images/house2home4.png 2600w, images/house2home4.png 3200w, images/house2home4.png 3652w" sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 728px, 940px" alt="" class="feature-image"></div>
-      <div class="div-block-19 _1">
-        <p class="paragraph-4 _5">Once the image uploads, they can drag and drop items from their chosen set and arrange them as they please. To address budget concerns, I decided to place a clear budget tracker at the top of the room planning page. The budget tracker is intended to be usable in real time, meaning that users can adjust their budget at any time. A spent dollar number will also appear next to the budget once items are placed, showing the users how much they will be spending.</p>
-      </div>
-    </div>
-  </section>
-  <section id="interactive"> 
-  <div class="overlay-load"></div>
-  <div data-w-id="51764f8a-ca6d-0697-a093-a879d8b7d167" class="wrapper">
-    <div class="inner">
-      <div id="w-node-a879d8b7d16b-c2164747" class="text-wrap"></div>
-      <div id="w-node-a879d8b7d181-c2164747" data-w-id="51764f8a-ca6d-0697-a093-a879d8b7d181" class="img-wrap _2">
-        <div class="div-block-24"><a href="#" class="lightbox-link w-inline-block w-lightbox"><img src="images/Desktop.jpg" srcset="images/Desktop-p-800.jpeg 800w, images/Desktop-p-1080.jpeg 1080w, images/Desktop-p-1600.jpeg 1600w, images/Desktop-p-2000.jpeg 2000w, images/Desktop-p-2600.jpeg 2600w, images/Desktop-p-3200.jpeg 3200w, images/Desktop.jpg 3652w" sizes="(max-width: 479px) 100vw, 195px" alt="" class="image-2 _2 _3"><script type="application/json" class="w-json">{
+  <div class="maincontentsection projects _1 _new">	    
+    <div class="projectimagediv"><a href="#" class="w-inline-block w-lightbox"><img src="images/Screen-Shot-2020-02-14-at-8.18.18-PM.png" width="836" srcset="images/Screen-Shot-2020-02-14-at-8.18.18-PM.png 500w, images/Screen-Shot-2020-02-14-at-8.18.18-PM.png 800w, images/Screen-Shot-2020-02-14-at-8.18.18-PM.png 1080w, images/Screen-Shot-2020-02-14-at-8.18.18-PM.png 1600w, images/Screen-Shot-2020-02-14-at-8.18.18-PM.png 1800w" sizes="(max-width: 991px) 100vw, 84vw" alt="" class="image-26"><script type="application/json" class="w-json">{
   "items": [
     {
-      "width": 3652,
-      "caption": "House2Home Room Selection Page",
-      "height": 2448,
-      "fileName": "5e7e5dc85836dbdfb6b3294d_Desktop.jpg",
+      "width": 1800,
+      "caption": "",
+      "height": 1110,
+      "fileName": "5e4f5b2f92480f082f56ae90_Screen-Shot-2020-02-14-at-8.18.47-PM.png",
+      "origFileName": "Screen-Shot-2020-02-14-at-8.18.18-PM.png",
+      "url": "images/Screen-Shot-2020-02-14-at-8.18.18-PM.png",
+      "_id": "5ea3172e0f9a0127b5dcc58f",
+      "type": "image",
+      "fileSize": 483700
+    }
+  ],
+  "group": "hwa"
+}</script></a></div>
+    <div class="contentcontainer g w-container">
+      <div id="2" data-scroll-time="0" class="textcontainer open">
+        <h2 class="section-header">Hawaiian Airlines E-Ticket<br></h2>
+        <div class="paragraph content">The screen above represents an E-Ticket which passengers scan to board their plane.</div>
+        <div class="paragraph content">The placement of info on this screen was based on hierarchy of what flyers focus most on before boarding their flight. Important details for flyers would be: seat number, boarding time, flight class and boarding group.</div>
+      </div>
+    </div>
+ <div class="projectimagediv"><a href="#" class="w-inline-block w-lightbox"><img src="images/Screen-Shot-2020-02-14-at-8.18.47-PM.png" width="836" srcset="images/Screen-Shot-2020-02-14-at-8.18.47-PM.png 500w, images/Screen-Shot-2020-02-14-at-8.18.47-PM.png 800w, images/Screen-Shot-2020-02-14-at-8.18.47-PM.png 1080w, images/Screen-Shot-2020-02-14-at-8.18.47-PM.png 1600w, images/Screen-Shot-2020-02-14-at-8.18.47-PM.png 1800w" sizes="(max-width: 991px) 100vw, 84vw" alt="" class="image-26"><script type="application/json" class="w-json">{
+  "items": [
+    {
+      "width": 1800,
+      "caption": "",
+      "height": 1110,
+      "fileName": "5e4f5b2f92480f082f56ae90_Screen-Shot-2020-02-14-at-8.18.47-PM.png",
+      "origFileName": "Screen-Shot-2020-02-14-at-8.18.47-PM.png",
+      "url": "images/Screen-Shot-2020-02-14-at-8.18.47-PM.png",
+      "_id": "5ea3172e0f9a0127b5dcc58f",
+      "type": "image",
+      "fileSize": 483700
+    }
+  ],
+  "group": "hwa"
+}</script></a></div>
+    <div class="contentcontainer w-container">
+      <div id="3" data-scroll="mid" data-scroll-time="0" class="textcontainer extra w-clearfix">
+        <h2 class="section-header">Hawaiian Airlines Physical Ticket<br></h2>
+        <div class="paragraph content">Shown above is my mockup of a physical boarding pass ticket to accompany the e-ticket. I tried to be faithful to the brand imagery and colors while also making sure the ticket highlighted important info such as seat number and boarding time.</div>
+ </div>
+    </div>
+	   <div class="projectimagediv"><a href="#" class="w-inline-block w-lightbox"><img src="images/Desktop.jpg" width="836" srcset="images/Desktop.jpg 500w, images/Desktop.jpg 800w, images/Desktop.jpg 1080w, images/Desktop.jpg 1600w, images/Desktop.jpg 1800w" sizes="(max-width: 991px) 100vw, 84vw" alt="" class="image-26"><script type="application/json" class="w-json">{
+  "items": [
+    {
+      "width": 1800,
+      "caption": "",
+      "height": 1110,
+      "fileName": "5e4f5b2f92480f082f56ae90_Desktop.jpg",
       "origFileName": "Desktop.jpg",
       "url": "images/Desktop.jpg",
-      "_id": "5ea3172e0f9a0166bedcc59c",
+      "_id": "5ea3172e0f9a0127b5dcc58f",
       "type": "image",
-      "fileSize": 3989358
+      "fileSize": 483700
     }
   ],
-  "group": "house2home"
-}</script></a>
-          <div class="div-block-19 _1">
-            <h2 data-w-id="f8bfd788-de6f-db8f-e48e-2872bc9c3083" class="heading-12">Home Decor Site</h2>
-            <p style="opacity:0;-webkit-transform:translate3d(0, 57PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 57PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 57PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 57PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="paragraph-4">House2Home was an online design challenge I worked on for Bitesize UX. Here I created a concept of a website that specialized in interior design, specifically one that made starter kits to instantly decorate new apartments. <br><br>House2Home&#x27;s user base were: <br><br>• Budget conscious <br><br>• Lived in smaller sized apartments <br><br>• Wanted to quickly see how the items in the starter kits look like in their home<br><br>• Utilized moodboards to advise their stylistic direction <br><br>My solution was to mimic our users preferred process systematically. We start off with an experience reminiscent to a mood board. Here they choose a mood that fits the &quot;look&quot; they want for their space.<br><br>Once drawn in, the users are given more in depth info on the specific items in the room set. <br><br>The users can then upload their room to see what the items would look like in their space.<br><br>After uploading, items can be dragged and dropped from their chosen set and arranged as needed. <br><br>To address budget concerns, I placed a budget tracker at the top of the page. The budget tracker is intended to be usable in real time, meaning that users can adjust their budget at any time. A spent dollar number will also appear next to the budget once items are placed, showing the users how much they will be spending.<br><br></p>
-          </div>
-        </div>
-      </div>
-      <div id="w-node-a879d8b7d172-c2164747" data-w-id="51764f8a-ca6d-0697-a093-a879d8b7d172" class="img-wrap">
-        <div class="div-block-22"><a href="#" class="lightbox-link w-inline-block w-lightbox"><img src="images/12.9″-iPad-Pro.png" srcset="images/12.9″-iPad-Pro-p-500.png 500w, images/12.9″-iPad-Pro-p-800.png 800w, images/12.9″-iPad-Pro-p-1080.png 1080w, images/12.9″-iPad-Pro-p-1600.png 1600w, images/12.9″-iPad-Pro-p-2000.png 2000w, images/12.9″-iPad-Pro-p-2600.png 2600w, images/12.9″-iPad-Pro-p-3200.png 3200w, images/12.9″-iPad-Pro.png 3727w" sizes="(max-width: 479px) 100vw, (max-width: 991px) 195px, 20vw" alt="" class="image-2 _2 _3"><script type="application/json" class="w-json">{
+  "group": "h2h"
+}</script></a></div>
+    <div class="contentcontainer w-container">
+      <div id="3" data-scroll="mid" data-scroll-time="0" class="textcontainer extra w-clearfix">
+        <h2 class="section-header">House2Home Room Selection Page<br></h2>
+        <div class="paragraph content">House2Home was an online design challenge I worked on for Bitesize UX. Here I created a concept of a website that specialized in interior design, specifically one that made starter kits to instantly decorate new apartments. <br><br>Through user interviews, House2Home discovered that their user base typically were budget conscious, lived in smaller sized apartments, wanted to quickly see how the items in the starter kits look like in their home, and utilized moodboards to advise their stylistic direction. <br><br>My solution was to mimic our users preferred process systematically. We start off with an experience reminiscent to a mood board. Here they choose a mood that fits the &quot;look&quot; they want for their space.</div>
+ </div>
+    </div>
+	   <div class="projectimagediv"><a href="#" class="w-inline-block w-lightbox"><img src="images/house2home2.png" width="836" srcset="images/house2home2.png 500w, images/house2home2.png 800w, images/house2home2.png 1080w, images/house2home2.png 1600w, images/house2home2.png 1800w" sizes="(max-width: 991px) 100vw, 84vw" alt="" class="image-26"><script type="application/json" class="w-json">{
   "items": [
     {
-      "width": 3727,
-      "caption": "Home Monitoring Dashboard",
-      "height": 2466,
-      "fileName": "5e5826526759b85ff910d6df_12.9″ iPad Pro.png",
-      "origFileName": "12.9″ iPad Pro.png",
-      "url": "images/12.9″-iPad-Pro.png",
-      "_id": "5ea3172e0f9a01e423dcc598",
-      "type": "image",
-      "fileSize": 1010841
-    }
-  ]
-}</script></a>
-          <div class="div-block-19 _1">
-            <h2 data-w-id="26a8ea50-283f-878f-988c-210781484ef0" class="heading-12">Home Monitoring Dashboard</h2>
-            <p style="opacity:0;-webkit-transform:translate3d(0, 57PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 57PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 57PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 57PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="paragraph-4">Tablet based screen of a home monitoring dashboard app featuring:<br><br>• Smart home control modules<br><br> • IOT collected data reporting <br><br> • Compatiblity with most smart home technologies including smart speakers, security cameras, doorbells, and smart lights<br><br>• Elements of a social media platform inclusive to members of the household, allowing for more efficient allocations of responsibilities and personalization based on habits and schedule. <br><br>Aesthetically, it draws influence from both skeuomorphic and flat design. I decided to include elements of skeuomorphism on the interactive portions of the dashboard such as the thermostat dial or the toggle buttons. This was to draw attention to the users on what could be interacted with as well as to create a sense of familiarity with real life devices. </p>
-          </div>
-        </div>
-      </div>
-      <div id="w-node-a879d8b7d175-c2164747" data-w-id="51764f8a-ca6d-0697-a093-a879d8b7d175" class="img-wrap hidden"><img src="images/alicia-keys__c3pjkxx9dzyq_medium_2x.jpg" alt="" class="img-scroll-left"></div>
-      <div id="w-node-a879d8b7d177-c2164747" data-w-id="51764f8a-ca6d-0697-a093-a879d8b7d177" class="img-wrap hidden"><img src="images/alicia-keys__c3pjkxx9dzyq_medium_2x.jpg" alt="" class="img-scroll-left"></div>
-      <div id="w-node-a879d8b7d179-c2164747" data-w-id="51764f8a-ca6d-0697-a093-a879d8b7d179" class="img-wrap"></div>
-      <div id="w-node-a879d8b7d17a-c2164747" data-w-id="51764f8a-ca6d-0697-a093-a879d8b7d17a" class="img-wrap">
-        <div data-w-id="51764f8a-ca6d-0697-a093-a879d8b7d17b" class="img-wrap">
-          <div class="div-block-23"><a href="#" class="lightbox-link w-inline-block w-lightbox"><img src="images/Screen-Shot-2020-02-14-at-8.18.18-PM.png" srcset="images/Screen-Shot-2020-02-14-at-8.18.18-PM-p-500.png 500w, images/Screen-Shot-2020-02-14-at-8.18.18-PM-p-800.png 800w, images/Screen-Shot-2020-02-14-at-8.18.18-PM-p-1080.png 1080w, images/Screen-Shot-2020-02-14-at-8.18.18-PM.png 1308w" sizes="(max-width: 479px) 400px, 120px" alt="" class="image-2"><script type="application/json" class="w-json">{
-  "items": [
-    {
-      "width": 1308,
-      "caption": "Boarding Pass App",
-      "height": 1410,
-      "fileName": "5e49ab749ce53491f26d3c7a_Screen Shot 2020-02-14 at 8.18.18 PM.png",
-      "origFileName": "Screen Shot 2020-02-14 at 8.18.18 PM.png",
-      "url": "images/Screen-Shot-2020-02-14-at-8.18.18-PM.png",
-      "_id": "5ea3172e0f9a017c9edcc580",
-      "type": "image",
-      "fileSize": 421506
-    }
-  ],
-  "group": "boarding"
-}</script></a>
-            <div class="div-block-19 _1">
-              <h2 data-w-id="35499ce2-536a-629a-126a-2c36cb53236a" class="heading-12">Boarding Pass App</h2>
-              <p style="opacity:0;-webkit-transform:translate3d(0, 57PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 57PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 57PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 57PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="paragraph-4">This page represents an E-Ticket which passengers scan to board their plane. <br><br>The placement of info on this screen was based on hierarchy of what flyers focus most on before boarding their flight.  </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="w-node-a879d8b7d17f-c2164747" data-w-id="51764f8a-ca6d-0697-a093-a879d8b7d17f" class="img-wrap hidden"><a href="#" class="lightbox-link w-inline-block w-lightbox"><img src="images/Desktop.jpg" srcset="images/Desktop-p-800.jpeg 800w, images/Desktop-p-1080.jpeg 1080w, images/Desktop-p-1600.jpeg 1600w, images/Desktop-p-2000.jpeg 2000w, images/Desktop-p-2600.jpeg 2600w, images/Desktop-p-3200.jpeg 3200w, images/Desktop.jpg 3652w" sizes="100vw" alt="" class="image-2"><script type="application/json" class="w-json">{
-  "items": [
-    {
-      "width": 3652,
-      "caption": "House2Home Room Description Page",
-      "height": 2448,
-      "fileName": "5e7e599adad44d68a0220218_house2home2.png",
+      "width": 1800,
+      "caption": "",
+      "height": 1110,
+      "fileName": "5e4f5b2f92480f082f56ae90_house2home2.png",
       "origFileName": "house2home2.png",
       "url": "images/house2home2.png",
-      "_id": "5ea3172e0f9a01a007dcc59b",
+      "_id": "5ea3172e0f9a0127b5dcc58f",
       "type": "image",
-      "fileSize": 3069137
+      "fileSize": 483700
     }
   ],
-  "group": "house2home"
-}</script></a>
-        <div class="div-block-25"></div>
-      </div>
-      <div id="w-node-a879d8b7d180-c2164747" data-w-id="51764f8a-ca6d-0697-a093-a879d8b7d180" class="img-wrap hidden"><a href="#" class="lightbox-link w-inline-block w-lightbox"><img src="images/Desktop.jpg" srcset="images/Desktop-p-800.jpeg 800w, images/Desktop-p-1080.jpeg 1080w, images/Desktop-p-1600.jpeg 1600w, images/Desktop-p-2000.jpeg 2000w, images/Desktop-p-2600.jpeg 2600w, images/Desktop-p-3200.jpeg 3200w, images/Desktop.jpg 3652w" sizes="100vw" alt="" class="image-2"><script type="application/json" class="w-json">{
-  "items": [
-    {
-      "width": 1550,
-      "caption": "Physical Boarding Pass",
-      "height": 756,
-      "fileName": "5e49ab74a90a2c2c6a40ea15_Screen Shot 2020-02-14 at 8.18.47 PM.png",
-      "origFileName": "Screen Shot 2020-02-14 at 8.18.47 PM.png",
-      "url": "images/Screen-Shot-2020-02-14-at-8.18.47-PM.png",
-      "_id": "5ea3172e0f9a019f1bdcc587",
-      "type": "image",
-      "fileSize": 201843
-    }
-  ],
-  "group": "boarding"
+  "group": "h2h"
 }</script></a></div>
-      <div data-w-id="51764f8a-ca6d-0697-a093-a879d8b7d174" class="img-wrap hidden"><a href="#" class="lightbox-link w-inline-block w-lightbox"><img src="images/Desktop.jpg" srcset="images/Desktop-p-800.jpeg 800w, images/Desktop-p-1080.jpeg 1080w, images/Desktop-p-1600.jpeg 1600w, images/Desktop-p-2000.jpeg 2000w, images/Desktop-p-2600.jpeg 2600w, images/Desktop-p-3200.jpeg 3200w, images/Desktop.jpg 3652w" sizes="100vw" alt="" class="image-2"><script type="application/json" class="w-json">{
+    <div class="contentcontainer w-container">
+      <div id="3" data-scroll="mid" data-scroll-time="0" class="textcontainer extra w-clearfix">
+        <h2 class="section-header">House2Home Room Description Page<br></h2>
+        <div class="paragraph content">Once drawn in, the users are given more in depth info on the specific items in the room set. Sample items, listed with the price and "Add to cart" feature, can be found listed below the room.</div>
+ </div>
+    </div>
+	   <div class="projectimagediv"><a href="#" class="w-inline-block w-lightbox"><img src="images/house2home3.png" width="836" srcset="images/house2home3.png 500w, images/house2home3.png 800w, images/house2home3.png 1080w, images/house2home3.png 1600w, images/house2home3.png 1800w" sizes="(max-width: 991px) 100vw, 84vw" alt="" class="image-26"><script type="application/json" class="w-json">{
   "items": [
     {
-      "width": 3652,
-      "caption": "House2Home Upload Room Page",
-      "height": 2448,
-      "fileName": "5e7e599889fbd707c5085f64_house2home3.png",
+      "width": 1800,
+      "caption": "",
+      "height": 1110,
+      "fileName": "5e4f5b2f92480f082f56ae90_house2home3.png",
       "origFileName": "house2home3.png",
       "url": "images/house2home3.png",
-      "_id": "5ea3172e0f9a011caddcc599",
+      "_id": "5ea3172e0f9a0127b5dcc58f",
       "type": "image",
-      "fileSize": 378492
+      "fileSize": 483700
     }
   ],
-  "group": "house2home"
+  "group": "h2h"
 }</script></a></div>
-      <div id="w-node-a879d8b7d17d-c2164747" data-w-id="51764f8a-ca6d-0697-a093-a879d8b7d17d" class="img-wrap hidden">
-        <div><a href="#" class="lightbox-link w-inline-block w-lightbox"><img src="images/Desktop.jpg" srcset="images/Desktop-p-800.jpeg 800w, images/Desktop-p-1080.jpeg 1080w, images/Desktop-p-1600.jpeg 1600w, images/Desktop-p-2000.jpeg 2000w, images/Desktop-p-2600.jpeg 2600w, images/Desktop-p-3200.jpeg 3200w, images/Desktop.jpg 3652w" sizes="100vw" alt="" class="image-2"><script type="application/json" class="w-json">{
+    <div class="contentcontainer w-container">
+      <div id="3" data-scroll="mid" data-scroll-time="0" class="textcontainer extra w-clearfix">
+        <h2 class="section-header">House2Home Upload Room Page<br></h2>
+        <div class="paragraph content">Users can upload an image of their room to see what items would look like in their home. Drag and drop interface has been implemented to make the user experience convinient.</div>
+ </div>
+    </div>
+	   <div class="projectimagediv"><a href="#" class="w-inline-block w-lightbox"><img src="images/house2home4.png" width="836" srcset="images/house2home4.png 500w, images/house2home4.png 800w, images/house2home4.png 1080w, images/house2home4.png 1600w, images/house2home4.png 1800w" sizes="(max-width: 991px) 100vw, 84vw" alt="" class="image-26"><script type="application/json" class="w-json">{
   "items": [
     {
-      "width": 3652,
-      "caption": "House2Home Room Planner",
-      "height": 2448,
-      "fileName": "5e7e599a378fc439ed3dd936_house2home4.png",
+      "width": 1800,
+      "caption": "",
+      "height": 1110,
+      "fileName": "5e4f5b2f92480f082f56ae90_house2home4.png",
       "origFileName": "house2home4.png",
       "url": "images/house2home4.png",
-      "_id": "5ea3172e0f9a01a568dcc59a",
+      "_id": "5ea3172e0f9a0127b5dcc58f",
       "type": "image",
-      "fileSize": 2360574
+      "fileSize": 483700
     }
   ],
-  "group": "house2home"
-}</script></a>
-          <div class="div-block-19 _1">
-            <h2 class="heading-12">Home Decor Site</h2>
-            <p class="paragraph-4">House2Home was an online design challenge I worked on for Bitesize UX. Here I created a concept of a website that specialized in interior design, specifically one that made starter kits to instantly decorate new apartments. <br><br>House2Home&#x27;s user base were budget conscious, lived in smaller sized apartments, wanted to quickly see how the items in the starter kits look like in their home, and utilized moodboards to advise their stylistic direction. <br><br>My solution was to mimic our users preferred process systematically. We start off with an experience reminiscent to a mood board. Here they choose a mood that fits the &quot;look&quot; they want for their space.<br><br>Once drawn in, the users are given more in depth info on the specific items in the room set. <br><br>The users can then upload their room to see what the items would look like in their space.<br><br>Once the image uploads, they can drag and drop items from their chosen set and arrange them as they please. To address budget concerns, I decided to place a clear budget tracker at the top of the room planning page. The budget tracker is intended to be usable in real time, meaning that users can adjust their budget at any time. A spent dollar number will also appear next to the budget once items are placed, showing the users how much they will be spending.<br><br></p>
-          </div>
-        </div>
-      </div>
+  "group": "h2h"
+}</script></a></div>
+    <div class="contentcontainer w-container">
+      <div id="3" data-scroll="mid" data-scroll-time="0" class="textcontainer extra w-clearfix">
+        <h2 class="section-header">House2Home Room Planner<br></h2>
+        <div class="paragraph content">Once the image uploads, they can drag and drop items from their chosen set and arrange them as they please. To address budget concerns, I decided to place a clear budget tracker at the top of the room planning page. The budget tracker is intended to be usable in real time, meaning that users can adjust their budget at any time. A spent dollar number will also appear next to the budget once items are placed, showing the users how much they will be spending.</div>
+ </div>
+    </div>
+	   <div class="projectimagediv"><a href="#" class="w-inline-block w-lightbox"><img src="images/12.9″-iPad-Pro.png" width="836" srcset="images/12.9″-iPad-Pro.png 500w, images/12.9″-iPad-Pro.png 800w, images/12.9″-iPad-Pro.png 1080w, images/12.9″-iPad-Pro.png 1600w, images/12.9″-iPad-Pro.png 1800w" sizes="(max-width: 991px) 100vw, 84vw" alt="" class="image-26"><script type="application/json" class="w-json">{
+  "items": [
+    {
+      "width": 1800,
+      "caption": "",
+      "height": 1110,
+      "fileName": "5e4f5b2f92480f082f56ae90_12.9″-iPad-Pro.png",
+      "origFileName": "12.9″-iPad-Pro.png",
+      "url": "images/12.9″-iPad-Pro.png",
+      "_id": "5ea3172e0f9a0127b5dcc58f",
+      "type": "image",
+      "fileSize": 483700
+    }
+  ],
+  "group": "home"
+}</script></a></div>
+    <div class="contentcontainer w-container">
+      <div id="3" data-scroll="mid" data-scroll-time="0" class="textcontainer extra w-clearfix">
+        <h2 class="section-header">Home Monitoring Dashboard<br></h2>
+        <div class="paragraph content">A tablet based screen of a home monitoring dashboard app featuring:<br><br>• Smart home control modules<br><br> • IOT collected data reporting <br><br> • Compatiblity with most smart home technologies including smart speakers, security cameras, doorbells, and smart lights<br><br>• Elements of a social media platform inclusive to members of the household, allowing for more efficient allocations of responsibilities and personalization based on habits and schedule. <br><br>Aesthetically, it draws influence from both skeuomorphic and flat design. I decided to include elements of skeuomorphism on the interactive portions of the dashboard such as the thermostat dial or the toggle buttons. This was to draw attention to the users on what could be interacted with as well as to create a sense of familiarity with real life devices.</div>
+ </div>
     </div>
   </div>
-  </section>  
-  <div class="no-padd-section border _1">
-    <div class="w-container">
+  <div class="no-padd-section border">
+        <div class="w-container">
       <div class="w-row">
         <div class="previous-column w-col w-col-6 w-col-small-6"><a href="green-space.html" class="hvr-icon-back"><img src="images/leftarrow.svg" class="hvr-icon"/>Green Space</a></div>
         <div class="next-column w-col w-col-6 w-col-small-6"><a href="bebe-voyage.html" class="hvr-icon-forward">Bebe Voyage<img src="images/rightarrow.svg" class="hvr-icon"/></a></div>
@@ -257,7 +219,7 @@
     </div>
   </div>
   <div class="maincontentsection footer">
-    <div class="div-block-2 _2"></div>
+    <div class="div-block-2"></div>
     <div class="container-5 w-container">
       <div class="columns-2 w-row">
         <div class="w-col w-col-6 w-col-small-6">
