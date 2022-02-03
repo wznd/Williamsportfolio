@@ -2407,8 +2407,8 @@ p {
 .inner {
   display: -ms-grid;
   display: grid;
-  width: 210vw;
-  height: 250vh;
+  width: 350vw;
+  height: 230vh;
   justify-items: center;
   -webkit-box-align: center;
   -webkit-align-items: center;
