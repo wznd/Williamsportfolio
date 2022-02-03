@@ -641,8 +641,10 @@ p {
   transform: rotate(0deg);
 }
 
-.spacing_block {
-  margin-top: 40px;
+.header.bebe-voyage._3._2._new {
+  margin-bottom: 180px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e6e6e6), to(#e6e6e6));
+  background-image: linear-gradient(180deg, #e6e6e6, #e6e6e6);
 }
 
 .textcontainer.title {
