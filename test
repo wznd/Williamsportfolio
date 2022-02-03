@@ -4,7 +4,8 @@
 <html data-wf-page="5ea3172e0f9a01664bdcc4c3" data-wf-site="5de839bcf0b2af80abb5e5e7">
 <head>
   <meta charset="utf-8">
-  <title>Bebe Voyage</title>
+  <title>Visual Design</title>
+  <meta content="Rece" property="og:title">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta content="Webflow" name="generator">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
@@ -23,7 +24,7 @@
   }
 .name {
   -webkit-text-stroke: 1px #4d4d4d;
-}  
+}
 @media screen and (max-width: 767px) {
   #mobile {
     padding:63.25% 0 0 0; position:relative;
@@ -38,26 +39,18 @@
 </head>
 <body class="body">
   <div class="progress-bar"></div>
-  <div data-collapse="tiny" data-animation="default" data-duration="0" data-no-scroll="1" class="navbar-2 w-nav">
-    <div style="-webkit-transform:translate3d(150PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(150PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(150PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(150PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="container-6 w-container">
-      <nav role="navigation" class="nav-menu-2 w-nav-menu"><a href="#1" class="nav-link-2 w-nav-link">🎬   Introduction</a><a href="#2" class="nav-link-3 w-nav-link">🧩   The challenge</a><a href="#3" class="nav-link-4 w-nav-link">🤔   User research</a><a href="#4" class="nav-link-5 w-nav-link">🙋   Ideation</a><a href="#5" class="nav-link-5 w-nav-link">🏗️   The design</a><a href="#6" class="nav-link-6 w-nav-link">✏️   Test plan</a><a href="#7" class="nav-link-7 w-nav-link">📊   The results</a><a href="#8" class="nav-link-8 w-nav-link">🏁   Conclusion</a></nav>
-    </div>
-  </div><a data-w-id="c9b200b7-7475-4f2a-5385-0ff2439bb6a6" href="#" class="button-2 _2 w-button"></a>
   <div data-collapse="all" data-animation="default" data-duration="400" class="navbar w-nav">
-    <div class="w-container"><a href="home.html" class="w-nav-brand"><img src="images/icon.png" width="68" srcset="images/icon-p-500.png 500w, images/icon-p-800.png 800w, images/icon.png 1076w" sizes="68px" alt="" class="image-14"></a>
-      <nav role="navigation" class="nav-menu w-nav-menu"><a href="visual-work.html" class="nav-link w-nav-link">Visual Design</a><a href="bebe-voyage.html" aria-current="page" class="nav-link w-nav-link w--current">Case Study 1 - Bebe Voyage</a><a href="nypl-advance.html" class="nav-link w-nav-link">Case Study 2 - NYPL Advance</a><a href="green-space.html" class="nav-link w-nav-link">Case Study 3 - Green Space</a></nav>
+    <div class="w-container"><a href="home.html" class="w-nav-brand"><img src="images/iconselected.png" width="68" srcset="images/iconselected-p-500.png 500w, images/iconselected-p-800.png 800w, images/iconselected.png 1076w" sizes="100vw" alt="" class="image-17"><img src="images/icon.png" width="68" srcset="images/icon-p-500.png 500w, images/icon-p-800.png 800w, images/icon.png 1076w" sizes="68px" alt="" class="image-14"></a>
+      <nav role="navigation" class="nav-menu w-nav-menu"><a href="visual-work.html" class="nav-link w-nav-link">Visual Design</a><a href="bebe-voyage.html" class="nav-link w-nav-link">Case Study 1 - Bebe Voyage</a><a href="nypl-advance.html" class="nav-link w-nav-link">Case Study 2 - NYPL Advance</a><a href="green-space.html" class="nav-link w-nav-link">Case Study 3 - Green Space</a></nav>
       <div class="menu-button w-nav-button">
         <div class="hamburger-icon w-icon-nav-menu"></div>
       </div>
     </div>
   </div>
-  <div class="header bebe-voyage _3">
-    <div id="1" data-scroll-time="0" data-scroll="mid" class="textcontainer title bebevoyage w-container">
-      <h1 class="heading title portfolio">Bebe Voyage</h1>
-      <h4 class="heading-11">A stress free travel platform for parents</h4>
-    </div>
-    <div class="div-block-8 w-clearfix">
-      <h1 class="main-heading project">Families with young children are the only demographic in the travel industry growing in market share. They show a clear preference for convenience, value and authenticity.<br><br>How can we design a product that best accommodates parents?</h1>
+  <div class="header bebe-voyage _3 _2 _8">
+    <div class="textcontainer title bebevoyage w-container">
+      <h1 class="heading title portfolio">Design Concepts</h1>
+      <h4 class="heading-11">Sample of my solo visual design work</h4>
     </div>
   </div>
   <div class="maincontentsection projects _1">
