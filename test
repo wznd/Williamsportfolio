@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<!--  This site was created in Webflow. http://www.webflow.com  -->
+<!--  Last Published: Sat Apr 25 2020 16:58:22 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="5ea3172e0f9a01664bdcc4c3" data-wf-site="5de839bcf0b2af80abb5e5e7">
+<head>
+  <meta charset="utf-8">
+  <title>Bebe Voyage</title>
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Webflow" name="generator">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/williams-portfolio-1dc8c2.webflow.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic","Nunito Sans:300,300italic,regular,italic,600,600italic,900,900italic"]  }});</script>
+  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="images/icon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="images/webclip.png" rel="apple-touch-icon">
+  <style>
+.body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  }
+.name {
+  -webkit-text-stroke: 1px #4d4d4d;
+}  
+@media screen and (max-width: 767px) {
+  #mobile {
+    padding:63.25% 0 0 0; position:relative;
+  }
+    }	  
+@media screen and (min-width: 767px) {
+  #mobile {
+    padding:46.25% 0 0 0; position:relative;
+  }
+    }	  
+</style>
+</head>
+<body class="body">
+  <div class="progress-bar"></div>
+  <div data-collapse="tiny" data-animation="default" data-duration="0" data-no-scroll="1" class="navbar-2 w-nav">
+    <div style="-webkit-transform:translate3d(150PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(150PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(150PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(150PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="container-6 w-container">
+      <nav role="navigation" class="nav-menu-2 w-nav-menu"><a href="#1" class="nav-link-2 w-nav-link">🎬   Introduction</a><a href="#2" class="nav-link-3 w-nav-link">🧩   The challenge</a><a href="#3" class="nav-link-4 w-nav-link">🤔   User research</a><a href="#4" class="nav-link-5 w-nav-link">🙋   Ideation</a><a href="#5" class="nav-link-5 w-nav-link">🏗️   The design</a><a href="#6" class="nav-link-6 w-nav-link">✏️   Test plan</a><a href="#7" class="nav-link-7 w-nav-link">📊   The results</a><a href="#8" class="nav-link-8 w-nav-link">🏁   Conclusion</a></nav>
+    </div>
+  </div><a data-w-id="c9b200b7-7475-4f2a-5385-0ff2439bb6a6" href="#" class="button-2 _2 w-button"></a>
+  <div data-collapse="all" data-animation="default" data-duration="400" class="navbar w-nav">
+    <div class="w-container"><a href="home.html" class="w-nav-brand"><img src="images/icon.png" width="68" srcset="images/icon-p-500.png 500w, images/icon-p-800.png 800w, images/icon.png 1076w" sizes="68px" alt="" class="image-14"></a>
+      <nav role="navigation" class="nav-menu w-nav-menu"><a href="visual-work.html" class="nav-link w-nav-link">Visual Design</a><a href="bebe-voyage.html" aria-current="page" class="nav-link w-nav-link w--current">Case Study 1 - Bebe Voyage</a><a href="nypl-advance.html" class="nav-link w-nav-link">Case Study 2 - NYPL Advance</a><a href="green-space.html" class="nav-link w-nav-link">Case Study 3 - Green Space</a></nav>
+      <div class="menu-button w-nav-button">
+        <div class="hamburger-icon w-icon-nav-menu"></div>
+      </div>
+    </div>
+  </div>
+  <div class="header bebe-voyage _3">
+    <div id="1" data-scroll-time="0" data-scroll="mid" class="textcontainer title bebevoyage w-container">
+      <h1 class="heading title portfolio">Bebe Voyage</h1>
+      <h4 class="heading-11">A stress free travel platform for parents</h4>
+    </div>
+    <div class="div-block-8 w-clearfix">
+      <h1 class="main-heading project">Families with young children are the only demographic in the travel industry growing in market share. They show a clear preference for convenience, value and authenticity.<br><br>How can we design a product that best accommodates parents? <a href="https://docs.google.com/presentation/d/1R6ZPpvXK-X3OlH9rFVyO1-FWtfP9mscE0UjBoPwen0A/edit?usp=sharing" style="color: #437963">View presentation.</a></h1>
+    </div>
+  </div>
+  <div class="maincontentsection projects _1">
+        <div class="contentcontainer projectslide w-container">
+	    <div class="textcontainer">
+		    <div class="w-layout-grid grid-6"><img src="images/Asset-4.png" width="118" alt=""><img src="images/Asset-3.png" width="90" alt=""><img src="images/Asset-2.png" width="95" alt=""><img src="images/Asset-5.png" width="62" alt="">
+	            <h1 class="section-header _2">Team</h1>
+		    <h1 class="section-header _2">Tools</h1>
+		    <h1 class="section-header _2">Themes</h1>
+		    <h1 class="section-header _2">Duration</h1>
+		    <p class="paragraph _2">Carson Stettinius<br>Lauren Ng<br>Mark Fishman</p>
+		    <p class="paragraph _2">Sketch<br>Invision<br>Google Forms<br>Axure</p>
+		    <p class="paragraph _2">Website Redesign<br>Lean Prioritization <br>Vacation Planner</p>
+		    <p class="paragraph _2">4 weeks</p>
+	    </div>
+		      <div class="w-layout-grid grid-6 _2"><img src="images/Asset-2.png" width="118" alt=""><img src="images/Asset-5.png" width="90" alt=""><img src="images/Asset-2.png" width="95" alt="" class="image-29"><img src="images/Asset-5.png" width="62" alt="">
+	            <h1 class="section-header _2">Themes</h1>
+		    <h1 class="section-header _2">Duration</h1>
+		    <h1 class="section-header _2 _3">Team</h1>
+		    <h1 class="section-header _2">Tools</h1>
+		      <p class="paragraph _2">Website Redesign<br>Lean Prioritization <br>Vacation Planner</p>
+		    <p class="paragraph _2">4 weeks</p>
+		    <p class="paragraph _2 _3">Universal Design<br>Tech Literacy<br>Online Learning</p>
+		    <p class="paragraph _2">4 weeks</p>
+	    </div>
+	  </div>
+	</div>		    
+    <div class="projectimagediv _2"><a href="#" class="w-inline-block w-lightbox"><img src="images/image11.png" width="836" srcset="images/image11.png 500w, images/image11.png 800w, images/image11.png 1080w, images/image11.png 1600w, images/image11.png 1800w" sizes="(max-width: 991px) 100vw, 84vw" alt="" class="image-26"><script type="application/json" class="w-json">{
+  "items": [
+    {
+      "width": 1800,
+      "caption": "",
+      "height": 1110,
+      "fileName": "5e4f5b2f92480f082f56ae90_Screen Shot 2020-02-20 at 11.22.54 PM.png",
+      "origFileName": "Screen Shot 2020-02-20 at 11.22.54 PM.png",
+      "url": "images/image11.png",
+      "_id": "5ea3172e0f9a0127b5dcc58f",
+      "type": "image",
+      "fileSize": 483700
+    }
+  ],
+  "group": "bbva"
+}</script></a></div>
+    <div class="contentcontainer g w-container">
+      <div id="2" data-scroll-time="0" class="textcontainer open">
+        <h2 class="section-header">What was the challenge?<br></h2>
+        <div class="paragraph content">Bebe Voyage, a parent run Facebook community for travelers and their families, wanted a new platform to provide members with information and expand their business. </div>
+        <div class="paragraph content">BBV&#x27;s main appeal to users came from the sense of community they provided with their Facebook group and its crowdsourced travel information, but this was also a weakness as the info was not organized in an accessible way. <br></div>
+        <div class="paragraph">Users complained that the same questions were being asked repeatedly and my design team&#x27;s job was to provide a new design strategy for Bebe Voyage.</div>
+      </div>
+    </div>
+	  <br>
+    <h1 class="quote two description">&quot;Our client had a strong preference for an app which utilized geolocation features to view travel itineraries sourced from other parents.&quot; </h1>
+    <div class="maincontentsection projects">  
+      <div class="html-embed w-embed w-iframe w-script">
+        <div id="mobile"><iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTrroyASLW6AfEWWYKZbnIhJvyZvUFA--L24CT-euTO4yMQCO6gTFQOCDcQVdrl8EsMWFEcBVUsFCaj/embed?start=false&loop=false&delayms=30000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></script>
+      </div>    
+    </div>
+    <div class="contentcontainer new w-container">
+      <div class="textcontainer extra">
+        <p class="paragraph content">Our design process started by taking a look at BBV&#x27;s current platform to understand the product better and get a sense of the design values. <br></p>
+        <p class="paragraph content">Something that my group wondered throughout the early process was whether our client was attached to the idea of building a geolocation app, given that we did not have enough data on whether it would actually address the issue of information accessiblity on the main Facebook group. <br></p>
+        <p class="paragraph">We wanted to have all options on the table, in case a different format would be a better fit for the users’ needs. <br></p>
+      </div>
+    </div>
+    <h1 class="quote two description">&quot;The website had categories of content that were not labeled and organized intuitively, and had many groups which could be combined, separated or condensed.&quot;</h1>
+    <div class="projectimagediv"><a href="#" class="w-inline-block w-lightbox"><img src="images/BBVimage4.png" width="709" srcset="images/BBVimage4-p-500.png 500w, images/BBVimage4-p-800.png 800w, images/BBVimage4-p-1080.png 1080w, images/BBVimage4-p-1600.png 1600w, images/BBVimage4-p-2000.png 2000w, images/BBVimage4.png 2438w" sizes="(max-width: 767px) 100vw, 709px" alt="" class="image-9"><script type="application/json" class="w-json">{
+  "items": [
+    {
+      "width": 2438,
+      "caption": "",
+      "height": 1202,
+      "fileName": "5df2f22dbe804b550583d0cf_BBVimage4.png",
+      "origFileName": "BBVimage4.png",
+      "url": "images/BBVimage4.png",
+      "_id": "5ea3172e0f9a011abfdcc505",
+      "type": "image",
+      "fileSize": 1110979
+    }
+  ],
+  "group": "bbv"
+}</script></a></div>
+    <div class="contentcontainer w-container">
+      <div id="3" data-scroll="mid" data-scroll-time="0" class="textcontainer extra w-clearfix">
+        <h2 class="section-header">What was the user perspective?<br></h2>
+        <div class="paragraph content">We read about our user’s demographic trends in our domain research, but we wanted to get the most accurate data and hear directly from the users what they had to say about the community.<br></div>
+        <div class="paragraph">Specifically, we wanted to get a better grasp of the following:<br></div>
+	<ol class="list-3">
+          <li class="list-item"><strong class="bold-text-7">How does BBV offer value to its users?</strong><br></li>
+          <li class="list-item"><strong class="bold-text-7">What unexpected issues did the users experience?</strong><br></li>
+          <li class="list-item"><strong class="bold-text-8">What were some key opportunities for BBV?</strong><br></li>
+        </ol>
+        <div class="div-block"></div>
+        <div class="paragraph">After going through a round of user interviews, my team discovered the following trends:</div>
+        <ol class="list-3">
+          <li class="list-item">Our users wanted to get streamlined information on traveling that was provided by a trusted source. This came in the form of chatting with other parents who had previous experience or more personal ways, such as seeing user-generated content such as pictures of families while traveling.</li>
+          <li class="list-item">A major theme we would learn about was that the website had a high bounce rate. Many users did not use it because they found it was hard to navigate and it did not provide much value over the Facebook community. Some users didn’t even know about it the website.</li>
+          <li class="list-item">It came to our attention that a centralized source of information needed to exist outside the Facebook group, which had become bogged down by repeated questions. According to the users, the Facebook community should be a private place to share personal travel stories and ask personalized questions about destinations.</li>
+        </ol>
+        <div class="paragraph">To visualize the key traits of our users, their specific needs, and what could be provided as a solution, my team created a problem statement to determine and summarize the core problem that was to be solved by our minimum viable product. </div>
+      </div>
+    </div>
+    <h1 class="quote two description"><span style="color:#000;"><strong>Problem statement</strong></span><br> &quot;Uncertain and curious parents need community-sourced guides composed from the experiences of other parents to minimize unexpected problems during travel.&quot;</h1>
+        <div class="projectimagediv"><a href="#" class="w-inline-block w-lightbox"><img src="images/Screen-Shot-2020-01-01-at-9.06.20-PM.png" width="700" srcset="images/Screen-Shot-2020-01-01-at-9.06.20-PM-p-500.png 500w, images/Screen-Shot-2020-01-01-at-9.06.20-PM-p-800.png 800w, images/Screen-Shot-2020-01-01-at-9.06.20-PM-p-1080.png 1080w, images/Screen-Shot-2020-01-01-at-9.06.20-PM.png 1324w" sizes="(max-width: 991px) 100vw, 800px" alt="" class="image-9"><script type="application/json" class="w-json">{
+  "items": [
+    {
+      "type": "image",
+      "_id": "5ea3172e0f9a01cc8adcc56f",
+      "fileName": "5e0d5026b1dab303a422678e_Screen Shot 2020-01-01 at 9.06.20 PM.png",
+      "origFileName": "Screen Shot 2020-01-01 at 9.06.20 PM.png",
+      "width": 1324,
+      "height": 1132,
+      "fileSize": 522848,
+      "url": "images/Screen-Shot-2020-01-01-at-9.06.20-PM.png"
+    }
+  ],
+  "group": "bbv2"
+}</script></a></div>
+    <div class="contentcontainer new w-container">
+      <div class="textcontainer fi">
+        <div class="paragraph content">Ater reviewing our interview findings, we needed to make sense of the problem at hand and the evaluate cards we were dealt. <br></div>
+        <div class="paragraph content">Our client currently had two platforms, the first a Facebook group with a high number of reposted questions, the second a website with a high bounce rate, and were exploring creating a third platform.  <br></div>
+        <div class="paragraph">My team decided that the main objective to pursue was the creation of a highly accessible parent-sourced space for BBV members. Additionally, we needed to find a way to cut redundancy from our client's organizational system if we wished to properly address the user problem.<br></div>
+      </div>
+    </div>
+    <h1 class="quote two description">&quot;Before sketching lo-fi mockups, my team went through several exercises and thought experiments to determine how we should best tackle the problem with the limited time we had.&quot;<br></h1>
+<div class="projectimagediv"><a href="#" class="w-inline-block w-lightbox"><img src="images/Untitled-1211.png" width="500" srcset="images/Untitled-1211.png 500w, images/Untitled-1211.png 800w, images/Untitled-1211.png 1080w, images/Untitled-1211.png 1600w" sizes="(max-width: 767px) 100vw, 600px" alt="" class="image-9"><script type="application/json" class="w-json">{
+  "items": [
+    {
+      "type": "image",
+      "_id": "5ea3172e0f9a015dfddcc515",
+      "fileName": "5dfacfedd6da965beaa8dd65_Untitled-1211.png",
+      "origFileName": "Untitled-1211.png",
+      "width": 2000,
+      "height": 1033,
+      "fileSize": 455437,
+      "url": "images/Untitled-1211.png"
+    }
+  ],
+  "group": "bbv"
+}</script></a></div>
+    <div class="contentcontainer new w-container">
+      <div id="4" data-scroll-time="0" data-scroll="mid" class="textcontainer w-clearfix">
+        <h2 class="section-header">What was the design approach?<br></h2>
+        <p class="paragraph">We started asking questions about how we could create a concept that would incorporate features that best assisted in solving the problem statement.<br></p>
+                <ol class="list-3">
+          <li class="list-item"><strong class="bold-text-7">What could we do to address information accessibility concerns?</strong><br></li>
+          <li class="list-item"><strong class="bold-text-8">What could we do to maximize engagement and provide a personal connection?</strong><br></li>
+        </ol>
+        <div class="div-block"></div>
+        <div class="paragraph _3 _5">Two concepts were created with paper prototypes on InVision. The first was a mobile app that provided users with information through a map and the second was a responsive website redesign that categorized content more efficiently. <strong><br></strong></div>
+        <div class="w-layout-grid grid bbv">
+          <ul id="w-node-f3860adc2afd-4bdcc4c3" class="compare _1 w-list-unstyled">
+            <li class="list-item-6"><a href="#" class="w-inline-block w-lightbox"><img src="images/MyMovie-1.gif" width="430" alt="" class="image-19"><script type="application/json" class="w-json">{
+  "items": [
+    {
+      "width": 640,
+      "caption": "",
+      "height": 360,
+      "fileName": "5e081945ad6bad4c13b21a1c_MyMovie (1).gif",
+      "origFileName": "MyMovie (1).gif",
+      "url": "images/MyMovie-1.gif",
+      "_id": "5ea3172e0f9a010f2bdcc532",
+      "type": "image",
+      "fileSize": 3225850
+    }
+  ],
+  "group": "bbv3"
+}</script></a></li>
+          </ul>
+          <ul id="w-node-212b8b895502-4bdcc4c3" class="compare">
+            <li class="list-item-5"><a href="#" class="w-inline-block w-lightbox"><img src="images/Hnet-image-4.gif" width="160" alt="" class="image-20"><script type="application/json" class="w-json">{
+  "items": [
+    {
+      "width": 600,
+      "caption": "",
+      "height": 808,
+      "fileName": "5e080b7e0d37a103932753d5_Hnet-image (4).gif",
+      "origFileName": "Hnet-image (4).gif",
+      "url": "images/Hnet-image-4.gif",
+      "_id": "5ea3172e0f9a010969dcc536",
+      "type": "image",
+      "fileSize": 3986034
+    }
+  ],
+  "group": "bbv3"
+}</script></a></li>
+          </ul>
+          <div class="text-block"><strong class="textdescription _2">First concept: <br>We decided to address the client’s original desire for a mobile app featuring geolocation.</strong></div>
+          <div class="text-block"><strong class="textdescription _2 _4">Second concept: <br>A redesign of the current website to modernize the UX design and Information Architecture.<br></strong></div>
+        </div>
+        <p class="paragraph content">The reason we made the second concept a website redesign was because the current website was not up to the users&#x27; standards as a place to get information and it would make more sense logistically for the company to rework what they had in place than to scrap it for an app. <br></p>
+        <p class="paragraph">A third concept utilizing a message board similar to Reddit was ideated but dropped because it was deemed as not providing much more value than what was already in place.<br></p>
+        <div class="div-block new"></div>
+        <p class="paragraph content">We spoke with users again, this time testing our concepts as well as the current website content to draw a contrast in our results.</p>
+        <p class="paragraph content">To supplement our tests with a larger dataset, we also surveyed the BBV online community on which concept they preferred.  </p>
+        <p class="paragraph">Our results showed that users visually liked the mobile map concept better than the website redesign.</p>
+      </div>
+    </div>
+    <h1 class="quote two description">&quot;Many of the same interviewees who liked the mobile app better also stated that there was a need for a website to consolidate information.&quot;<br></h1>
+    <div class="maincontentsection projects">  
+      <div class="html-embed w-embed w-iframe w-script">
+        <div id="mobile"><iframe src="https://player.vimeo.com/video/381837982?autoplay=1&loop=1&autopause=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe></div>
+        <script src="https://player.vimeo.com/api/player.js"></script>
+      </div>
+    </div>
+    <div class="contentcontainer new w-container">
+      <div id="5" data-scroll-time="0" class="textcontainer extra">
+        <h2 class="section-header">What was our MVP&#x27;s design?<br></h2>
+        <div class="paragraph content">We decided to converge the concepts into a responsive website that utilized a map because the users reacted positively to both ideas and it would address information accessibility concerns by slimming down the client's underleveraged channels of communication. Our client gave approval to proceed after we explained our reasoning to them.<br></div>
+        <div class="paragraph">The next step would be to turn our converged concept into a minimum viable product to be tested with users again as a mid-fidelity prototype.<br></div>
+      </div>
+    </div>
+    <h1 class="quote two">Content formatted as tiles for easier visualization.<br></h1>
+    <div class="html-embed 2 w-embed w-iframe w-script">
+      <div id="mobile"><iframe src="https://player.vimeo.com/video/381854461?autoplay=1&loop=1&autopause=0" style="position:absolute;top:40px;left:0;width:100%;height:90%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe></div>
+      <script src="https://player.vimeo.com/api/player.js"></script>
+    </div>
+    <h1 class="quote two">Pros &amp; cons as well as ratings placed in visible location.<br></h1>
+    <div class="html-embed 2 w-embed w-iframe w-script">
+      <div id="mobile"><iframe src="https://player.vimeo.com/video/382093745?autoplay=1&loop=1&autopause=0" style="position:absolute;top:40px;left:0;width:100%;height:90%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe></div>
+      <script src="https://player.vimeo.com/api/player.js"></script>
+    </div>
+    <h1 class="quote two">Accordion format used to neatly organize content.<br></h1>
+    <div class="html-embed 2 w-embed w-iframe w-script">
+      <div id="mobile"><iframe src="https://player.vimeo.com/video/381855954?autoplay=1&loop=1&autopause=0" style="position:absolute;top:40px;left:0;width:100%;height:90%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe></div>
+      <script src="https://player.vimeo.com/api/player.js"></script>
+    </div>
+    <div class="contentcontainer g w-container">
+      <div id="6" data-scroll="mid" data-scroll-time="0" class="textcontainer">
+        <h2 class="section-header">What did we want to test?<br></h2>
+        <div class="paragraph">We needed several questions answered to deem if our prototype successfully solved the problem statement.<br><br></div>
+        <ul>
+          <li class="list-item-8">Was our solution making information clear and accessible to users?</li>
+          <li class="list-item-9">How closely did the organization and flow of the site match the users’ mental models?</li>
+          <li class="list-item-10">Did our solution provide relevant and sufficient information for users?</li>
+          <li class="list-item-11">Is the right information highlighted, or do they have to dig for what they really want?</li>
+          <li class="list-item-12">Did users think our solution allowed them to prepare for their upcoming trips?</li>
+        </ul>
+        <div class="paragraph">We created three tasks which would be tested with BBV users to see how well our design solved the issues.<br></div>
+        <div class="w-layout-grid grid-5">
+          <div id="w-node-2909f16ee08d-4bdcc4c3" class="div-block-12 bbv">
+            <p class="paragraph-2 _3">Task 1</p>
+            <div class="text-span">Use the map to find a baby friendly hotel in Tokyo.</div>
+          </div>
+          <div id="w-node-1ab486c4eeb9-4bdcc4c3" class="html-embed new w-embed w-iframe w-script">
+            <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/382094048?autoplay=1&loop=1&autopause=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe></div>
+            <script src="https://player.vimeo.com/api/player.js"></script>
+          </div>
+          <div id="w-node-2909f16ee093-4bdcc4c3" class="div-block-12 bbv">
+            <p class="paragraph-2 _3">Task 2</p>
+            <div class="text-span"><span class="text-span">Access the packing list to see if there were specific items to bring to the trip.</span></div>
+          </div>
+          <div id="w-node-4893e97d22a9-4bdcc4c3" class="html-embed new w-embed w-iframe w-script">
+            <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/381905310?autoplay=1&loop=1&autopause=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe></div>
+            <script src="https://player.vimeo.com/api/player.js"></script>
+          </div>
+          <div id="w-node-2909f16ee09c-4bdcc4c3" class="div-block-12 bbv">
+            <p class="paragraph-2 _3">Task 3</p>
+            <div class="text-span"><span class="text-span">Use the redesigned content page to find a new baby stroller.</span></div>
+          </div>
+          <div id="w-node-81044e1d9a0c-4bdcc4c3" class="html-embed new w-embed w-iframe w-script">
+            <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/382091131?autoplay=1&loop=1&autopause=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe></div>
+            <script src="https://player.vimeo.com/api/player.js"></script>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contentcontainer w-container">
+      <div id="7" data-scroll="mid" data-scroll-time="0" class="textcontainer extra">
+        <h2 class="section-header">What were the results?<br></h2>
+        <p class="paragraph">The results for the usability came in and were positive overall. Our tested users said that they felt the information they were looking for in our prototype was intuitive to reach. They remarked that the ability for members to leave and read reviews on the website made it feel like they were in a place that they could trust to help them out.<br></p>
+        <div class="w-layout-grid grid-5 _5 _1">
+          <div id="w-node-8a32ae4bed40-4bdcc4c3" class="div-block-12 bbv">
+            <p class="paragraph-2 _3">100%</p>
+            <div class="text-span"><span class="text-span">Of users completed all tasks.</span></div>
+          </div>
+          <div id="w-node-c765382cb9de-4bdcc4c3" class="div-block-12 bbv">
+            <p class="paragraph-2 _3">4.6/5<span class="text-span"><br></span></p>
+            <div class="text-span"><span class="text-span">The average ease of use rating.</span></div>
+          </div>
+          <div id="w-node-b58a730d1864-4bdcc4c3" class="div-block-12 bbv">
+            <p class="paragraph-2 _3">4.4/5</p>
+            <div class="text-span"><span class="text-span">The average helpfulness rating.</span></div>
+          </div>
+        </div>
+        <p class="paragraph content">Some common suggestions from users were easy to implement as iterations to our design. This came in the form of revising age group classification, adding a buy button directly to the website and adding “What to Bring” to destinations. <br></p>
+        <p class="paragraph">Other suggestions were documented but would require further testing to properly implement. These included greater platform personalization, standardizing content and better utilizing geolocation for engaging family activities.<br></p>
+      </div>
+    </div>
+    <div class="projectimagediv"><a href="#" class="w-inline-block w-lightbox"><img src="images/image17.png" width="836" srcset="images/image17.png 500w, images/image17.png 800w, images/image17.png 1080w, images/image17.png 1672w" sizes="(max-width: 991px) 100vw, 84vw" alt="" class="image-9 new"><script type="application/json" class="w-json">{
+  "items": [
+    {
+      "type": "image",
+      "_id": "5ea3172e0f9a015b71dcc591",
+      "fileName": "image17.png",
+      "origFileName": "image17.png",
+      "width": 1672,
+      "height": 1082,
+      "fileSize": 1087394,
+      "url": "images/image17.png"
+    }
+  ],
+  "group": "bbva"
+}</script></a></div>
+	      <div class="projectimagediv"><a href="#" class="w-inline-block w-lightbox"><img src="images/image177.png" width="836" srcset="images/image177.png 500w, images/image177.png 800w, images/image177.png 1080w, images/image177.png 1672w" sizes="(max-width: 991px) 100vw, 84vw" alt="" class="image-9 new"><script type="application/json" class="w-json">{
+  "items": [
+    {
+      "type": "image",
+      "_id": "5ea3172e0f9a015b71dcc591",
+      "fileName": "image177.png",
+      "origFileName": "image177.png",
+      "width": 1672,
+      "height": 1082,
+      "fileSize": 1087394,
+      "url": "images/image177.png"
+    }
+  ],
+  "group": "bbva"
+}</script></a></div>
+    <div class="contentcontainer new w-container">
+      <div id="8" data-scroll="mid" data-scroll-time="0" class="textcontainer">
+        <h2 class="section-header">Conclusion<br></h2>
+        <p class="paragraph content">With our mobile website redesign, we created a platform that was easy for users to navigate through both a visual map and text-based formats, provided the information they wanted to learn about their travel needs, and still provided elements of personalization as well as user engagement.<br></p>
+        <p class="paragraph content">In our final hand-off for reference, we included an executive summary to define what each deliverable was for. Because we deviated from the original idea of an app, we needed to provide documentation in detailing project decisions, such as why we chose to create a responsive website and how the client can refer to each deliverable our hand-off. <br></p>
+        <p class="paragraph content">This project helped me grow as a designer most in terms of gauging what users prioritized in a product, and how to prioritize features in an MVP. It helped solidify the notion that the first solution is not always the best solution. Although we had a solid grasp of who we were making the product for, it took three rounds of user interviews and testing to determine our MVP. The experience made me grow as a professional, as I was able to juggle the clients&#x27; requirements in a diplomatic way. <br></p>
+        <p class="paragraph">Our client came out of this partnership happy because we were able to offer alternatives to their original plan that users loved. They implemented many of the IA and visual designs we suggested and internal testing 6 months after showed a large increase in website engagement and steady decline in repeated questions on the community page. <br></p>
+      </div>
+    </div>
+  </div>
+  <div class="no-padd-section border">
+    <div class="w-container">
+      <div class="w-row">
+        <div class="previous-column w-col w-col-6 w-col-small-6"><a href="visual-work.html" class="hvr-icon-back"><img src="images/leftarrow.svg" class="hvr-icon"/>Visual Design</a></div>
+        <div class="next-column w-col w-col-6 w-col-small-6"><a href="nypl-advance.html" class="hvr-icon-forward">NYPL Advance<img src="images/rightarrow.svg" class="hvr-icon"/></a></div>
+      </div>
+    </div>
+  </div>
+  <div class="maincontentsection footer">
+    <div class="div-block-2"></div>
+    <div class="container-5 w-container">
+      <div class="columns-2 w-row">
+        <div class="w-col w-col-6 w-col-small-6">
+          <div class="footer-logo">© William Dong</div>
+        </div>
+        <div class="social-footer-wrap w-col w-col-6 w-col-small-6"><a href="https://www.linkedin.com/in/william-dong-wznd2020/" class="footer-social-link w-inline-block"><img src="images/iconmonstr-linkedin-3.svg" alt="" class="footer-icon"></a><a href="https://www.behance.net/wznd" class="footer-social-link w-inline-block"><img src="images/behance_logo.svg" alt="" class="footer-icon"></a></div>
+      </div>
+    </div>
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js?site=5de839bcf0b2af80abb5e5e7" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+</body>
+</html>
