@@ -339,6 +339,17 @@ p {
   background-attachment: scroll;
 }
 
+.project-link.project-2 {
+  position: static;
+  overflow: hidden;
+  width: 100%;
+  height: 65vh;
+  background-image: url('../images/Frame 3119583.png');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
 .project-link.project-1._4 {
   background-image: url('../images/Comp-2.gif');
 }
