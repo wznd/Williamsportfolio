@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!--  Matches your Webflow build  -->
 <html data-wf-page="slides-vertical" data-wf-site="5de839bcf0b2af80abb5e5e7">
 <head>
   <meta charset="utf-8">
@@ -7,50 +6,83 @@
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta content="Webflow" name="generator">
 
-  <!-- Your site CSS (from bebe-voyage.html) -->
+  <!-- Your site CSS -->
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
   <link href="css/williams-portfolio-1dc8c2.webflow.css" rel="stylesheet" type="text/css">
 
-  <!-- Webfonts (same as bebe-voyage.html) -->
-  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
-  <script type="text/javascript">
+  <!-- Webfonts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script>
     WebFont.load({
       google: { families: ["Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic","Nunito Sans:300,300italic,regular,italic,600,600italic,900,900italic"] }
     });
   </script>
-
-  <script type="text/javascript">
-    !function(o,c){
-      var n=c.documentElement,t=" w-mod-";
-      n.className+=t+"js",("ontouchstart" in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")
+  <script>
+    !function(o,c){var n=c.documentElement,t=" w-mod-";
+      n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")
     }(window,document);
   </script>
 
   <link href="images/icon.png" rel="shortcut icon" type="image/x-icon">
   <link href="images/webclip.png" rel="apple-touch-icon">
 
-  <!-- keep your small custom styles -->
+  <!-- Page-specific overrides, scoped to .slides-mode so we don't nuke other pages -->
   <style>
-    .body { overflow-x: hidden; overflow-y: scroll; }
-    .name { -webkit-text-stroke: 1px #4d4d4d; }
-    @media screen and (max-width: 767px) {
-      #mobile { padding:63.25% 0 0 0; position:relative; }
+    .slides-mode .header.bebe-voyage._3 {
+      background: silver !important; /* replace pink */
     }
-    @media screen and (min-width: 767px) {
-      #mobile { padding:46.25% 0 0 0; position:relative; }
+
+    /* Give the main section breathing room so it doesn't intersect the colored border/header */
+    .slides-mode .maincontentsection.projects._1 {
+      margin-top: 40px; /* adjust if you want more space */
+    }
+
+    /* Kill any constraints/cropping from Webflow classes on this page */
+    .slides-mode .slides-stack {
+      /* no Webflow container here, full-width section with comfy padding */
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    /* Each image card */
+    .slides-mode .slide-card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 1px 6px rgba(0,0,0,.08);
+      padding: 12px;
+    }
+
+    /* Make sure images show completely, no cropping */
+    .slides-mode .slide-card img {
+      width: 100%;
+      height: auto;
+      display: block;
+      object-fit: contain;
+    }
+
+    /* Optional: remove card chrome if you want bare images
+    .slides-mode .slide-card { background: transparent; box-shadow: none; padding: 0; }
+    */
+
+    /* Print: one slide per page if you print to PDF */
+    @media print {
+      .slides-mode .slides-stack { padding: 0; gap: 0; }
+      .slides-mode .slide-card { page-break-after: always; box-shadow: none; border-radius: 0; padding: 0; }
+      .slides-mode .slide-card:last-child { page-break-after: auto; }
     }
   </style>
 </head>
 
-<body class="body">
-  <!-- top progress + nav copied from your page -->
+<body class="body slides-mode">
+  <!-- Keep your site chrome -->
   <div class="progress-bar"></div>
 
   <div data-collapse="tiny" data-animation="default" data-duration="0" data-no-scroll="1" class="navbar-2 w-nav">
     <div class="container-6 w-container" style="transform:translate3d(150px,0,0)">
       <nav role="navigation" class="nav-menu-2 w-nav-menu">
-        <!-- Simple anchor rail for this page, optional -->
         <a href="#slides" class="nav-link-2 w-nav-link">Slides</a>
       </nav>
     </div>
@@ -78,23 +110,20 @@
     </div>
   </div>
 
-  <!-- header block matching your pattern -->
+  <!-- Header, now silver -->
   <div class="header bebe-voyage _3">
     <div class="textcontainer title bebevoyage w-container">
       <h1 class="heading title portfolio">Slides</h1>
-      <h4 class="heading-11">Vertical stack of exported images</h4>
+      <h4 class="heading-11">Vertical stack preview</h4>
     </div>
   </div>
 
-  <!-- main content section using your containers -->
+  <!-- Main content, no container, full-width section with spacing -->
   <div class="maincontentsection projects _1" id="slides">
-    <div class="contentcontainer w-container">
-      <!-- images will be injected here -->
-      <div id="slides-container"></div>
-    </div>
+    <section class="slides-stack" id="slides-container"></section>
   </div>
 
-  <!-- footer copied from your page -->
+  <!-- Footer -->
   <div class="no-padd-section border">
     <div class="w-container">
       <div class="w-row">
@@ -127,13 +156,12 @@
     </div>
   </div>
 
-  <!-- Your site JS, same as bebe-voyage.html -->
+  <!-- Webflow JS -->
   <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js?site=5de839bcf0b2af80abb5e5e7"
-          integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-          crossorigin="anonymous"></script>
-  <script src="js/webflow.js" type="text/javascript"></script>
+          integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="js/webflow.js"></script>
 
-  <!-- Tiny script to render 1.png ... 37.png from /images -->
+  <!-- Render 1.png ... 37.png from /images -->
   <script>
     (function () {
       const IMAGE_DIR = "images";
@@ -141,23 +169,16 @@
       const host = document.getElementById("slides-container");
 
       for (let i = 1; i <= TOTAL; i++) {
-        // mimic your existing image blocks so it inherits styling
-        const outer = document.createElement("div");
-        outer.className = "projectimagediv";
-
-        const link = document.createElement("a");
-        link.href = "#";
-        link.className = "w-inline-block";
+        const card = document.createElement("div");
+        card.className = "slide-card";
 
         const img = document.createElement("img");
         img.src = IMAGE_DIR + "/" + i + ".png";
         img.alt = "Slide " + i;
-        img.className = "image-9"; // class used in your case study images
         img.loading = "lazy";
 
-        link.appendChild(img);
-        outer.appendChild(link);
-        host.appendChild(outer);
+        card.appendChild(img);
+        host.appendChild(card);
       }
     })();
   </script>
