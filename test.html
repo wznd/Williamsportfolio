@@ -18,8 +18,10 @@
       google: { families: ["Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic","Nunito Sans:300,300italic,regular,italic,600,600italic,900,900italic"] }
     });
   </script>
+
   <script>
-    !function(o,c){var n=c.documentElement,t=" w-mod-";
+    !function(o,c){
+      var n=c.documentElement,t=" w-mod-";
       n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")
     }(window,document);
   </script>
@@ -27,27 +29,41 @@
   <link href="images/icon.png" rel="shortcut icon" type="image/x-icon">
   <link href="images/webclip.png" rel="apple-touch-icon">
 
-  <!-- Page-specific overrides, scoped to .slides-mode so we don't nuke other pages -->
+  <!-- Page-specific overrides -->
   <style>
+    /* Replace pink with silver */
     .slides-mode .header.bebe-voyage._3 {
-      background: silver !important; /* replace pink */
+      background: silver !important;
     }
 
-    /* Give the main section breathing room so it doesn't intersect the colored border/header */
+    /* Make sure the page can scroll normally */
+    html, body {
+      height: auto;
+      min-height: 100%;
+    }
+    .slides-mode.body, .slides-mode body {
+      overflow-y: auto !important;
+      overflow-x: hidden;
+    }
+
+    /* Push content below the header */
     .slides-mode .maincontentsection.projects._1 {
-      margin-top: 40px; /* adjust if you want more space */
+      margin-top: 60px;
+      position: relative;
+      overflow: visible;
     }
 
-    /* Kill any constraints/cropping from Webflow classes on this page */
-    .slides-mode .slides-stack {
-      /* no Webflow container here, full-width section with comfy padding */
+    /* Slide stack layout */
+    .slides-mode #slides-container {
+      max-width: 1100px;
+      margin: 0 auto;
       padding: 24px;
       display: flex;
       flex-direction: column;
       gap: 24px;
     }
 
-    /* Each image card */
+    /* Slide card styling */
     .slides-mode .slide-card {
       background: #fff;
       border-radius: 12px;
@@ -55,21 +71,22 @@
       padding: 12px;
     }
 
-    /* Make sure images show completely, no cropping */
+    /* Show images fully */
     .slides-mode .slide-card img {
+      display: block;
       width: 100%;
       height: auto;
-      display: block;
       object-fit: contain;
     }
 
-    /* Optional: remove card chrome if you want bare images
-    .slides-mode .slide-card { background: transparent; box-shadow: none; padding: 0; }
-    */
+    /* Space before footer */
+    .slides-mode .no-padd-section.border {
+      margin-top: 40px;
+    }
 
-    /* Print: one slide per page if you print to PDF */
+    /* Print layout */
     @media print {
-      .slides-mode .slides-stack { padding: 0; gap: 0; }
+      .slides-mode #slides-container { padding: 0; gap: 0; }
       .slides-mode .slide-card { page-break-after: always; box-shadow: none; border-radius: 0; padding: 0; }
       .slides-mode .slide-card:last-child { page-break-after: auto; }
     }
@@ -77,7 +94,6 @@
 </head>
 
 <body class="body slides-mode">
-  <!-- Keep your site chrome -->
   <div class="progress-bar"></div>
 
   <div data-collapse="tiny" data-animation="default" data-duration="0" data-no-scroll="1" class="navbar-2 w-nav">
@@ -110,7 +126,7 @@
     </div>
   </div>
 
-  <!-- Header, now silver -->
+  <!-- Header section -->
   <div class="header bebe-voyage _3">
     <div class="textcontainer title bebevoyage w-container">
       <h1 class="heading title portfolio">Slides</h1>
@@ -118,9 +134,9 @@
     </div>
   </div>
 
-  <!-- Main content, no container, full-width section with spacing -->
+  <!-- Main content section -->
   <div class="maincontentsection projects _1" id="slides">
-    <section class="slides-stack" id="slides-container"></section>
+    <section id="slides-container"></section>
   </div>
 
   <!-- Footer -->
@@ -161,9 +177,12 @@
           integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="js/webflow.js"></script>
 
-  <!-- Render 1.png ... 37.png from /images -->
+  <!-- Slides script -->
   <script>
     (function () {
+      document.documentElement.style.overflowY = 'auto';
+      document.body.style.overflowY = 'auto';
+
       const IMAGE_DIR = "images";
       const TOTAL = 37;
       const host = document.getElementById("slides-container");
@@ -173,8 +192,8 @@
         card.className = "slide-card";
 
         const img = document.createElement("img");
-        img.src = IMAGE_DIR + "/" + i + ".png";
-        img.alt = "Slide " + i;
+        img.src = `${IMAGE_DIR}/${i}.png`;
+        img.alt = `Slide ${i}`;
         img.loading = "lazy";
 
         card.appendChild(img);
