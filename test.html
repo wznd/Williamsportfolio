@@ -30,67 +30,75 @@
   <link href="images/webclip.png" rel="apple-touch-icon">
 
   <!-- Page-specific overrides -->
-  <style>
-    /* Replace pink with silver */
-    .slides-mode .header.bebe-voyage._3 {
-      background: silver !important;
-    }
+<style>
+  /* Silver header instead of pink */
+  .slides-mode .header.bebe-voyage._3 {
+    background: silver !important;
+  }
 
-    /* Make sure the page can scroll normally */
-    html, body {
-      height: auto;
-      min-height: 100%;
-    }
-    .slides-mode.body, .slides-mode body {
-      overflow-y: auto !important;
-      overflow-x: hidden;
-    }
+  /* Make sure the page can scroll normally */
+  html, body {
+    height: auto;
+    min-height: 100%;
+  }
+  .slides-mode.body, .slides-mode body {
+    overflow-y: auto !important;
+    overflow-x: hidden;
+  }
 
-    /* Push content below the header */
-    .slides-mode .maincontentsection.projects._1 {
-      margin-top: 60px;
-      position: relative;
-      overflow: visible;
-    }
+  /* Slide stack layout (no Webflow container here) */
+  .slides-mode #slides-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
 
-    /* Slide stack layout */
-    .slides-mode #slides-container {
-      max-width: 1100px;
-      margin: 0 auto;
-      padding: 24px;
-      display: flex;
-      flex-direction: column;
-      gap: 24px;
-    }
+  /* Slide card styling */
+  .slides-mode .slide-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 1px 6px rgba(0,0,0,.08);
+    padding: 12px;
+  }
 
-    /* Slide card styling */
-    .slides-mode .slide-card {
-      background: #fff;
-      border-radius: 12px;
-      box-shadow: 0 1px 6px rgba(0,0,0,.08);
-      padding: 12px;
-    }
+  /* Show images fully */
+  .slides-mode .slide-card img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
 
-    /* Show images fully */
-    .slides-mode .slide-card img {
-      display: block;
-      width: 100%;
-      height: auto;
-      object-fit: contain;
-    }
+  /* Space before footer */
+  .slides-mode .no-padd-section.border {
+    margin-top: 40px;
+  }
 
-    /* Space before footer */
-    .slides-mode .no-padd-section.border {
-      margin-top: 40px;
-    }
+  /* Print layout */
+  @media print {
+    .slides-mode #slides-container { padding: 0; gap: 0; }
+    .slides-mode .slide-card { page-break-after: always; box-shadow: none; border-radius: 0; padding: 0; }
+    .slides-mode .slide-card:last-child { page-break-after: auto; }
+  }
 
-    /* Print layout */
-    @media print {
-      .slides-mode #slides-container { padding: 0; gap: 0; }
-      .slides-mode .slide-card { page-break-after: always; box-shadow: none; border-radius: 0; padding: 0; }
-      .slides-mode .slide-card:last-child { page-break-after: auto; }
-    }
-  </style>
+  /* ——— spacing tweaks at the very end so they always win ——— */
+
+  /* Reduce empty space under the header title */
+  .slides-mode .header.bebe-voyage._3 {
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  /* Pull first image up under the title */
+  .slides-mode .maincontentsection.projects._1 {
+    margin-top: 20px; /* tweak to taste: try 12px or 0 if you want it tighter */
+    position: relative;
+    overflow: visible;
+  }
+</style>
 </head>
 
 <body class="body slides-mode">
