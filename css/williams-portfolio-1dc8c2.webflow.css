@@ -2606,7 +2606,7 @@ margin-top:20px;
   margin: 120px 0px 0px;
 }
   .navbar {
-    z-index: 6;
+    z-index: 3000;
   }
     .heading-4 {
     font-size: 24px;
@@ -4595,3 +4595,18 @@ margin-left: 60px;
     grid-column-end: 4;
   }
 } /* <-- closes the @media screen and (max-width: 479px) block above */
+/* Mobile: ensure the menu overlays and isn't clipped by parents */
+@media (max-width: 991px){
+  .navbar .w-container{ 
+    overflow: visible;                 /* so the menu isn't cut by the container */
+  }
+  .navbar .w-nav-menu{
+    position: fixed;                   /* detach from stacking contexts below */
+    top: 66px;                         /* your navbar height */
+    left: 0; right: 0;
+    z-index: 3002;                     /* above the navbar and all sections */
+    max-height: calc(100vh - 66px);    /* avoid running off-screen */
+    overflow: auto;
+    -webkit-overflow-scrolling: touch; /* smooth scroll on iOS */
+  }
+}
