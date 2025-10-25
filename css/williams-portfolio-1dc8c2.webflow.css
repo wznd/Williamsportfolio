@@ -4597,4 +4597,28 @@ margin-left: 60px;
     -ms-grid-column-span: 1;
     grid-column-end: 4;
   }
+  /* === NAVBAR EDGE LAYOUT OVERRIDES === */
+.navbar .w-container {
+  max-width: none;         /* let the navbar go full-bleed */
+  width: 100vw;
+  padding-left: 0;         /* hug the edges */
+  padding-right: 0;
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between;
+}
+
+/* Brand hard-left */
+.w-nav-brand {
+  margin-left: 12px;
+}
+
+/* Links centered between brand and hamburger */
+.nav-menu {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+/* Hamburger hard
 }
