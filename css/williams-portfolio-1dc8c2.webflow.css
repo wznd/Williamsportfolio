@@ -4597,4 +4597,41 @@ margin-left: 60px;
     -ms-grid-column-span: 1;
     grid-column-end: 4;
   }
+  /* MOBILE NAV TOGGLE (Webflow-style) */
+@media (max-width: 991px) {
+  /* show the hamburger on mobile */
+  .navbar .w-nav-button,
+  .navbar .menu-button {
+    display: block;
+    z-index: 2001;              /* on top */
+  }
+
+  /* hide the menu by default on mobile */
+  .navbar .w-nav-menu {
+    display: none;
+    position: absolute;
+    top: 66px;                  /* below the bar */
+    left: 0;
+    right: 0;
+    background: #272832;        /* your current mobile bg */
+  }
+
+  /* show when opened by Webflow */
+  .navbar .w-nav-menu.w--open {
+    display: block;
+  }
+}
+
+/* desktop/tablet: keep links visible in a row */
+@media (min-width: 992px) {
+  .navbar .w-nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: static;
+    float: none;
+    background: transparent;
+    padding: 0;
+  }
+}
 }
