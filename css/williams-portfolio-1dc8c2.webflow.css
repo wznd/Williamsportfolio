@@ -4630,4 +4630,48 @@ margin-left: 60px;
   align-items: center;
   padding: 0 16px;
 }
+/* === NAV: force brand left, links centered, hamburger right === */
+.navbar.w-nav > .w-container {
+  /* let the nav span the full viewport and use a 3-column grid */
+  max-width: none;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+}
+
+/* brand hard-left */
+.navbar .w-nav-brand {
+  justify-self: start;
+  margin-left: 12px;
+}
+
+/* links centered */
+.navbar .w-nav-menu {
+  justify-self: center;
+  display: flex;            /* ensure it's a flex row, not floated */
+  justify-content: center;
+  align-items: center;
+  position: static;         /* kill any absolute from Webflow */
+  float: none;              /* kill float:right */
+  background: transparent;
+  padding: 0;
+}
+
+/* hamburger hard-right */
+.navbar .menu-button {
+  justify-self: end;
+  margin-right: 12px;
+}
+
+/* make links vertically centered in the strip */
+.navbar .w-nav-link {
+  height: 66px;             /* matches your body padding-top */
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+}
+  
 }
