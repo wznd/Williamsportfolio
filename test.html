@@ -101,6 +101,24 @@
   
   .navbar .w-nav-link { height: 100%; display: flex; align-items: center; }
 
+/* top scroll progress */
+.progress-bar{
+  position: fixed;
+  top: 0; left: 0;
+  height: 4px;
+  width: 100%;
+  background: transparent;
+  z-index: 9999;
+  pointer-events: none;
+}
+.progress-bar::before{
+  content:"";
+  position:absolute; top:0; left:0; height:100%; width:100%;
+  background:#4a90e2;            /* change color if you want */
+  transform-origin: 0 0;
+  transform: scaleX(var(--p,0));  /* filled via JS */
+}
+  
 </style>
 </head>
 
@@ -165,6 +183,22 @@
   <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js?site=5de839bcf0b2af80abb5e5e7"
           integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="js/webflow.js"></script>
+
+  <script>
+(function(){
+  const bar = document.querySelector('.progress-bar');
+  if (!bar) return;
+  function setP(){
+    const doc = document.documentElement;
+    const max = doc.scrollHeight - doc.clientHeight;
+    const p = max > 0 ? (window.scrollY || doc.scrollTop) / max : 0;
+    bar.style.setProperty('--p', p);
+  }
+  setP();
+  window.addEventListener('scroll', setP, { passive:true });
+  window.addEventListener('resize', setP);
+})();
+</script>
 
   <!-- Slides script -->
   <script>
