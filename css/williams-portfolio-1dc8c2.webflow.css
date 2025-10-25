@@ -4631,4 +4631,63 @@ margin-left: 60px;
     padding: 0;
   }
 }
+  /* ---------- NAV: mobile overlay, no push/gap ---------- */
+@media (max-width: 991px) {
+  .navbar.w-nav { position: fixed; top: 0; left: 0; right: 0; z-index: 2000; margin-bottom: 0; }
+  body { padding-top: 66px; } /* keep content below fixed bar */
+
+  .navbar .w-nav-menu {
+    position: fixed;
+    top: 66px; left: 0; right: 0; bottom: 0;
+    display: none;
+    background: #272832; /* your dark menu bg */
+    overflow: auto;      /* scroll the menu, not the page */
+  }
+  .navbar .w-nav-menu.w--open { display: block; }
+
+  /* make the burger tall so hover/bg hits top */
+  .navbar .w-nav-link { height: 100%; display: flex; align-items: center; }
+}
+
+/* ---------- KILL the pink on mobile footers/borders ---------- */
+@media (max-width: 991px) {
+  .no-padd-section.border,
+  .no-padd-section.border._2,
+  .no-padd-section.border._3 {
+    background: #fff !important;
+  }
+}
+
+/* ---------- Header color + spacing (remove pink, tighten) ---------- */
+.header.bebe-voyage._3 {
+  background: #e6e6e6 !important;           /* silver band, not pink */
+  padding-bottom: 0;
+  max-height: none;
+}
+
+/* Bring the first white section up; stop the huge gap/overlap */
+.maincontentsection.projects._1 {
+  margin-top: 20px !important;               /* was large negative */
+  border-top: 1px solid #ededed;
+}
+
+/* On tablets/phones you had even larger negatives, zero them */
+@media (max-width: 991px) {
+  .maincontentsection.projects._1 { margin-top: 20px !important; }
+}
+@media (max-width: 767px) {
+  .maincontentsection.projects._1 { margin-top: 20px !important; }
+}
+@media (max-width: 479px) {
+  .maincontentsection.projects._1 { margin-top: 20px !important; }
+}
+
+/* ---------- Misc polish ---------- */
+/* remove the small gap under the bar on phones */
+@media (max-width: 767px) {
+  .navbar { margin-bottom: 0 !important; padding-left: 10px; }
+}
+
+/* if that top “Client Work” card still feels too high, nudge header’s bottom margin down */
+.header.bebe-voyage { margin-bottom: 80px !important; }  /* was 250px+ in places */
 }
