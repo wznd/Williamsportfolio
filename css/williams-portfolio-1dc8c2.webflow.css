@@ -4597,28 +4597,37 @@ margin-left: 60px;
     -ms-grid-column-span: 1;
     grid-column-end: 4;
   }
-  /* === NAVBAR EDGE LAYOUT OVERRIDES === */
-.navbar .w-container {
-  max-width: none;         /* let the navbar go full-bleed */
-  width: 100vw;
-  padding-left: 0;         /* hug the edges */
-  padding-right: 0;
-  display: flex; 
-  align-items: center; 
-  justify-content: space-between;
+/* === FORCE NAV TO EDGE LAYOUT === */
+.navbar.w-nav > .w-container {
+  max-width: none !important;
+  width: 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
 }
 
-/* Brand hard-left */
-.w-nav-brand {
-  margin-left: 12px;
+/* Order: brand left, links center, hamburger right */
+.navbar .w-nav-brand { order: 1; margin-left: 12px; }
+.navbar .w-nav-menu { 
+  order: 2; 
+  flex: 1 1 auto; 
+  display: flex !important; 
+  justify-content: center !important; 
+  align-items: center !important;
+  position: static !important;    /* kill any absolute positioning */
+  float: none !important;         /* kill right float */
+  background: transparent !important;
+  padding: 0 !important;
 }
+.navbar .menu-button { order: 3; margin-right: 12px; }
 
-/* Links centered between brand and hamburger */
-.nav-menu {
-  flex: 1;
+/* Make links align nicely in the strip */
+.navbar .w-nav-link {
+  height: 66px;                   /* matches your body padding-top */
   display: flex;
-  justify-content: center;
+  align-items: center;
+  padding: 0 16px;
 }
-
-/* Hamburger hard
 }
