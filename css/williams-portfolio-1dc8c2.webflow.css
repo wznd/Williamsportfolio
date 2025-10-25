@@ -2599,7 +2599,7 @@ margin-top:20px;
     margin-top: 15px;
     margin-bottom: 0px;
     margin-left: 0px;
-    min-witdh: 250px;
+    min-width: 250px;
     padding: 12px 330px;
   }
   .button.hollow.email {
@@ -4594,103 +4594,9 @@ margin-left: 60px;
     -ms-grid-column-span: 1;
     grid-column-end: 4;
   }
-  /* MOBILE NAV TOGGLE (Webflow-style) */
-@media (max-width: 991px) {
-  /* show the hamburger on mobile */
-  .navbar .w-nav-button,
-  .navbar .menu-button {
-    display: block;
-    z-index: 2001;              /* on top */
-  }
+} /* <-- closes the @media screen and (max-width: 479px) block above */
 
-  /* hide the menu by default on mobile */
-  .navbar .w-nav-menu {
-    display: none;
-    position: absolute;
-    top: 66px;                  /* below the bar */
-    left: 0;
-    right: 0;
-    background: #272832;        /* your current mobile bg */
-  }
 
-  /* show when opened by Webflow */
-  .navbar .w-nav-menu.w--open {
-    display: block;
-  }
-}
-
-/* desktop/tablet: keep links visible in a row */
-@media (min-width: 992px) {
-  .navbar .w-nav-menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: static;
-    float: none;
-    background: transparent;
-    padding: 0;
-  }
-}
-  /* ---------- NAV: mobile overlay, no push/gap ---------- */
-@media (max-width: 991px) {
-  .navbar.w-nav { position: fixed; top: 0; left: 0; right: 0; z-index: 2000; margin-bottom: 0; }
-  body { padding-top: 66px; } /* keep content below fixed bar */
-
-  .navbar .w-nav-menu {
-    position: fixed;
-    top: 66px; left: 0; right: 0; bottom: 0;
-    display: none;
-    background: #272832; /* your dark menu bg */
-    overflow: auto;      /* scroll the menu, not the page */
-  }
-  .navbar .w-nav-menu.w--open { display: block; }
-
-  /* make the burger tall so hover/bg hits top */
-  .navbar .w-nav-link { height: 100%; display: flex; align-items: center; }
-}
-
-/* ---------- KILL the pink on mobile footers/borders ---------- */
-@media (max-width: 991px) {
-  .no-padd-section.border,
-  .no-padd-section.border._2,
-  .no-padd-section.border._3 {
-    background: #fff !important;
-  }
-}
-
-/* ---------- Header color + spacing (remove pink, tighten) ---------- */
-.header.bebe-voyage._3 {
-  background: #e6e6e6 !important;           /* silver band, not pink */
-  padding-bottom: 0;
-  max-height: none;
-}
-
-/* Bring the first white section up; stop the huge gap/overlap */
-.maincontentsection.projects._1 {
-  margin-top: 20px !important;               /* was large negative */
-  border-top: 1px solid #ededed;
-}
-
-/* On tablets/phones you had even larger negatives, zero them */
-@media (max-width: 991px) {
-  .maincontentsection.projects._1 { margin-top: 20px !important; }
-}
-@media (max-width: 767px) {
-  .maincontentsection.projects._1 { margin-top: 20px !important; }
-}
-@media (max-width: 479px) {
-  .maincontentsection.projects._1 { margin-top: 20px !important; }
-}
-
-/* ---------- Misc polish ---------- */
-/* remove the small gap under the bar on phones */
-@media (max-width: 767px) {
-  .navbar { margin-bottom: 0 !important; padding-left: 10px; }
-}
-
-/* if that top “Client Work” card still feels too high, nudge header’s bottom margin down */
-.header.bebe-voyage { margin-bottom: 80px !important; }  /* was 250px+ in places */
-}
 /* ===== NAV: desktop hover alignment only (no effect on mobile) ===== */
 @media (min-width: 992px) {
   .navbar .w-nav-link {
@@ -4703,21 +4609,21 @@ margin-left: 60px;
 
 /* ===== NAV: mobile menu overlays content without pushing the page ===== */
 @media (max-width: 991px) {
-  /* keep the bar normal (not sticky); remove weird long spacing */
+  /* keep the bar normal (not sticky) and remove weird spacing */
   .navbar.w-nav { position: relative; margin-bottom: 0; }
 
-  /* burger shown by Webflow already; this is the overlay menu */
+  /* overlay menu sits directly under the bar */
   .navbar .w-nav-menu {
-    position: absolute;      /* anchor to the bar */
-    top: 100%;               /* flush under the bar */
+    position: absolute;
+    top: 100%;           /* flush under navbar */
     left: 0; right: 0;
     display: none;
-    background: #272832;     /* your dark menu */
+    background: #272832; /* your dark menu */
     z-index: 2001;
   }
   .navbar .w-nav-menu.w--open { display: block; }
 
-  /* make links NORMAL height on mobile so it doesn't look stretched */
+  /* normal link height on mobile so items aren’t huge */
   .navbar .w-nav-link {
     display: block;
     height: auto;
@@ -4725,8 +4631,8 @@ margin-left: 60px;
   }
 }
 
-/* ===== Kill the pink band and tighten the gap to the first section ===== */
-/* Some pages use slightly different header class combos, cover them all */
+/* ===== Kill the pink band and tighten the gap to first section ===== */
+/* Cover the header variants you use across pages */
 .header.bebe-voyage._3,
 .header.bebe-voyage._3._2,
 .header.bebe-voyage._3._2._5 {
@@ -4734,17 +4640,19 @@ margin-left: 60px;
   padding-bottom: 0;
 }
 
-/* Your layout uses huge negative margins on this block at multiple breakpoints.
+/* Your templates use large negative margins on this block.
    Force a sane value everywhere. */
-.maincontentsection.projects._1 { margin-top: 20px !important; border-top: 1px solid #ededed; }
+.maincontentsection.projects._1 {
+  margin-top: 20px !important;
+  border-top: 1px solid #ededed;
+}
 @media (max-width: 991px) { .maincontentsection.projects._1 { margin-top: 20px !important; } }
 @media (max-width: 767px) { .maincontentsection.projects._1 { margin-top: 20px !important; } }
 @media (max-width: 479px) { .maincontentsection.projects._1 { margin-top: 20px !important; } }
 
-/* Optional: if you still see a faint colored strip around the footer bar on phones */
+/* Optional: strip mobile footer tint so no pink/green/blue leak-through */
 @media (max-width: 991px) {
   .no-padd-section.border,
   .no-padd-section.border._2,
   .no-padd-section.border._3 { background: #fff !important; }
-}
 }
