@@ -4691,3 +4691,60 @@ margin-left: 60px;
 /* if that top “Client Work” card still feels too high, nudge header’s bottom margin down */
 .header.bebe-voyage { margin-bottom: 80px !important; }  /* was 250px+ in places */
 }
+/* ===== NAV: desktop hover alignment only (no effect on mobile) ===== */
+@media (min-width: 992px) {
+  .navbar .w-nav-link {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;  /* horizontal only */
+  }
+}
+
+/* ===== NAV: mobile menu overlays content without pushing the page ===== */
+@media (max-width: 991px) {
+  /* keep the bar normal (not sticky); remove weird long spacing */
+  .navbar.w-nav { position: relative; margin-bottom: 0; }
+
+  /* burger shown by Webflow already; this is the overlay menu */
+  .navbar .w-nav-menu {
+    position: absolute;      /* anchor to the bar */
+    top: 100%;               /* flush under the bar */
+    left: 0; right: 0;
+    display: none;
+    background: #272832;     /* your dark menu */
+    z-index: 2001;
+  }
+  .navbar .w-nav-menu.w--open { display: block; }
+
+  /* make links NORMAL height on mobile so it doesn't look stretched */
+  .navbar .w-nav-link {
+    display: block;
+    height: auto;
+    padding: 14px 16px;
+  }
+}
+
+/* ===== Kill the pink band and tighten the gap to the first section ===== */
+/* Some pages use slightly different header class combos, cover them all */
+.header.bebe-voyage._3,
+.header.bebe-voyage._3._2,
+.header.bebe-voyage._3._2._5 {
+  background: #e6e6e6 !important;  /* silver */
+  padding-bottom: 0;
+}
+
+/* Your layout uses huge negative margins on this block at multiple breakpoints.
+   Force a sane value everywhere. */
+.maincontentsection.projects._1 { margin-top: 20px !important; border-top: 1px solid #ededed; }
+@media (max-width: 991px) { .maincontentsection.projects._1 { margin-top: 20px !important; } }
+@media (max-width: 767px) { .maincontentsection.projects._1 { margin-top: 20px !important; } }
+@media (max-width: 479px) { .maincontentsection.projects._1 { margin-top: 20px !important; } }
+
+/* Optional: if you still see a faint colored strip around the footer bar on phones */
+@media (max-width: 991px) {
+  .no-padd-section.border,
+  .no-padd-section.border._2,
+  .no-padd-section.border._3 { background: #fff !important; }
+}
+}
