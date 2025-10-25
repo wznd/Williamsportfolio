@@ -4595,64 +4595,17 @@ margin-left: 60px;
     grid-column-end: 4;
   }
 } /* <-- closes the @media screen and (max-width: 479px) block above */
-
-
-/* ===== NAV: desktop hover alignment only (no effect on mobile) ===== */
-@media (min-width: 992px) {
-  .navbar .w-nav-link {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    padding: 0 16px;  /* horizontal only */
+/* ---- MOBILE: make menu overlay under the bar, not push page ---- */
+@media (max-width: 991px){
+  .navbar.w-nav{ position:relative; margin-bottom:0; }             /* keep bar normal */
+  .navbar .w-nav-menu{
+    position:absolute; top:100%; left:0; right:0; display:none;    /* overlay under bar */
+    background:#272832; z-index:2001;
   }
+  .navbar .w-nav-menu.w--open{ display:block; }
+  .navbar .w-nav-link{ display:block; height:auto; padding:14px 16px; } /* no tall items */
 }
 
-/* ===== NAV: mobile menu overlays content without pushing the page ===== */
-@media (max-width: 991px) {
-  /* keep the bar normal (not sticky) and remove weird spacing */
-  .navbar.w-nav { position: relative; margin-bottom: 0; }
-
-  /* overlay menu sits directly under the bar */
-  .navbar .w-nav-menu {
-    position: absolute;
-    top: 100%;           /* flush under navbar */
-    left: 0; right: 0;
-    display: none;
-    background: #272832; /* your dark menu */
-    z-index: 2001;
-  }
-  .navbar .w-nav-menu.w--open { display: block; }
-
-  /* normal link height on mobile so items aren’t huge */
-  .navbar .w-nav-link {
-    display: block;
-    height: auto;
-    padding: 14px 16px;
-  }
-}
-
-/* ===== Kill the pink band and tighten the gap to first section ===== */
-/* Cover the header variants you use across pages */
-.header.bebe-voyage._3,
-.header.bebe-voyage._3._2,
-.header.bebe-voyage._3._2._5 {
-  background: #e6e6e6 !important;  /* silver */
-  padding-bottom: 0;
-}
-
-/* Your templates use large negative margins on this block.
-   Force a sane value everywhere. */
-.maincontentsection.projects._1 {
-  margin-top: 20px !important;
-  border-top: 1px solid #ededed;
-}
-@media (max-width: 991px) { .maincontentsection.projects._1 { margin-top: 20px !important; } }
-@media (max-width: 767px) { .maincontentsection.projects._1 { margin-top: 20px !important; } }
-@media (max-width: 479px) { .maincontentsection.projects._1 { margin-top: 20px !important; } }
-
-/* Optional: strip mobile footer tint so no pink/green/blue leak-through */
-@media (max-width: 991px) {
-  .no-padd-section.border,
-  .no-padd-section.border._2,
-  .no-padd-section.border._3 { background: #fff !important; }
-}
+/* ---- Kill that pink header band & tighten gap to first white section ---- */
+.header.bebe-voyage._3{ background:#e6e6e6 !important; padding-bottom:0; }
+.maincontentsection.projects._1{ margin-top:20px !important; border-top:1px solid #ededed; }
