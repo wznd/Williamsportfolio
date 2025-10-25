@@ -26,6 +26,42 @@
 .name {
   -webkit-text-stroke: 1px #4d4d4d;
 }
+     /* INDEX PAGE ONLY (data-wf-page=5ea3172e0f9a010ff0dcc4bf) */
+  @media (max-width: 991px){
+
+    /* keep the bar normal, remove weird gap */
+    html[data-wf-page="5ea3172e0f9a010ff0dcc4bf"] .navbar.w-nav{
+      position: relative !important;
+      margin-bottom: 0 !important;
+      z-index: 2000 !important;
+    }
+
+    /* overlay menu sits under the bar, NOT in document flow */
+    html[data-wf-page="5ea3172e0f9a010ff0dcc4bf"] .navbar.w-nav .w-nav-menu{
+      position: absolute !important;
+      top: 100% !important; left: 0 !important; right: 0 !important;
+      display: none !important;
+      background: #272832 !important;
+      box-shadow: 0 2px 12px rgba(0,0,0,.15) !important;
+    }
+    html[data-wf-page="5ea3172e0f9a010ff0dcc4bf"] .navbar.w-nav .w-nav-menu.w--open{
+      display: block !important;
+    }
+
+    /* keep comfy vertical spacing for items */
+    html[data-wf-page="5ea3172e0f9a010ff0dcc4bf"] .navbar.w-nav .w-nav-link{
+      display: block !important;
+      height: auto !important;
+      padding: 16px 20px !important;   /* adjust if you want tighter/looser */
+      line-height: 1.4 !important;
+    }
+
+    /* make sure page content doesn’t jump because of body/nav offsets */
+    html[data-wf-page="5ea3172e0f9a010ff0dcc4bf"] body{
+      padding-top: 66px !important;
+    }
+html[data-wf-page="5ea3172e0f9a010ff0dcc4bf"] .navbar .w-container{ overflow: visible !important; }
+  }
 </style>
 </head>
 <body class="body">
