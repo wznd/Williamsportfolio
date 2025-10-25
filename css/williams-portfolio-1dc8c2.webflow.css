@@ -4595,3 +4595,12 @@ margin-left: 60px;
     grid-column-end: 4;
   }
 } /* <-- closes the @media screen and (max-width: 479px) block above */
+/* Mobile: let the hamburger menu scroll so the last item isn't clipped */
+@media (max-width: 991px){
+  .navbar .w-container{ overflow: visible; } /* safety: don't clip inside container */
+  .navbar .w-nav-menu{
+    max-height: calc(100vh - 66px);  /* 66px = your navbar height */
+    overflow: auto;
+    -webkit-overflow-scrolling: touch; /* smooth iOS scroll */
+  }
+}
