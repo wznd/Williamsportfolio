@@ -4595,3 +4595,31 @@ margin-left: 60px;
     grid-column-end: 4;
   }
 } /* <-- closes the @media screen and (max-width: 479px) block above */
+/* ===== Index page only: make mobile menu overlay (no push), keep item spacing ===== */
+@media (max-width: 991px){
+  html[data-wf-page="5ea3172e0f9a010ff0dcc4bf"] .navbar.w-nav{
+    position: relative;         /* not sticky */
+    margin-bottom: 0;           /* remove weird gap */
+    z-index: 2000;
+  }
+
+  /* menu drops over content instead of pushing the page */
+  html[data-wf-page="5ea3172e0f9a010ff0dcc4bf"] .navbar .w-nav-menu{
+    position: absolute;
+    top: 100%;                  /* sits right under the bar */
+    left: 0; right: 0;
+    display: none;
+    background: #272832;
+  }
+  html[data-wf-page="5ea3172e0f9a010ff0dcc4bf"] .navbar .w-nav-menu.w--open{
+    display: block;
+  }
+
+  /* keep nice vertical spacing on items (no crammed look) */
+  html[data-wf-page="5ea3172e0f9a010ff0dcc4bf"] .navbar .w-nav-link{
+    display: block;
+    height: auto;
+    padding: 16px 20px;         /* <-- adjust these to taste */
+    line-height: 1.4;
+  }
+}
