@@ -105,19 +105,22 @@
 .progress-bar{
   position: fixed;
   top: 0; left: 0;
-  height: 8px;
+  height: 6px;
   width: 100%;
   background: transparent;
   z-index: 9999;
-  background: #ddd;
   pointer-events: none;
 }
-.progress-bar::before{
-  content:"";
-  position:absolute; top:0; left:0; height:100%; width:100%;
-  background:#4a90e2;            /* change color if you want */
+.progress-bar::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #363636;  /* <-- this controls the color of the moving bar */
   transform-origin: 0 0;
-  transform: scaleX(var(--p,0));  /* filled via JS */
+  transform: scaleX(var(--p, 0));
 }
   
 </style>
