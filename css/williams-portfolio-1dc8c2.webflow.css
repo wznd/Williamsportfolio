@@ -4604,7 +4604,7 @@ margin-left: 60px;
     position: fixed;                   /* detach from stacking contexts below */
     top: 66px;                         /* your navbar height */
     left: 0; right: 0;
-    z-index: 3002;                     /* above the navbar and all sections */
+    z-index: 2009;                     /* above the navbar and all sections */
     max-height: calc(100vh - 66px);    /* avoid running off-screen */
     overflow: auto;
     -webkit-overflow-scrolling: touch; /* smooth scroll on iOS */
