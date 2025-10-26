@@ -32,90 +32,10 @@
   z-index: 2000;
 }
 
-.navbar.w-nav .w-nav-menu {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  right: 0;
-  display: none;
-  background: #272832;
-  box-shadow: 0 2px 12px rgba(0,0,0,.15);
-}
-
-.navbar.w-nav .w-nav-menu.w--open {
-  display: block;
-}
-
 .menu-button.w-nav-button {
   position: relative;
   z-index: 2001;
-}
-
-.navbar .w-container {
-  overflow: visible;
-}
-
-.navbar .w-nav-link {
-  display: block;
-  height: auto;
-  padding: 16px 20px;
-  line-height: 1.4;
-}
-
-body { padding-top: 0 !important; }
-#hero { margin-top: 0; }
-
-/* === Webflow navbar: make the hamburger panel overlay instead of push === */
-
-/* The bar itself stays where it lives in the document */
-.navbar.w-nav { position: relative; z-index: 2000; }
-
-/* Ensure the inner container doesn't clip the overlay */
-.navbar .w-container { position: relative; overflow: visible; }
-
-/* Webflow puts the dropdown into .w-nav-overlay when opened.
-   Anchor that overlay to the navbar and layer it above content. */
-.navbar + .w-nav-overlay {
-  position: absolute !important;
-  top: 100% !important;
-  left: 0; right: 0;
-  z-index: 2000;
-}
-
-/* Inside that overlay lives the actual .w-nav-menu list */
-.navbar + .w-nav-overlay .w-nav-menu {
-  display: block !important;          /* make sure it's visible when overlay exists */
-  background: #272832;
-  box-shadow: 0 2px 12px rgba(0,0,0,.15);
-}
-
-/* Also cover the case where Webflow keeps the menu inside the navbar (some breakpoints) */
-.navbar.w-nav .w-nav-menu {
-  position: absolute; top: 100%; left: 0; right: 0;
-  display: none;
-  background: #272832;
-  box-shadow: 0 2px 12px rgba(0,0,0,.15);
-}
-.navbar.w-nav .w-nav-menu.w--open,
-.navbar.w-nav .w-nav-menu.w--nav-menu-open {
-  display: block;
-}
-
-/* Keep the button clickable above the panel */
-.menu-button.w-nav-button { position: relative; z-index: 2001; }
-
-/* Tappable link sizing inside the dropdown */
-.navbar .w-nav-link {
-  display: block; height: auto; padding: 16px 20px; line-height: 1.4;
-}
-
-/* If you don’t want a global offset, kill it here */
-body { padding-top: 20 !important; }
-/* If you want intentional space under the bar, put it on the first section instead */
-// #hero { margin-top: 66px; }
-
-contentcontainer projectslide w-container { padding-top: -36px; }
-    
+}   
 </style>
 </head>
 <body class="body">
