@@ -26,20 +26,42 @@
   -webkit-text-stroke: 1px #4d4d4d;
 }
 
-/* Navbar positioned absolutely over hero */
+/* Navbar sticky at top */
 .navbar.w-nav {
-  position: absolute;
+  position: sticky;
   top: 0;
   left: 0;
   right: 0;
   z-index: 2000;
-  background: transparent;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
 }
 
-/* Make hero accommodate navbar */
+/* Hero stays below navbar naturally */
 .hero {
   position: relative;
-  padding-top: 80px;
+}
+
+/* Tighter spacing for sections */
+.textcontainer.title {
+  padding-top: 15px;
+  padding-bottom: 8px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.contentcontainer {
+  margin-top: 20px;
+  margin-bottom: 12px;
+}
+
+.divider {
+  margin: 20px auto;
+}
+
+.maincontentsection.projects {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 /* Mobile menu slides in from right */
@@ -59,6 +81,20 @@
 
   .nav-menu.w-nav-menu.w--nav-menu-open {
     right: 0;
+  }
+
+  .textcontainer.title {
+    padding-top: 12px;
+    padding-bottom: 6px;
+  }
+
+  .contentcontainer {
+    margin-top: 15px;
+    margin-bottom: 8px;
+  }
+
+  .divider {
+    margin: 15px auto;
   }
 }
 </style>
