@@ -4601,7 +4601,6 @@ margin-left: 60px;
     overflow: visible;                 /* so the menu isn't cut by the container */
   }
   .navbar .w-nav-menu{
-    position: fixed;                   /* detach from stacking contexts below */
     top: 66px;                         /* your navbar height */
     left: 0; right: 0;
     z-index: 2009;                     /* above the navbar and all sections */
@@ -4610,29 +4609,3 @@ margin-left: 60px;
     -webkit-overflow-scrolling: touch; /* smooth scroll on iOS */
   }
 }
-/* MOBILE: menu should NOT be sticky; sit under the bar and scroll with page */
-@media (max-width: 991px){
-  /* keep the navbar in normal flow, but above sections that have high z-index */
-  .navbar.w-nav{
-    position: relative !important;
-    z-index: 2000 !important;       /* higher than .no-padd-section.border (1900) */
-    margin-bottom: 0 !important;
-  }
-
-  /* let the dropdown escape container clipping */
-  .navbar .w-container{
-    overflow: visible !important;
-  }
-
-  /* dropdown attaches to the navbar and is NOT fixed to the viewport */
-  .navbar .w-nav-menu{
-    position: absolute !important;  /* <-- was fixed; that's what made it sticky */
-    top: 100% !important;           /* right below the bar */
-    left: 0; right: 0;
-    z-index: 2001 !important;       /* just above the navbar */
-    max-height: calc(100vh - 66px); /* if it's tall, it can scroll */
-    overflow: auto;
-    -webkit-overflow-scrolling: touch;
-  }
-}
-
