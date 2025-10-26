@@ -28,6 +28,24 @@
 .name {
   -webkit-text-stroke: 1px #4d4d4d;
 }  
+    /* keep overlays from extending document height */
+.w-nav-overlay,
+.w-nav-menu {
+  position: absolute !important;
+  top: 100% !important;
+  left: 0; right: 0;
+}
+
+/* optional: make sure footer sits tight to the bottom of content */
+body {
+  overflow-x: hidden;
+  min-height: 100vh;    /* full-page height minimum */
+}
+
+/* If you ever get phantom space, double-check this too */
+html {
+  overflow-x: hidden;
+}
 </style>
 </head>
 <body class="body">
