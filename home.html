@@ -19,23 +19,33 @@
   <link href="images/icon.png" rel="shortcut icon" type="image/x-icon">
   <link href="images/webclip.png" rel="apple-touch-icon">
   <style>
+    
 .body {
   overflow-x: hidden;
   overflow-y: scroll;
   }
+    
 .name {
   -webkit-text-stroke: 1px #4d4d4d;
 }
-/* NEW navbar + menu reset */
 .navbar.w-nav {
   position: relative;
   z-index: 2000;
 }
 
+.nav-menu.w-nav-menu {
+  position: absolute;
+  top: 100%; /* positions it right below the navbar */
+  left: 0;
+  right: 0;
+  max-height: calc(100vh - 80px); /* adjust based on your navbar height */
+  overflow-y: auto;
+}
+
 .menu-button.w-nav-button {
   position: relative;
   z-index: 2001;
-}   
+}
 </style>
 </head>
 <body class="body">
