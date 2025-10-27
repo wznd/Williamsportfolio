@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<!--  This site was created in Webflow. http://www.webflow.com  -->
+<!--  Last Published: Sat Apr 25 2020 16:58:22 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5ea3172e0f9a010ff0dcc4bf" data-wf-site="5de839bcf0b2af80abb5e5e7">
 <head>
   <meta charset="utf-8">
@@ -12,6 +14,7 @@
   <style>@media (min-width:992px) {html.w-mod-js:not(.w-mod-ix) [data-w-id="43c8c919-285f-1261-7041-83ab5fa2fa10"] {opacity:0;-webkit-transform:translate3d(0, 0, 0) scale3d(0.3, 0.3, 1) rotateX(180DEG) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0.3, 0.3, 1) rotateX(180DEG) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0.3, 0.3, 1) rotateX(180DEG) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0.3, 0.3, 1) rotateX(180DEG) rotateY(0) rotateZ(0) skew(0, 0);transform-style:preserve-3d;background-color:rgb(230,209,217);}html.w-mod-js:not(.w-mod-ix) [data-w-id="b7b6e468-1f05-7432-a02f-ca76cabed415"] {opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id="38a631ac-fcd3-d668-6808-4a836b383619"] {opacity:0;-webkit-transform:translate3d(-50PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(-50PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(-50PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(-50PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="6bd113ee-7014-0eda-fc52-ffa017a087c5"] {opacity:0;-webkit-transform:translate3d(-60PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(-60PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(-60PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(-60PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="d8c00e2a-f805-9b0c-c257-ba189580bf40"] {opacity:0;}}</style>
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
   <script type="text/javascript">WebFont.load({  google: {    families: ["Ubuntu:700,700italic","Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic","Nunito Sans:300,300italic,regular,italic,600,600italic,900,900italic"]  }});</script>
+  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
   <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
   <link href="images/icon.png" rel="shortcut icon" type="image/x-icon">
   <link href="images/webclip.png" rel="apple-touch-icon">
@@ -24,79 +27,16 @@
     
 .name {
   -webkit-text-stroke: 1px #4d4d4d;
-}
-
-/* Navbar sticky at top */
-.navbar.w-nav {
-  position: sticky;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 2000;
-  background: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(10px);
-}
-
-/* Hero stays below navbar naturally */
-.hero {
-  position: relative;
-}
-
-/* Tighter spacing for sections */
-.textcontainer.title {
-  padding-top: 15px;
-  padding-bottom: 8px;
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-
-.contentcontainer {
-  margin-top: 20px;
-  margin-bottom: 12px;
-}
-
-.divider {
-  margin: 20px auto;
-}
-
-.maincontentsection.projects {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-/* Mobile menu slides in from right */
-@media (max-width: 991px) {
-  .nav-menu.w-nav-menu {
-    position: fixed;
-    top: 0;
-    right: -100%;
-    height: 100vh;
-    width: 70%;
-    max-width: 300px;
-    background: #272832;
-    transition: right 0.3s ease;
-    z-index: 1999;
-    overflow-y: auto;
+}  
+    
+.contentcontainer.projectslide.w-container {  
+  margin-top: -20px; 
   }
-
-  .nav-menu.w-nav-menu.w--nav-menu-open {
-    right: 0;
+    
+.maincontentsection.projects.hundred {
+  margin-top: 120px; 
   }
-
-  .textcontainer.title {
-    padding-top: 12px;
-    padding-bottom: 6px;
-  }
-
-  .contentcontainer {
-    margin-top: 15px;
-    margin-bottom: 8px;
-  }
-
-  .divider {
-    margin: 15px auto;
-  }
-}
+    
 </style>
 </head>
 <body class="body">
@@ -129,7 +69,7 @@
       </div>
     </div>
   </div>
-  <div id="projects" class="maincontentsection projects">
+  <div id="projects" class="maincontentsection projects hundred">
    <div class="contentcontainer w-container">
       <div class="textcontainer title">
         <h2 class="heading title">Client Work</h2>
@@ -239,5 +179,27 @@
   </div>
   <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js?site=5de839bcf0b2af80abb5e5e7" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="js/webflow.js" type="text/javascript"></script>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+<style>
+/* Hard cutoff after footer */
+body {
+  overflow-x: hidden;
+  overflow-y: clip; /* modern browsers */
+  /* fallback if clip isn’t supported */
+  max-height: calc(100vh + 1px);
+}
+
+/* or more surgical: limit only this page */
+.maincontentsection.footer._2::after {
+  content: "";
+  display: block;
+  height: 0;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: #fff; /* same color as your page background */
+}
+</style>
 </body>
 </html>
