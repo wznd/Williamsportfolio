@@ -217,6 +217,51 @@
     display: none !important;
   }
 }
+    /* MOBILE: align project title + caption to the same left edge */
+@media (max-width: 991px){
+  /* kill any left indents coming from wrappers */
+  .project-link .project-wrapper,
+  .project-link .div-block-14{
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  /* title */
+  .project-link .heading-4{
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    text-align: left !important;
+  }
+
+  /* caption */
+  .project-link .heading-3{
+    position: static !important;   /* ensures it flows, not overlay */
+    width: 100% !important;
+    margin: 8px 0 0 0 !important;
+    padding: 0 !important;
+    text-align: left !important;
+    background: transparent !important; /* remove grey slab under text */
+  }
+}
+
+/* tighten the extreme small-screen overrides that were adding big padding */
+@media (max-width: 767px){
+  .project-link .heading-3{
+    margin-left: 0 !important;
+    padding: 0 !important;
+  }
+}
+@media (max-width: 479px){
+  .project-link .heading-3{
+    margin: 8px 0 0 0 !important;
+    padding: 0 !important; /* overrides that 140px/89px padding from your CSS */
+  }
+  .project-link .heading-4{
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+  }
+}
 </style>
 </head>
 <body class="body">
