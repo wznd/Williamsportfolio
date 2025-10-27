@@ -354,6 +354,30 @@
   .textcontainer.projects .heading-4{ outline: 2px dashed hotpink; }
   .textcontainer.projects .heading-3{ outline: 2px dashed deepskyblue; }
 }
+/* LAST WORD: captions align left on mobile, no extra padding/offsets */
+@media (max-width: 767px){
+  .textcontainer.projects .div-block-14{
+    position: static !important;
+    padding: 0 !important;
+    margin: 8px 0 0 0 !important;
+  }
+  .textcontainer.projects .heading-3{
+    position: static !important;
+    left: auto !important; right: auto !important; top: auto !important; bottom: auto !important;
+    width: 100% !important;
+    margin: 8px 0 0 0 !important;
+    padding: 0 !important;           /* kills the 80px+ left pad in your file */
+    background: transparent !important;
+    text-align: left !important;
+  }
+}
+
+@media (max-width: 479px){
+  .textcontainer.projects .heading-3{
+    margin: 8px 0 0 0 !important;
+    padding: 0 !important;           /* kills the big 140/89px paddings in your file */
+  }
+}    
 </style>
 </head>
 <body class="body">
