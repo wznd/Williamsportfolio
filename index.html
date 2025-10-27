@@ -311,6 +311,45 @@
     position: static !important;
   }
 }
+/* MOBILE: hard-align the left rail for ALL project cards */
+@media (max-width: 991px){
+  /* remove the frame and keep a tiny horizontal gutter */
+  .textcontainer.projects{
+    background: transparent !important;
+    border: 0 !important;             /* kills that 10px left border */
+    box-shadow: none !important;
+    padding-left: 12px !important;     /* keep or set to 0 if you want edge-to-edge */
+    padding-right: 12px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  /* nuke hidden left indents on ANY child that could add them */
+  .textcontainer.projects :is(
+    .project-wrapper,
+    .project-wrapper._2,
+    .project-wrapper._3,
+    .div-block-14,
+    .heading-4,
+    .heading-4._2,
+    .heading-3,
+    .tag,
+    .tag._2
+  ){
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    text-align: left !important;
+    position: static !important;       /* caption flows under title */
+  }
+
+  /* captions also had big paddings in your mobile CSS, flatten them */
+  .textcontainer.projects .heading-3{
+    width: 100% !important;
+    margin-top: 8px !important;
+    padding: 0 !important;
+    background: transparent !important;
+  }
+}    
 </style>
 </head>
 <body class="body">
