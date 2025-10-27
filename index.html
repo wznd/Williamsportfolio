@@ -131,6 +131,35 @@
     background-position: 28% 50%; /* move focal point right */
   }
 }
+    @media (max-width: 991px){
+  /* Remove the white/grey containers around project images */
+  .contentcontainer.projectslide,
+  .textcontainer.projects {
+    background-color: transparent !important; /* remove white/grey fill */
+    border: none !important;                  /* remove grey border */
+    box-shadow: none !important;              /* remove inset shadow */
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  /* Ensure project-row (the actual image section) stretches cleanly */
+  .project-row.teal {
+    background-color: transparent !important;
+    border: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Make sure the image fills the section edge-to-edge */
+  .project-link {
+    background-color: transparent !important;
+    border: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+}
 </style>
 </head>
 <body class="body">
