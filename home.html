@@ -181,37 +181,25 @@
   <script src="js/webflow.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
 <style>
-:root { --nav-bar-h: 66px; }
-
-/* keep the bar in flow, but ensure it is the positioning context */
-.navbar{ position: relative !important; z-index: 5000; margin-bottom: 0 !important; }
-.navbar .w-container{ position: relative; overflow: visible; }
-
-/* when open, force the overlay/menu to be absolutely positioned to the bar */
-html.w-nav-open .w-nav-overlay,
-body.w-nav-open .w-nav-overlay{
-  position: absolute !important;
-  top: var(--nav-bar-h) !important; left: 0 !important; right: 0 !important;
-  height: auto !important; max-height: none !important;
-  overflow: hidden !important; background: transparent !important; z-index: 5001 !important;
+/* Hard cutoff after footer */
+body {
+  overflow-x: hidden;
+  overflow-y: clip; /* modern browsers */
+  /* fallback if clip isn’t supported */
+  max-height: calc(100vh + 1px);
 }
 
-html.w-nav-open .w-nav-menu,
-body.w-nav-open .w-nav-menu{
-  position: absolute !important;
-  top: var(--nav-bar-h) !important; left: 0 !important; right: 0 !important;
-  margin: 0 !important; padding: 0 !important;
-  background-color: #272832 !important; z-index: 5002 !important;
-  max-height: min(70vh, 560px) !important; /* overlays the page without making it taller */
-  overflow: auto !important; -webkit-overflow-scrolling: touch;
+/* or more surgical: limit only this page */
+.maincontentsection.footer._2::after {
+  content: "";
+  display: block;
+  height: 0;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: #fff; /* same color as your page background */
 }
-
-/* remove negative margin that was fighting you */
-.navbar{ margin-bottom: 0 !important; }
-
-/* clean section spacing you asked for */
-.textcontainer.title{ margin-bottom: 24px; }
-.contentcontainer.projectslide{ margin-top: 8px; }
 </style>
 </body>
 </html>
