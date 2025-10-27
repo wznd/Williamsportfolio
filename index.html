@@ -262,43 +262,24 @@
     padding-left: 0 !important;
   }
 }
-/* MOBILE: force identical left edge for all project cards, incl. "Advance" */
+ /* MOBILE: lock the left edge for the "Advance" card only */
 @media (max-width: 991px){
-  /* kill variant wrapper padding that re-indents things */
-  .project-link .project-wrapper,
-  .project-link .project-wrapper._2,
-  .project-link .project-wrapper._3 {
+  /* exact anchor: <a class="project-link project-1 third-width _4 ..."> */
+  a.project-link.project-1.third-width._4 .project-wrapper,
+  a.project-link.project-1.third-width._4 .project-wrapper._2,
+  a.project-link.project-1.third-width._4 .heading-4,
+  a.project-link.project-1.third-width._4 .heading-4._2,
+  a.project-link.project-1.third-width._4 .tag,
+  a.project-link.project-1.third-width._4 .tag._2,
+  a.project-link.project-1.third-width._4 .div-block-14,
+  a.project-link.project-1.third-width._4 .heading-3 {
+    margin-left: 0 !important;
     padding-left: 0 !important;
     padding-right: 0 !important;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-  }
-
-  /* titles */
-  .project-link .heading-4,
-  .project-link .heading-4._2 {
-    padding-left: 0 !important;
-    margin-left: 0 !important;
     text-align: left !important;
+    position: static !important; /* caption flows under title */
   }
-
-  /* caption container: stop the desktop right padding from pushing left */
-  .project-link .div-block-14 {
-    position: static !important;
-    padding: 0 !important;            /* this kills the 185px/240px right pad */
-    margin: 8px 0 0 0 !important;
-  }
-
-  /* caption line itself */
-  .project-link .heading-3 {
-    position: static !important;
-    width: 100% !important;
-    margin: 8px 0 0 0 !important;
-    padding: 0 !important;            /* nukes the big mobile paddings in your CSS */
-    text-align: left !important;
-    background: transparent !important;
-  }
-}
+}   
 </style>
 </head>
 <body class="body">
