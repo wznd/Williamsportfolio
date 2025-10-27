@@ -1,0 +1,42 @@
+
+/* Canonical case-study structure. Colors intentionally untouched. */
+.case {}
+
+/* Navigation */
+.case__nav {}
+
+/* Hero */
+.case__hero {
+  margin-top: 4rem;
+  margin-bottom: 2.5rem;
+}
+.case__hero * {
+  line-height: 1.25;
+}
+
+/* Sections */
+.case__section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+@media (min-width: 768px) {
+  .case__section {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+}
+
+/* Footer spacing */
+.case__footer {
+  margin-top: 4rem;
+  padding-top: 2rem;
+}
+/* Simple rhythm for text blocks inside sections */
+.case__section .textcontainer,
+.case__section .contentcontainer,
+.case__section .w-container {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Utility: consistent images sizing rules stay as-is in original CSS. We do not alter. */
