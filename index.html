@@ -262,6 +262,41 @@
     padding-left: 0 !important;
   }
 }
+    /* MOBILE: normalize left edge for all project variants */
+@media (max-width: 991px){
+  /* kill hidden left offsets on variant wrappers */
+  .project-link .project-wrapper,
+  .project-link .project-wrapper._2,
+  .project-link .project-wrapper._3,
+  .project-link .div-block-14,
+  .project-link .heading-4,
+  .project-link .heading-4._2,
+  .project-link .tag,
+  .project-link .tag._2,
+  .project-link .heading-3{
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  /* remove any right-side compensation that shifts the block visually */
+  .project-link .project-wrapper,
+  .project-link .project-wrapper._2,
+  .project-link .project-wrapper._3,
+  .project-link .div-block-14{
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  /* make sure caption flows as a normal line under the title */
+  .project-link .heading-3{
+    position: static !important;
+    width: 100% !important;
+    margin-top: 8px !important;
+    padding: 0 !important;
+    text-align: left !important;
+    background: transparent !important;
+  }
+}
 </style>
 </head>
 <body class="body">
