@@ -24,6 +24,32 @@
 .name {
   -webkit-text-stroke: 1px #4d4d4d;
 }
+/* Tighten the gap after the hero header */
+.header.bebe-voyage._3._2._5 {
+  margin-bottom: 60px;           /* was 250px */
+}
+
+/* Soften the grey band under the title */
+.div-block-8 {
+  padding-bottom: 10px;          /* was 40px */
+}
+
+/* Pull the first big image up */
+.image-26 {
+  margin-top: 0;                 /* was 80px in your global CSS */
+}
+
+/* Optional: if you want the very first image even closer to the header */
+.projectimagediv._2 {
+  margin-top: -8px;              /* slight nudge upward; tweak or remove */
+}
+
+/* Make sure mobile isn’t over-tight */
+@media (max-width: 767px){
+  .header.bebe-voyage._3._2._5 { margin-bottom: 40px; }
+  .div-block-8 { padding-bottom: 6px; }
+  .image-26 { margin-top: 0; }
+	  
 @media screen and (max-width: 767px) {
   #mobile {
     padding:63.25% 0 0 0; position:relative;
