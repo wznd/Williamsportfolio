@@ -114,18 +114,7 @@
   /* D) Body scrolling stays normal (but no phantom growth) */
   .body { overflow-x: hidden; overflow-y: auto; }
 }
-
-/* Even tighter for tiny phones */
-@media (max-width: 479px){
-  .textcontainer { padding: 16px; }
-  .project-link::after { height: 200px; border-radius: 10px; }
-  .heading-3 { margin-top: 8px; padding: 10px 12px; }
-}
-
-@media (max-width: 991px){
-  /* all your mobile tweaks ... */
-
-  .project-link.project-2::after {
+    .project-link.project-2::after {
     background-image: url('../images/Frame 3119583.png');
     background-size: 115% auto;
     background-position: 28% 50%; /* move focal point right */
@@ -242,6 +231,30 @@
     text-align: left !important;
     background: transparent !important; /* remove grey slab under text */
   }
+    /* MOBILE: hard-align the left rail for ALL project cards */
+  /* remove the frame and keep a tiny horizontal gutter */
+  .textcontainer.projects{
+    background: transparent !important;
+    border: 0 !important;             /* kills that 10px left border */
+    box-shadow: none !important;
+    padding-left: 12px !important;     /* keep or set to 0 if you want edge-to-edge */
+    padding-right: 12px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .div-block {
+    margin-bottom: 0px;
+  }
+  .maincontentsection {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+    }
+/* Even tighter for tiny phones */
+@media (max-width: 479px){
+  .textcontainer { padding: 16px; }
+  .project-link::after { height: 200px; border-radius: 10px; }
+  .heading-3 { margin-top: 8px; padding: 10px 12px; }
 }
 
 /* tighten the extreme small-screen overrides that were adding big padding */
@@ -260,26 +273,6 @@
     margin-left: 0 !important;
     padding-left: 0 !important;
   }
-}
-
-/* MOBILE: hard-align the left rail for ALL project cards */
-@media (max-width: 991px){
-  /* remove the frame and keep a tiny horizontal gutter */
-  .textcontainer.projects{
-    background: transparent !important;
-    border: 0 !important;             /* kills that 10px left border */
-    box-shadow: none !important;
-    padding-left: 12px !important;     /* keep or set to 0 if you want edge-to-edge */
-    padding-right: 12px !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-  }
-  .div-block {
-    margin-bottom: 0px;
-  }
-  .maincontentsection {
-    margin-bottom: 0px;
-    padding-bottom: 0px;
 }
 /* LAST WORD: captions align left on mobile, no extra padding/offsets */
 @media (max-width: 767px){
