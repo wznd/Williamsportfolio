@@ -200,6 +200,44 @@ body {
   width: 100%;
   background: #fff; /* same color as your page background */
 }
+/* FINAL: captions align left, no mobile indents; also ensure ::after image path */
+@media (max-width: 991px){
+  /* Make sure project-2 uses the encoded path + your zoom/pan */
+  .project-link.project-2::after{
+    background-image: url('../images/Frame%203119583.png') !important;
+    background-size: 115% auto;
+    background-position: 28% 50%;
+  }
+}
+
+/* These two blocks beat Webflow's small-screen caption paddings */
+@media (max-width: 767px){
+  .textcontainer.projects .div-block-14{
+    position: static !important;
+    padding: 0 !important;
+    margin: 8px 0 0 0 !important;
+  }
+  .textcontainer.projects .heading-3{
+    position: static !important;
+    left:auto !important; right:auto !important; top:auto !important; bottom:auto !important;
+    width: 100% !important;
+    margin: 8px 0 0 0 !important;
+    padding: 0 !important;
+    background: transparent !important;
+    text-align: left !important;
+  }
+}
+@media (max-width: 479px){
+  .textcontainer.projects .heading-3{
+    margin: 8px 0 0 0 !important;
+    padding: 0 !important;
+  }
+}
+
+/* Desktop-only margin (kept here to be the last word) */
+@media (min-width: 992px){
+  .maincontentsection.projects.hundred { margin-top: 120px; }
+}
 </style>
 </body>
 </html>
