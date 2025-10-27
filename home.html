@@ -180,5 +180,54 @@
   <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js?site=5de839bcf0b2af80abb5e5e7" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="js/webflow.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+  <style>
+/* Mobile menu overlay fix, no layout rewrites */
+:root { --nav-bar-h: 66px; } /* your navbar height */
+
+/* Keep the dropdown over the page, not inside layout flow */
+@media (max-width: 991px){
+  .navbar { position: relative; z-index: 4000; }
+  .navbar .w-container { overflow: visible; }
+
+  /* Webflow sometimes wraps the menu in .w-nav-overlay at runtime */
+  .w-nav-overlay{
+    position: fixed !important;
+    top: var(--nav-bar-h) !important;
+    left: 0 !important;
+    right: 0 !important;
+    height: calc(100dvh - var(--nav-bar-h)) !important;   /* use dynamic viewport */
+    max-height: calc(100dvh - var(--nav-bar-h)) !important;
+    overflow: auto !important;
+    -webkit-overflow-scrolling: touch;
+    background: transparent !important; /* menu has its own bg */
+  }
+
+  /* Your actual menu element */
+  .w-nav-menu{
+    position: fixed;
+    top: var(--nav-bar-h);
+    left: 0; right: 0;
+    height: auto;
+    max-height: calc(100dvh - var(--nav-bar-h));
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 0;                 /* trims the extra height you saw */
+    padding-bottom: 0;
+    background-color: #272832;      /* keep your existing menu color */
+    z-index: 4001;
+  }
+
+  /* Remove stray link margins that add mystery height */
+  .nav-menu .nav-link{ margin: 0; }
+  .nav-menu .nav-link:last-child{ margin-bottom: 0; }
+
+  /* Lock page scroll while menu is open */
+  html.w-nav-open,
+  body.w-nav-open {
+    height: 100dvh;
+    overflow: hidden;
+  }
+}
+</style>
 </body>
 </html>
