@@ -36,6 +36,91 @@
 .maincontentsection.projects.hundred {
   margin-top: 120px; 
   }
+
+/* =======================
+   MOBILE HOME CLEANUP
+   ======================= */
+@media (max-width: 991px){
+  /* A) General spacing: dial down paddings/margins */
+  .maincontentsection { padding-top: 32px; padding-bottom: 32px; margin: 24px 0; }
+  .contentcontainer { margin: 16px 0; padding: 0 12px; }
+  .textcontainer { margin: 12px 4px 20px 0; padding: 20px; box-shadow: 3px 3px 0 0 #f4f5f5; }
+  .textcontainer.title { padding-right: 24px; padding-left: 24px; margin-bottom: 12px; }
+  .textcontainer.projects { padding-right: 16px; padding-left: 16px; margin-bottom: 24px; }
+
+  /* B) Kill the stray “pink bar” above footer:
+        - hide divider strips on mobile
+        - neutralize the framed block in the footer that can expose the page pink */
+  .divider { display: none; }
+  .maincontentsection.footer .div-block-2 {
+    top: 0; margin: 0; border-width: 0; overflow: visible;
+  }
+
+  /* Footer breathing room */
+  .maincontentsection.footer { padding: 48px 16px 28px; }
+  .container-5, .columns-2, .column { overflow: visible; } /* stop clipping */
+
+  /* C) Project cards:
+        - Make each project link full-width
+        - Move the IMAGE to the BOTTOM (using ::after)
+        - Keep text above, readable, not floating over a background */
+  .project-row.teal { height: auto; min-height: 0; }
+  .project-link {
+    width: 100% !important;
+    min-height: 0;
+    height: auto;
+    float: none;
+    position: relative;
+    background-image: none !important;     /* we’ll draw the image in ::after */
+    background-color: #fff;                /* text sits on clean white */
+    padding-bottom: 0;                     /* image will add visual height */
+  }
+
+  /* Text blocks behave like normal content, not absolute overlays */
+  .project-wrapper { position: static; padding: 16px; }
+  .div-block-14 { position: static; padding: 0; }
+  .heading-3 {
+    position: static;
+    width: 100%;
+    margin: 8px 0 0 0;
+    padding: 12px 14px;
+    background-color: #f8f8f8;
+  }
+
+  /* IMAGE AT THE BOTTOM: create a media block after the text */
+  .project-link::after{
+    content: "";
+    display: block;
+    height: 220px;               /* tweak if you want taller/shorter thumbs */
+    border-radius: 12px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    margin: 12px 0 0 0;
+  }
+
+  /* Map each project class to its background image for the ::after */
+  .project-link.project-1::after { background-image: url('../images/Comp-1.gif'); }
+  .project-link.project-1._4::after { background-image: url('../images/Comp-2.gif'); }
+  .project-link.project-1._5::after { background-image: url('../images/Comp-3.gif'); }
+  .project-link.project-1.ui::after { background-image: url('../images/Screen-Shot-2020-05-02-at-8.52.14-PM.png'); }
+  .project-link.project-2::after { background-image: url('../images/Frame 3119583.png'); }
+
+  /* Trim headings a touch on mobile */
+  .heading.title { font-size: 28px; }
+  .heading-4 { font-size: 22px; margin-bottom: 10px; }
+  .paragraph, .paragraph-3, .paragraph-4 { line-height: 24px; }
+
+  /* D) Body scrolling stays normal (but no phantom growth) */
+  .body { overflow-x: hidden; overflow-y: auto; }
+}
+
+/* Even tighter for tiny phones */
+@media (max-width: 479px){
+  .textcontainer { padding: 16px; }
+  .project-link::after { height: 200px; border-radius: 10px; }
+  .heading-3 { margin-top: 8px; padding: 10px 12px; }
+}
     
 </style>
 </head>
