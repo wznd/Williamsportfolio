@@ -28,63 +28,15 @@
 .name {
   -webkit-text-stroke: 1px #4d4d4d;
 }  
-/* ====== SURGICAL PATCH: keep classes/order; fix spacing, menu, mobile captions ====== */
-
-/* 1) Title → content spacing (section headers) */
-.textcontainer.title { 
-  /* give each section title a consistent breathing room under it */
-  margin-bottom: 24px;
-}
-.contentcontainer.projectslide { 
-  /* and a little top space so title/content don't crash into each other */
-  margin-top: 8px;
-}
-
-/* Optional: a touch of hero name → blurb spacing without changing layout */
-.hero .div-block-16 { margin-bottom: 12px; }
-.hero .rich-text-block { margin-top: 8px; }
-
-/* 2) Mobile menu should overlay, not push the page down */
-@media (max-width: 991px){
-  .navbar { position: relative; z-index: 4000; }        /* stays on top */
-  .navbar .w-container { overflow: visible; }           /* menu not clipped */
-
-  .w-nav-menu {
-    position: fixed;                                    /* overlay */
-    top: 66px;                                          /* height of your header bar */
-    left: 0; right: 0;
-    max-height: calc(100vh - 66px);
-    overflow: auto;
-    background-color: #272832;                          /* your existing menu bg */
-    z-index: 4001;
+    
+.contentcontainer.projectslide.w-container {  
+  margin-top: -40px; 
   }
-
-  /* prevent background page from scrolling when menu is open (Webflow adds this class) */
-  body.w-nav-open { overflow: hidden; }
-}
-
-/* 3) Mobile project captions: stop weird stretching */
-@media (max-width: 991px){
-  .div-block-14 {
-    position: static;           /* no forced pinning */
-    left: auto; right: auto; 
-    top: auto; bottom: auto;
-    padding: 0;
+    
+.maincontentsection.project.hundred {
+  margin-top: 80px; 
   }
-  .heading-3 {
-    position: relative;         /* caption flows under the image cleanly */
-    left: auto; right: auto; 
-    top: auto; bottom: auto;
-    width: 100%;
-    margin: 12px 0 0 0;
-    padding: 12px 16px;
-  }
-}
-
-/* leave card heights alone, but if a specific GIF crops badly on small screens,
-   you can un-comment this softer floor:
-   .project-link.project-1, .project-link.project-2 { min-height: 320px; }
-*/
+    
 </style>
 </head>
 <body class="body">
