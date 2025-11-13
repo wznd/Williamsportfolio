@@ -29,6 +29,72 @@
   --grey: #747474;
   --light-blue: #c1d0d8;
   --head: #0e6900;
+  --_apps---charts--chart-1: #1e1e1e;
+  --_apps---charts--chart-2: #373737;
+  --_apps---charts--chart-3: #131313;
+  --_apps---charts--chart-4: #080808;
+  --_apps---charts--chart-5: #222;
+  --_apps---charts--chart-1-dark: #868686;
+  --_apps---charts--chart-2-dark: #b4b4b4;
+  --_apps---charts--chart-3-dark: #727272;
+  --_apps---charts--chart-4-dark: #a4a4a4;
+  --_apps---charts--chart-5-dark: #636363;
+  --_apps---colors--background: #fde4ca;
+  --_apps---colors--foreground: #16420f;
+  --_apps---colors--card: #fff;
+  --_apps---colors--card-foreground: #060606;
+  --_apps---colors--popover: #dddbd8;
+  --_apps---colors--popover-foreground: #060605;
+  --_apps---colors--primary: #1e1e1e;
+  --_apps---colors--primary-foreground: #f8f8f8;
+  --_apps---colors--secondary: #ebdade;
+  --_apps---colors--secondary-foreground: #0f0d0d;
+  --_apps---colors--muted: #e4e2df;
+  --_apps---colors--muted-foreground: #696664;
+  --_apps---colors--accent: #cecece;
+  --_apps---colors--accent-foreground: #0d0d0d;
+  --_apps---colors--destructive: #d74843;
+  --_apps---colors--border: #98a4a4;
+  --_apps---colors--input: #9ba7a7;
+  --_apps---colors--ring: #1e1e1e;
+  --_apps---colors--background-dark: #0f0d0d;
+  --_apps---colors--foreground-dark: #f9f8f8;
+  --_apps---colors--card-dark: #242122;
+  --_apps---colors--card-foreground-dark: #f9f8f8;
+  --_apps---colors--popover-dark: #242122;
+  --_apps---colors--popover-foreground-dark: #f9f8f8;
+  --_apps---colors--primary-dark: #868686;
+  --_apps---colors--primary-foreground-dark: #060606;
+  --_apps---colors--secondary-dark: #301e24;
+  --_apps---colors--secondary-foreground-dark: #fcf7f8;
+  --_apps---colors--muted-dark: #070506;
+  --_apps---colors--muted-foreground-dark: #9a9898;
+  --_apps---colors--accent-dark: #383838;
+  --_apps---colors--accent-foreground-dark: #f8f8f8;
+  --_apps---colors--destructive-dark: #cd3e3b;
+  --_apps---colors--border-dark: #98a4a4;
+  --_apps---colors--input-dark: #fff;
+  --_apps---colors--ring-dark: #989898;
+  --_apps---sidebar--sidebar: #e4e2df;
+  --_apps---sidebar--sidebar-foreground: #060605;
+  --_apps---sidebar--sidebar-primary: #1e1e1e;
+  --_apps---sidebar--sidebar-primary-foreground: #f8f8f8;
+  --_apps---sidebar--sidebar-accent: #cecece;
+  --_apps---sidebar--sidebar-accent-foreground: #0d0d0d;
+  --_apps---sidebar--sidebar-border: #98a4a4;
+  --_apps---sidebar--sidebar-ring: #1e1e1e;
+  --_apps---sidebar--sidebar-dark: #161314;
+  --_apps---sidebar--sidebar-foreground-dark: #f9f8f8;
+  --_apps---sidebar--sidebar-primary-dark: #868686;
+  --_apps---sidebar--sidebar-primary-foreground-dark: #060606;
+  --_apps---sidebar--sidebar-accent-dark: #383838;
+  --_apps---sidebar--sidebar-accent-foreground-dark: #f8f8f8;
+  --_apps---sidebar--sidebar-border-dark: #fff;
+  --_apps---sidebar--sidebar-ring-dark: #989898;
+  --_apps---sizes--radius: 20px;
+  --_apps---typography--heading-font: Lora;
+  --_apps---typography--body-font: Satoshi, Arial, sans-serif;
+  --_apps---typography--button-font: Lora;
 }
 
 .w-layout-blockcontainer {
@@ -232,6 +298,7 @@ img {
 .container.news._2 {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
+  flex: 1;
   grid-template-rows: auto auto;
   grid-template-columns: 1fr 1fr;
   grid-auto-columns: 1fr;
@@ -359,8 +426,17 @@ img {
 .section.black-bg.bottom {
   background-color: #fff;
   border-top: 1.5px solid #16420f;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  margin-bottom: 40px;
+  padding: 0;
+}
+
+.section.black-bg.bottom._4343 {
+  margin-bottom: 0;
+}
+
+.section.black-bg.bottom.ewrwrwr {
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .section.top-padding-0px {
@@ -407,6 +483,10 @@ img {
 .section.top-padding-0px.hero.p._342 {
   padding-top: 40px;
   padding-bottom: 40px;
+}
+
+.section.top-padding-0px.hero.p._342.fdfdf {
+  padding-bottom: 0;
 }
 
 .section.top-100px {
@@ -1549,6 +1629,7 @@ img {
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr;
   grid-auto-columns: 1fr;
+  padding: 0;
   display: flex;
 }
 
@@ -1817,6 +1898,40 @@ img {
 
 .bold-text-5, .bold-text-6 {
   font-weight: 600;
+}
+
+.container-5 {
+  grid-column-gap: 12px;
+  grid-row-gap: 12px;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.container-6 {
+  grid-column-gap: 12px;
+  grid-row-gap: 12px;
+  align-items: center;
+  display: flex;
+}
+
+.div-block-89 {
+  grid-column-gap: 80px;
+  grid-row-gap: 80px;
+  flex: 1;
+  padding-top: 40px;
+  padding-bottom: 0;
+  display: flex;
+}
+
+.div-block-89._54 {
+  margin-bottom: 40px;
+}
+
+.h1 {
+  color: #16420f;
+  font-family: Lora Variablefont Wght, Arial, sans-serif;
+  font-size: 1.5rem;
 }
 
 @media screen and (max-width: 991px) {
@@ -2985,27 +3100,6 @@ img {
 }
 
 
-@font-face {
-  font-family: 'Satoshi';
-  src: url('../fonts/Satoshi-Variable.ttf') format('truetype');
-  font-weight: 300 900;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Satoshi Italic';
-  src: url('../fonts/Satoshi-VariableItalic.ttf') format('truetype');
-  font-weight: 300 900;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Redrose Variablefont Wght';
-  src: url('../fonts/RedRose-VariableFont_wght.ttf') format('truetype');
-  font-weight: 300 700;
-  font-style: normal;
-  font-display: swap;
-}
 @font-face {
   font-family: 'Lora Variablefont Wght';
   src: url('../fonts/Lora-Italic-VariableFont_wght.ttf') format('truetype');
