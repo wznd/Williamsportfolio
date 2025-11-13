@@ -761,6 +761,14 @@ img {
   height: 100%;
 }
 
+@media (max-width: 479px) {
+  .animated-grid-image {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
+
 .single-service-grid {
   grid-template-rows: auto;
   grid-template-columns: 20px 1fr;
