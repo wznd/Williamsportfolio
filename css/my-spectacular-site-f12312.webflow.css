@@ -1946,7 +1946,6 @@ img {
 }
 
 @media (max-width: 479px) {
-  .animated-grid-image {
 .div-block-89 {
   grid-column-gap: 80px;
   grid-row-gap: 40px;
@@ -2058,7 +2057,6 @@ img {
     padding-left: 40px;
     padding-right: 40px;
   }
-}
   
   @media screen and (max-width: 767px) {
   .section.top-padding-0px.four {
