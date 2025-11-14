@@ -710,6 +710,10 @@ img {
   padding: 40px;
 }
 
+._2x1-grid.four {
+  padding-top: 120px
+}
+
 ._2x1-grid.new {
   padding-left: 0;
   padding-right: 0;
@@ -2025,6 +2029,10 @@ img {
     height: 60vh;
     padding-left: 40px;
     padding-right: 40px;
+  }
+
+    .section.top-padding-0px.four {
+    height: 70vh;
   }
 
   .section.top-padding-0px.hero {
