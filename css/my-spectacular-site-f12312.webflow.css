@@ -439,6 +439,10 @@ img {
   padding-bottom: 0;
 }
 
+.section.black-bg.bottom.jk {
+  padding-top: 80px;
+}
+
 .section.top-padding-0px {
   background-color: #000;
   background-image: linear-gradient(#fde6cc, #fff);
@@ -1931,6 +1935,7 @@ img {
 
 .div-block-89._54 {
   margin-bottom: 40px;
+  margin-top: 40px;
 }
 
 .h1 {
