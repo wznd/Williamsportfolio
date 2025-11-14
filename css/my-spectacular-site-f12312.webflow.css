@@ -710,8 +710,16 @@ img {
   padding: 40px;
 }
 
+@media screen and (max-width: 767px) {
 ._2x1-grid.four {
   padding-top: 120px
+  }
+}
+
+@media screen and (max-width: 479px) {
+._2x1-grid.four {
+  padding-top: 40px
+  }
 }
 
 ._2x1-grid.new {
@@ -2031,9 +2039,18 @@ img {
     padding-right: 40px;
   }
 
-    .section.top-padding-0px.four {
+  
+  @media screen and (max-width: 767px) {
+  .section.top-padding-0px.four {
     height: 70vh;
   }
+}
+
+    @media screen and (max-width: 479px) {
+  .section.top-padding-0px.four {
+    height: 60vh;
+  }
+}
 
   .section.top-padding-0px.hero {
     margin-top: -40px;
