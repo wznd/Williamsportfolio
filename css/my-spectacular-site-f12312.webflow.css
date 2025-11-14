@@ -1933,6 +1933,7 @@ img {
   grid-column-gap: 12px;
   grid-row-gap: 12px;
   align-items: center;
+  justify-content: flex-end;
   display: flex;
 }
 
@@ -1951,6 +1952,7 @@ img {
   grid-column-gap: 6px;
   grid-row-gap: 6px;
   align-items: center;
+  justify-content: flex-end;
   display: flex;
 }
 }
