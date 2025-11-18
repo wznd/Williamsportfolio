@@ -498,6 +498,12 @@ img {
   padding-bottom: 0;
 }
 
+@media screen and (max-width: 767px) {
+  .section.top-padding-0px.hero.p._2.erwrq {
+  margin-top:60px;
+}
+}
+
 .section.top-100px {
   padding-top: 100px;
 }
