@@ -1897,7 +1897,13 @@ img {
 }
 
 .video-2 {
-  margin: -50px 140px -30px;
+  margin: -40px 100px -20px;
+}
+
+@media screen and (max-width: 479px) {
+ .video-2 {
+  margin: -20px 40px 20px;
+}
 }
 
 .div-block-86 {
