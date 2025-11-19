@@ -821,6 +821,17 @@ img {
   padding-bottom: 10px;
   font-family: Lora Variablefont Wght, Arial, sans-serif;
   font-weight: 400;
+  margin-right: 12px;
+}
+
+@media (max-width: 479px) {
+  .accordion-content-text {
+  text-transform: none;
+  padding-top: 0;
+  padding-bottom: 10px;
+  font-family: Lora Variablefont Wght, Arial, sans-serif;
+  font-weight: 400;
+  }
 }
 
 .service-bullet-point {
