@@ -2109,19 +2109,6 @@ img {
     padding-left: 40px;
     padding-right: 40px;
   }
-}
-  
-  @media screen and (max-width: 767px) {
-  .section.top-padding-0px.four {
-    height: 90vh;
-  }
-}
-
-    @media screen and (max-width: 479px) {
-  .section.top-padding-0px.four {
-    height: 60vh;
-  }
-}
 
   .section.top-padding-0px.hero {
     margin-top: -40px;
@@ -2725,6 +2712,10 @@ img {
   .video._2345 {
     margin-top: 0;
   }
+
+  .section.top-padding-0px.four {
+    height: 90vh;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -3136,6 +3127,10 @@ img {
 
   .bold-text-4 {
     font-size: 1.8rem;
+  }
+  
+  .section.top-padding-0px.four {
+    height: 60vh;
   }
 }
 
