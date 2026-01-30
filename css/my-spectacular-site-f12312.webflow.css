@@ -498,11 +498,6 @@ img {
   padding-bottom: 0;
 }
 
-.section.top-padding-0px.hero.p.l > img {
-  width: 100%;
-  max-width: none;
-}
-
 .section.top-padding-0px.hero.p._2.new > img._0,
 .section.top-padding-0px.hero.p._2.new.e > img._0 {
   display: block;
@@ -3209,6 +3204,12 @@ img {
   }
 }
 
+@media screen and (min-width: 1281px) {
+  .section.top-padding-0px.hero.p.l > img {
+    width: 100%;
+    max-width: none;
+  }
+}
 
 @font-face {
   font-family: 'Lora Variablefont Wght';
