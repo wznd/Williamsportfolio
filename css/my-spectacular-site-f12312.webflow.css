@@ -476,6 +476,13 @@ img {
   margin-top: -22px;
 }
 
+.section.top-padding-0px.hero.p.l > img {
+  display: block;
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+}
+
 .section.top-padding-0px.hero.p._2 {
   margin-top: 80px;
 }
