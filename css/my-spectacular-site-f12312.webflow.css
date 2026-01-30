@@ -476,13 +476,6 @@ img {
   margin-top: -22px;
 }
 
-.section.top-padding-0px.hero.p.l > img {
-  display: block;
-  width: 100vw;
-  max-width: none;
-  height: auto;
-}
-
 .section.top-padding-0px.hero.p._2 {
   margin-top: 80px;
 }
