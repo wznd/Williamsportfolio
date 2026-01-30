@@ -2110,6 +2110,16 @@ img {
     padding-right: 40px;
   }
   
+    .container.hero.project.new {
+    position: relative;
+    padding-top: 40px;
+  }
+  
+  ._2x1-grid.project {
+    margin-top: 0;
+  }
+}
+  
   @media screen and (max-width: 767px) {
   .section.top-padding-0px.four {
     height: 90vh;
