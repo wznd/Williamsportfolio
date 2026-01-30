@@ -2067,7 +2067,7 @@ img {
   }
 
   .container.hero.project {
-    padding-top: 45vw;
+    padding-top: 30vw;
   }
 
   .nav-menu-wrapper {
@@ -2230,7 +2230,7 @@ img {
   }
 
   ._2x1-grid {
-    background-color: #0000;
+    background-color: #000000;
     grid-template-columns: 1fr;
   }
 
@@ -2451,7 +2451,7 @@ img {
   }
 
   .container.hero.project.new {
-    padding-top: 60vw;
+    padding-top: 30vw;
   }
 
   .hero-images-wrapper {
