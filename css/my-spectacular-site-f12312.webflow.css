@@ -2068,6 +2068,7 @@ img {
 
   .container.hero.project {
     padding-top: 55vw;
+    padding-bottom: 15vw;
   }
 
   .nav-menu-wrapper {
@@ -2452,6 +2453,7 @@ img {
 
   .container.hero.project.new {
     padding-top: 75vw;
+    padding-bottom: 10vw;
   }
 
   .hero-images-wrapper {
