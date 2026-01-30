@@ -2035,7 +2035,7 @@ img {
     align-items: flex-start;
     padding: 20px 20px 20px 15px;
     display: flex;
-    box-shadow: 0 8px 50px #0000000d;
+    box-shadow: 0 8px 50px #00000d;
   }
 
   .navbar-logo-left {
@@ -2067,7 +2067,7 @@ img {
   }
 
   .container.hero.project {
-    padding-top: 30vw;
+    padding-top: 40vw;
   }
 
   .nav-menu-wrapper {
@@ -2230,7 +2230,7 @@ img {
   }
 
   ._2x1-grid {
-    background-color: #000000;
+    background-color: #0000;
     grid-template-columns: 1fr;
   }
 
@@ -2451,7 +2451,7 @@ img {
   }
 
   .container.hero.project.new {
-    padding-top: 30vw;
+    padding-top: 40vw;
   }
 
   .hero-images-wrapper {
