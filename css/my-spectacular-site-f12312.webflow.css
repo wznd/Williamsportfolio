@@ -479,7 +479,7 @@ img {
 .section.top-padding-0px.hero.p.l > img {
   display: block;
   width: 100%;
-  height: 60vh;
+  height: 80vh;
   object-fit: cover;
 }
 
