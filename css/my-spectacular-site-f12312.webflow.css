@@ -2109,15 +2109,6 @@ img {
     padding-left: 40px;
     padding-right: 40px;
   }
-  
-    .container.hero.project.new {
-    position: relative;
-    padding-top: 40px;
-  }
-  
-  ._2x1-grid.project {
-    margin-top: 0;
-  }
 }
   
   @media screen and (max-width: 767px) {
