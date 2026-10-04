@@ -1,0 +1,286 @@
+/* Keep responsive adjustments separate from the Webflow export. */
+.slide-link {
+  display: block;
+  width: 100%;
+  cursor: zoom-in;
+}
+
+.slide-link:focus-visible {
+  outline: 3px solid #16420f;
+  outline-offset: -3px;
+}
+
+.slide-viewing-note {
+  display: none;
+}
+
+@media screen and (max-width: 991px) {
+  /* Let introductions determine their own height instead of using spacers. */
+  .portfolio-home .section.top-padding-0px.hero,
+  .portfolio-case-study .section.top-padding-0px.hero.p.l {
+    display: flex;
+    flex-direction: column-reverse;
+    height: auto;
+    min-height: 0;
+    max-height: none;
+    margin-top: 0;
+    overflow: visible;
+  }
+
+  .portfolio-home .container-2,
+  .portfolio-case-study .container-2 {
+    width: 100%;
+    max-width: none;
+    background: #fff;
+  }
+
+  .portfolio-home .container.hero,
+  .portfolio-case-study .container.hero.project.new {
+    position: static;
+    padding: 32px 0;
+  }
+
+  .portfolio-home ._2x1-grid.four,
+  .portfolio-case-study ._2x1-grid.project {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 24px;
+    margin: 0;
+    padding: 0 32px;
+  }
+
+  .portfolio-home .about-blocks-wrapper {
+    gap: 24px;
+    margin-top: 0;
+  }
+
+  .portfolio-home .about-block {
+    flex: 1;
+    min-width: 0;
+    max-width: none;
+  }
+
+  .portfolio-home .paragraph {
+    margin: 0;
+  }
+
+  .portfolio-home .hero > .image-2 {
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+    height: clamp(200px, 48vw, 420px);
+    min-height: 0;
+    max-height: none;
+    margin: 0;
+  }
+
+  .portfolio-home .section.top-padding-0px.four {
+    display: none;
+  }
+
+  .portfolio-case-study .hero.p.l > img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .portfolio-case-study .about-block.project {
+    align-items: flex-start;
+    width: 100%;
+    margin: 0;
+  }
+
+  .portfolio-case-study .about-blocks-wrapper.project {
+    margin: 0;
+  }
+
+  .portfolio-case-study .heading-5.project {
+    min-width: 0;
+    max-width: 100%;
+    margin: 0 0 12px;
+    font-size: clamp(36px, 6vw, 60px);
+    overflow-wrap: anywhere;
+  }
+
+  .portfolio-case-study .paragraph.test._2,
+  .portfolio-case-study .paragraph-2.project {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .portfolio-case-study .section.top-padding-0px.hero.p:not(.l) {
+    height: auto;
+    min-height: 0;
+    max-height: none;
+    margin-top: 48px;
+    overflow: visible;
+  }
+
+  .portfolio-case-study .hero.p.l + .section.top-padding-0px.hero.p {
+    margin-top: 16px;
+  }
+
+  .portfolio-case-study .heading-2 {
+    white-space: normal;
+    font-size: clamp(32px, 5vw, 52px);
+    line-height: 1.15;
+  }
+
+  .portfolio-case-study .heading-2.new {
+    margin-bottom: 24px;
+  }
+
+  .portfolio-case-study .video,
+  .portfolio-case-study .video-2 {
+    width: calc(100% - 64px);
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 940 / 529;
+    /* Replace the embed's inline percentage padding, which includes margins. */
+    padding-top: 0 !important;
+    margin: 24px auto;
+    flex-shrink: 0;
+  }
+
+  .portfolio-case-study .div-block-82 .video,
+  .portfolio-case-study .div-block-82 .video-2 {
+    width: 100%;
+  }
+
+  .portfolio-slides .section.top-padding-0px.hero.p {
+    height: auto;
+    min-height: 0;
+    max-height: none;
+    margin: 0;
+  }
+
+  .portfolio-slides .image-2.p {
+    display: block;
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+    height: auto;
+    min-height: 0;
+    max-height: none;
+    margin: 0;
+    object-fit: contain;
+  }
+
+  .slide-viewing-note {
+    display: block;
+    padding: 16px 20px;
+    color: #16420f;
+    background: #fff;
+    font: 400 14px/1.5 "Outfit Variablefont Wght", Arial, sans-serif;
+    text-align: center;
+  }
+
+  /* Keep the current page legible when the navigation opens on white. */
+  .nav-link.w--current {
+    color: #16420f;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .portfolio-home ._2x1-grid.four,
+  .portfolio-case-study ._2x1-grid.project {
+    padding-inline: 20px;
+  }
+
+  .portfolio-home .about-blocks-wrapper {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .portfolio-home .heading-5 {
+    font-size: clamp(44px, 10vw, 64px);
+    margin: 0;
+  }
+
+  .portfolio-home .heading-5 br {
+    display: none;
+  }
+
+  .portfolio-home .section {
+    padding-inline: 20px;
+  }
+
+  .portfolio-home .section.top-padding-0px.hero {
+    padding: 0;
+  }
+
+  .portfolio-home .link-block,
+  .portfolio-home .floating-image-wrapper {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .portfolio-case-study .div-block-82 {
+    padding-inline: 20px;
+  }
+
+  .portfolio-case-study .div-block-82.new {
+    padding-inline: 0;
+  }
+
+  .portfolio-case-study .block-quote {
+    margin-inline: 20px;
+  }
+
+  .portfolio-case-study .list {
+    padding-right: 0;
+  }
+
+  .portfolio-case-study .div-block-86.nwwq {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .portfolio-case-study .div-block-87,
+  .portfolio-case-study .div-block-88 {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .portfolio-case-study .image-3[class] {
+    width: auto;
+    /* Exported image variants have higher specificity. Normalize all on phones. */
+    max-width: calc(100% - 40px) !important;
+    height: auto;
+    margin: 24px auto 0 !important;
+    object-fit: contain;
+  }
+
+  .portfolio-case-study .div-block-82 .image-3[class] {
+    max-width: 100% !important;
+  }
+
+  .portfolio-case-study .image-3._34[class] {
+    max-width: min(320px, calc(100% - 40px)) !important;
+  }
+
+  .portfolio-case-study .video,
+  .portfolio-case-study .video-2 {
+    width: calc(100% - 40px);
+  }
+
+  .div-block-89 {
+    gap: 24px;
+  }
+
+  .div-block-89 > div {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .div-block-89 .h1 {
+    white-space: normal;
+    overflow-wrap: anywhere;
+    font-size: 1rem;
+    line-height: 1.3;
+  }
+}
